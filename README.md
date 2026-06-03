@@ -24,7 +24,7 @@ The word list is drawn from frequency data (Leipzig Corpora, 1 million Danish ne
 
 The dictionary is a work in progress. The entry pipeline is automated for grammar, pronunciation, and example sentences; editorial review of translations is ongoing.
 
-We are planning to self-publish a printed edition. When that happens, ordering information will be added here so anyone who wants a physical copy can get one.
+We are planning to self-publish a printed edition. When that happens, ordering information will be added here so anyone who wants a physical copy can get one at cost — this will never be a commercial product.
 
 ---
 
