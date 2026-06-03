@@ -1,0 +1,130 @@
+﻿---
+
+## HEADWORD [REQUIRED]
+
+```
+headword: job
+direction: DA→EN
+```
+
+---
+
+## GRAMMAR [REQUIRED]
+
+```
+pos: noun
+gender: et
+```
+
+### Inflections [OPTIONAL]
+
+```
+inflections:
+  indefinite_singular: job
+  definite_singular: jobbet
+  indefinite_plural: job eller -s
+  definite_plural: jobbene
+```
+
+---
+
+## PRONUNCIATION [REQUIRED]
+
+```
+phonetic_plain: YOB
+ipa: [ˈd̥jʌb̥]
+syllables: job
+stoed: TODO
+```
+
+---
+
+## TRANSLATION [REQUIRED]
+
+```
+primary_translation: a task (at home or at work)
+secondary_translations:
+  - SKIP
+```
+
+---
+
+## REGISTER [OPTIONAL]
+
+```
+register: TODO
+domain: TODO
+formality: TODO
+```
+
+---
+
+## EXAMPLE SENTENCES [REQUIRED]
+
+```yaml
+examples:
+  - danish: Find et job!
+    english: Find a job.
+    source: tatoeba
+    source_id: 3629642
+  - danish: Tom har et sejt job.
+    english: Tom has a cool job.
+    source: tatoeba
+    source_id: 7584888
+
+
+---
+
+## RELATED WORDS [OPTIONAL]
+
+```
+related: TODO
+```
+
+---
+
+## THEMATIC TAGS [REQUIRED]
+
+```
+tags:
+  - home
+  - work
+```
+
+---
+
+## FREQUENCY [REQUIRED]
+
+```
+frequency_rank: 1004
+frequency_tier: common
+```
+
+---
+
+## LAYOUT HINTS [MANUAL]
+
+```
+layout:
+  print_emphasis: normal
+  flag_false_friend: false
+  flag_false_friend_note: SKIP
+  flag_spelling_trap: false
+  flag_pronunciation_trap: false
+```
+
+---
+
+## PIPELINE METADATA
+
+```
+entry_id: da-job-001
+created: 2026-05-05
+last_modified: 2026-05-05
+source_wiktionary: true
+source_tatoeba: true
+source_leipzig: true
+review_status: draft
+reviewed_by: SKIP
+notes: SKIP
+```

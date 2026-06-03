@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ordbog DA→EN — Sample Pages</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream:          #FAF6F0;
+  --text:           #2C2416;
+  --text-light:     #6E5840;
+  --rule:           #DDD4C8;
+  --en-color:       #B5451B;
+  --en-bg:          #F5E6E0;
+  --et-color:       #1F5E9A;
+  --et-bg:          #E2EBF7;
+  --verb-color:     #1E6B3A;
+  --verb-bg:        #E6F4EC;
+  --adj-color:      #7A5500;
+  --adj-bg:         #FEF6E0;
+  --phonetic-bg:    #E0F0E0;
+  --phonetic-color: #1A5C1A;
+  --example-bg:     #F0ECE6;
+  --ff-bg:          #FFF8E0;
+  --ff-border:      #D4A000;
+  --ff-text:        #6B4400;
+  --pt-bg:          #FFF0E4;
+  --pt-color:       #8B4200;
+  --tag-bg:         #E4EDFF;
+  --tag-color:      #1A3D7A;
+}
+
+body {
+  font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+  background: #DDD5CA;
+  color: var(--text);
+  font-size: 10.5pt;
+  line-height: 1.45;
+}
+
+/* =========================================================
+   A4 PAGE SHELL
+   ========================================================= */
+
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  background: var(--cream);
+  margin: 10mm auto;
+  box-shadow: 0 6px 30px rgba(0,0,0,0.30), -2px 0 8px rgba(0,0,0,0.08);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.thumb-tab {
+  position: absolute;
+  right: 0;
+  top: 18%;
+  width: 7mm;
+  padding: 9mm 0;
+  background: var(--en-color);
+  border-radius: 2pt 0 0 2pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumb-tab span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 6.5pt;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* =========================================================
+   PAGE HEADER / FOOTER
+   ========================================================= */
+
+.page-header {
+  padding: 6mm 18mm 4mm 16mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1.5pt solid var(--en-color);
+  flex-shrink: 0;
+}
+.book-title   { font-size: 8pt; font-weight: 700; color: var(--en-color); text-transform: uppercase; letter-spacing: 1.5px; }
+.running-head { font-size: 8pt; color: var(--text-light); font-style: italic; }
+.page-num     { font-size: 8pt; font-weight: 700; color: var(--text-light); min-width: 5mm; text-align: right; }
+
+.page-footer {
+  padding: 2.5mm 18mm 5mm 16mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.5pt solid var(--rule);
+  flex-shrink: 0;
+}
+.footer-left  { font-size: 7pt; color: #B0A090; font-style: italic; }
+.footer-right { font-size: 7pt; font-weight: 700; color: var(--en-color); letter-spacing: 1px; }
+
+/* =========================================================
+   PAGE BODY
+   ========================================================= */
+
+.page-body {
+  flex: 1;
+  padding: 4mm 18mm 4mm 16mm;
+  columns: 2;
+  column-gap: 6mm;
+  column-rule: 0.5pt solid var(--rule);
+}
+
+/* =========================================================
+   LETTER DIVIDER
+   ========================================================= */
+
+.letter-div {
+  break-inside: avoid;
+  column-span: all;
+  display: flex;
+  align-items: center;
+  gap: 2.5mm;
+  margin: 4mm 0 2mm;
+}
+.letter-div:first-child { margin-top: 0; }
+.letter-char {
+  font-size: 20pt;
+  font-weight: 700;
+  color: var(--en-color);
+  opacity: 0.28;
+  line-height: 1;
+  min-width: 8mm;
+}
+.letter-div::after {
+  content: '';
+  flex: 1;
+  height: 0.75pt;
+  background: var(--en-color);
+  opacity: 0.20;
+}
+
+/* =========================================================
+   ENTRY CARD
+   ========================================================= */
+
+.entry {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin-bottom: 3mm;
+  padding: 2mm 2.5mm 2mm 3mm;
+  border-left: 2.5pt solid var(--rule);
+  background: var(--cream);
+}
+.entry-noun      { border-left-color: var(--en-color); }
+.entry-verb      { border-left-color: var(--verb-color); }
+.entry-adjective { border-left-color: var(--adj-color); }
+.entry-adverb    { border-left-color: #7070AA; }
+.entry-ff        { border-left-color: var(--ff-border); background: var(--ff-bg); }
+
+.entry-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 1.2mm;
+  margin-bottom: 1mm;
+}
+.headword { font-size: 13pt; font-weight: 700; line-height: 1.1; margin-right: 0.5mm; }
+
+.badge {
+  font-size: 6pt;
+  font-weight: 700;
+  padding: 0.4mm 1.5mm;
+  border-radius: 2pt;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+.badge-en           { background: var(--en-bg);   color: var(--en-color); }
+.badge-et           { background: var(--et-bg);   color: var(--et-color); }
+.badge-pos          { background: #EDE8E2; color: #665544; }
+.badge-tier-core    { background: #D6EDD6; color: #1A5C1A; }
+.badge-tier-common  { background: #D6E6F5; color: #1A4070; }
+.badge-tier-general { background: #FFF0C8; color: #7A5000; }
+.badge-tier-rare    { background: #EEEEEE; color: #888888; }
+
+.pron-line { font-size: 8pt; color: var(--text-light); margin-bottom: 1.5mm; line-height: 1.3; }
+.ipa       { font-style: italic; color: #9A8878; }
+.phonetic  {
+  display: inline-block;
+  background: var(--phonetic-bg);
+  color: var(--phonetic-color);
+  padding: 0 1.5mm;
+  border-radius: 2pt;
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.5px;
+}
+.syllables { color: #B8A898; font-size: 7.5pt; }
+.dot       { color: #CCC; margin: 0 0.3mm; }
+
+.primary-trans   { font-size: 11pt; font-weight: 700; color: var(--text); margin-bottom: 0.5mm; }
+.secondary-trans { font-size: 8pt; color: var(--text-light); margin-bottom: 1mm; }
+
+.ff-banner {
+  font-size: 7.5pt;
+  background: var(--ff-bg);
+  border: 0.75pt solid var(--ff-border);
+  border-radius: 2pt;
+  padding: 1mm 2mm;
+  color: var(--ff-text);
+  margin: 1.5mm 0;
+  line-height: 1.4;
+}
+.ff-icon { font-size: 8.5pt; }
+
+.pt-flag {
+  font-size: 7pt;
+  color: var(--pt-color);
+  background: var(--pt-bg);
+  border-radius: 2pt;
+  padding: 0.5mm 1.5mm;
+  margin: 1mm 0;
+  display: inline-block;
+}
+
+.examples {
+  margin: 1.5mm 0 1mm;
+  background: var(--example-bg);
+  border-radius: 2pt;
+  padding: 1.5mm 2mm;
+}
+.example + .example {
+  border-top: 0.5pt solid var(--rule);
+  margin-top: 1.5mm;
+  padding-top: 1.5mm;
+}
+.ex-da { font-size: 8.5pt; font-weight: 700; color: var(--text); }
+.ex-en { font-size: 8pt;   font-style: italic; color: var(--text-light); }
+
+.tags { margin-top: 1mm; display: flex; flex-wrap: wrap; gap: 1mm; }
+.tag  {
+  font-size: 6pt;
+  background: var(--tag-bg);
+  color: var(--tag-color);
+  padding: 0.25mm 1.5mm;
+  border-radius: 2pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* =========================================================
+   INTRO PAGES — shared
+   ========================================================= */
+
+.intro-heading {
+  font-size: 16pt;
+  font-weight: 700;
+  color: var(--en-color);
+  margin-bottom: 3mm;
+  padding-bottom: 1.5mm;
+  border-bottom: 0.75pt solid var(--en-color);
+}
+.intro-subheading {
+  font-size: 9pt;
+  font-weight: 700;
+  color: var(--text);
+  margin: 3.5mm 0 1.5mm;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.intro-text {
+  font-size: 8.5pt;
+  color: var(--text-light);
+  margin-bottom: 2mm;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   TITLE PAGE
+   ========================================================= */
+
+.title-page { justify-content: space-between; }
+
+.title-band {
+  background: var(--en-color);
+  padding: 6mm 16mm;
+}
+.title-band-text {
+  font-size: 7.5pt;
+  font-weight: 700;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.title-main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20mm;
+  text-align: center;
+}
+.title-word {
+  font-size: 68pt;
+  font-weight: 700;
+  color: var(--en-color);
+  line-height: 1;
+  letter-spacing: -2px;
+  margin-bottom: 4mm;
+}
+.title-rule {
+  width: 60mm;
+  height: 1.5pt;
+  background: var(--en-color);
+  opacity: 0.35;
+  margin: 0 auto 5mm;
+}
+.title-subtitle { font-size: 18pt; font-weight: 400; color: var(--text); margin-bottom: 4mm; }
+.title-desc     { font-size: 11pt; color: var(--text-light); line-height: 1.7; }
+
+.title-swatches { padding: 6mm 16mm 8mm; }
+.swatch-grid    { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+.swatch {
+  display: flex;
+  align-items: center;
+  gap: 3mm;
+  padding: 3mm 4mm;
+  border-radius: 3pt;
+  border-left: 3pt solid;
+}
+.swatch-en   { background: var(--en-bg);   border-color: var(--en-color); }
+.swatch-et   { background: var(--et-bg);   border-color: var(--et-color); }
+.swatch-verb { background: var(--verb-bg); border-color: var(--verb-color); }
+.swatch-adj  { background: var(--adj-bg);  border-color: var(--adj-color); }
+.swatch-badge { font-size: 9pt; font-weight: 700; min-width: 14mm; }
+.swatch-en   .swatch-badge { color: var(--en-color);   }
+.swatch-et   .swatch-badge { color: var(--et-color);   }
+.swatch-verb .swatch-badge { color: var(--verb-color); }
+.swatch-adj  .swatch-badge { color: var(--adj-color);  }
+.swatch-info { flex: 1; }
+.swatch-name { font-size: 8.5pt; font-weight: 700; color: var(--text); }
+.swatch-eg   { font-size: 7.5pt; color: var(--text-light); font-style: italic; }
+
+.title-footer-area {
+  padding: 4mm 16mm 7mm;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5mm;
+  border-top: 0.5pt solid var(--rule);
+}
+.title-count { font-size: 8pt; font-weight: 700; color: var(--text-light); }
+.title-attr  { font-size: 7.5pt; color: #B0A090; font-style: italic; }
+
+/* =========================================================
+   HOW-TO PAGE
+   ========================================================= */
+
+.how-to-page .page-body { columns: 1; }
+
+.demo-box {
+  border: 1pt solid var(--rule);
+  border-radius: 4pt;
+  padding: 3mm;
+  background: #F4F0EA;
+  margin: 2mm 0 3mm;
+}
+.demo-box .entry { margin-bottom: 0; }
+.demo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 2mm 0 3mm; }
+
+.legend-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+  margin-bottom: 4mm;
+}
+.legend-table tr + tr td { border-top: 0.5pt solid var(--rule); }
+.legend-table td { padding: 1.5mm 2mm; vertical-align: middle; }
+.legend-table .legend-element { width: 32%; white-space: nowrap; }
+
+/* =========================================================
+   SYMBOL KEY PAGE
+   ========================================================= */
+
+.key-page .page-body { columns: 1; }
+
+.key-row {
+  display: flex;
+  align-items: center;
+  gap: 3mm;
+  padding: 1.5mm 0;
+  border-bottom: 0.5pt solid var(--rule);
+  font-size: 8.5pt;
+}
+.key-visual { min-width: 32mm; }
+.key-desc   { color: var(--text); flex: 1; line-height: 1.4; }
+.key-desc em { color: var(--text-light); }
+.key-eg {
+  font-size: 7.5pt;
+  font-style: italic;
+  color: var(--text-light);
+  margin: 0.5mm 0 1.5mm 35mm;
+}
+.tag-cloud  { display: flex; flex-wrap: wrap; gap: 1.5mm; margin-top: 1.5mm; }
+
+/* =========================================================
+   PRONUNCIATION PAGE
+   ========================================================= */
+
+.pron-page .page-body { columns: 2; }
+
+.pron-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 7.5pt;
+  margin: 1.5mm 0 3mm;
+}
+.pron-table th {
+  font-size: 6.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-light);
+  border-bottom: 0.75pt solid var(--en-color);
+  padding: 1mm 1.5mm;
+  text-align: left;
+}
+.pron-table td       { padding: 1mm 1.5mm; border-bottom: 0.5pt solid var(--rule); vertical-align: middle; }
+.pron-table .col-ipa { font-style: italic; color: #9A8878; }
+.pron-table .col-code {
+  background: var(--phonetic-bg);
+  color: var(--phonetic-color);
+  font-weight: 700;
+  font-size: 7pt;
+  padding: 0.3mm 1.5mm;
+  border-radius: 2pt;
+  white-space: nowrap;
+}
+.pron-table .col-ex   { font-weight: 700; }
+.pron-table .col-gl   { font-style: italic; color: var(--text-light); }
+
+.pron-note {
+  font-size: 7.5pt;
+  background: var(--ff-bg);
+  border-left: 2pt solid var(--ff-border);
+  padding: 1.5mm 2.5mm;
+  border-radius: 0 2pt 2pt 0;
+  margin: 1.5mm 0 3mm;
+  line-height: 1.5;
+  break-inside: avoid;
+}
+.pron-note strong { color: var(--ff-text); }
+
+/* =========================================================
+   FULL DICTIONARY CONTINUOUS SECTION
+   ========================================================= */
+
+.dict-body {
+  width: 210mm;
+  background: var(--cream);
+  margin: 10mm auto;
+  box-shadow: 0 6px 30px rgba(0,0,0,0.30);
+}
+.dict-body-header {
+  padding: 5mm 18mm 4mm 16mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1.5pt solid var(--en-color);
+}
+.dict-columns {
+  padding: 4mm 18mm 10mm 16mm;
+  columns: 2;
+  column-gap: 6mm;
+  column-rule: 0.5pt solid var(--rule);
+}
+
+/* =========================================================
+   PRINT
+   ========================================================= */
+
+@media print {
+  body { background: none; }
+  .page {
+    margin: 0;
+    box-shadow: none;
+    page-break-after: always;
+    width: 100%;
+    min-height: 0;
+  }
+  .page:last-child { page-break-after: auto; }
+  .dict-body {
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+  }
+  @page { size: A4; margin: 0; }
+}
+
+  </style>
+</head>
+<body>
+<div class="page title-page">
+  <div class="title-band">
+    <span class="title-band-text">Ordbog &nbsp;·&nbsp; Danish–English Dictionary &nbsp;·&nbsp; For Learners with Dyslexia &nbsp;·&nbsp; B2–C1 Vocabulary</span>
+  </div>
+  <div class="title-main-area">
+    <div class="title-word">Ordbog</div>
+    <div class="title-rule"></div>
+    <div class="title-subtitle">Danish–English Dictionary</div>
+    <div class="title-desc">
+      For Learners with Dyslexia<br>
+      PD3 Exam &nbsp;·&nbsp; B2–C1 Vocabulary
+    </div>
+  </div>
+  <div class="title-swatches">
+    <div class="swatch-grid">
+      <div class="swatch swatch-en">
+        <div class="swatch-badge">en</div>
+        <div class="swatch-info">
+          <div class="swatch-name">Fælleskon &nbsp;·&nbsp; Common gender</div>
+          <div class="swatch-eg">dag, mand, tid, bog, ven, vej, uge</div>
+        </div>
+      </div>
+      <div class="swatch swatch-et">
+        <div class="swatch-badge">et</div>
+        <div class="swatch-info">
+          <div class="swatch-name">Intetkøn &nbsp;·&nbsp; Neuter gender</div>
+          <div class="swatch-eg">barn, hus, land, år, navn, bord, liv</div>
+        </div>
+      </div>
+      <div class="swatch swatch-verb">
+        <div class="swatch-badge">verb</div>
+        <div class="swatch-info">
+          <div class="swatch-name">Verbum &nbsp;·&nbsp; Verb</div>
+          <div class="swatch-eg">komme, se, sige, gøre, blive, tage</div>
+        </div>
+      </div>
+      <div class="swatch swatch-adj">
+        <div class="swatch-badge">adjective</div>
+        <div class="swatch-info">
+          <div class="swatch-name">Adjektiv &nbsp;·&nbsp; Adjective</div>
+          <div class="swatch-eg">stor, god, ny, første, hele, lille</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="title-footer-area">
+    <span class="title-count">1,710 entries &nbsp;·&nbsp; A–Å &nbsp;·&nbsp; Draft edition &nbsp;·&nbsp; May 2026</span>
+    <span class="title-attr">Data: English Wiktionary (CC-BY-SA) &nbsp;·&nbsp; Tatoeba sentence pairs (CC-BY 2.0) &nbsp;·&nbsp; Leipzig Corpora (CC-BY)</span>
+  </div>
+</div>
+<div class="page page-intro how-to-page">
+  <header class="page-header">
+    <span class="book-title">Ordbog DA→EN</span>
+    <span class="running-head">Introduction</span>
+    <span class="page-num">i</span>
+  </header>
+  <div class="page-body">
+    <h2 class="intro-heading">How to Read an Entry</h2>
+    <p class="intro-text">Every entry follows the same layout. Here is a typical noun entry:</p>
+    <div class="demo-box"><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">dag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/daːˀɣ/</span> <span class="dot">·</span> <span class="phonetic">DAG</span></div><div class="primary-trans">day</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Sikke en dag!</div><div class="ex-en">What a day!</div></div></div><div class="tags"><span class="tag">time</span></div></div></div>
+    <table class="legend-table">
+      <tr>
+        <td class="legend-element"><span class="headword" style="color:#B5451B;font-size:10.5pt">dag</span></td>
+        <td><strong>Headword</strong> &mdash; the Danish word, set large and bold. Colour shows gender (nouns) or part of speech.</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="badge badge-en">en</span></td>
+        <td><strong>Gender</strong> &mdash; <span style="color:#B5451B">terracotta&nbsp;= common (f&aelig;lleskon)</span>; <span style="color:#1F5E9A">slate&nbsp;= neuter (intetk&oslash;n)</span>. Nouns only. Determines <em>den</em> vs <em>det</em>.</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="badge badge-pos">noun</span></td>
+        <td><strong>Part of speech</strong> &mdash; noun, verb, adjective, adverb, conjunction&hellip;</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="badge badge-tier-core">core</span></td>
+        <td><strong>Frequency</strong> &mdash; <span class="badge badge-tier-core">core</span> top&nbsp;500 &nbsp; <span class="badge badge-tier-common">common</span> 501&ndash;2000 &nbsp; <span class="badge badge-tier-general">general</span> 2001&ndash;5000 &nbsp; <span class="badge badge-tier-rare">rare</span> 5000+</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="ipa">/daːˀɣ/</span></td>
+        <td><strong>IPA</strong> &mdash; precise phonetic transcription. Grey italic. See pronunciation guide (page&nbsp;iii).</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="phonetic">DAG</span></td>
+        <td><strong>Phonetic guide</strong> &mdash; plain-English approximation in ALL&nbsp;CAPS on green. Read aloud directly. See sound key on page&nbsp;iii.</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="syllables">kom-me</span></td>
+        <td><strong>Syllables</strong> &mdash; where the word breaks, e.g. <span class="syllables">kom-me</span>. Shown only for multi-syllable words.</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="primary-trans" style="font-size:9pt">day</span></td>
+        <td><strong>Primary translation</strong> &mdash; main English meaning.</td>
+      </tr>
+      <tr>
+        <td class="legend-element" style="color:#6E5840;font-size:7.5pt">also:&nbsp;&hellip;</td>
+        <td><strong>Alternative translations</strong> &mdash; other senses or related meanings.</td>
+      </tr>
+      <tr>
+        <td class="legend-element">
+          <div class="examples" style="font-size:7pt;padding:0.8mm 1.5mm;margin:0">
+            <div class="ex-da">Sikke en dag!</div>
+            <div class="ex-en">What a day!</div>
+          </div>
+        </td>
+        <td><strong>Example</strong> &mdash; real sentence from Tatoeba corpus (CC-BY). Danish bold; English italic below.</td>
+      </tr>
+      <tr>
+        <td class="legend-element"><span class="tag">time</span></td>
+        <td><strong>Thematic tag</strong> &mdash; for finding words by topic in the index.</td>
+      </tr>
+    </table>
+
+    <p class="intro-subheading">False friends &#9888;</p>
+    <p class="intro-text">Some Danish words look identical to English words but mean something completely different.
+    These are flagged with an amber banner &mdash; the two most important ones to know:</p>
+    <div class="demo-grid">
+      <div class="demo-box"><div class="entry entry-ff"><div class="entry-head"><span class="headword" style="color:#B5451B">gift</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-general">general</span></div><div class="pron-line"><span class="ipa">/ɡift/</span> <span class="dot">·</span> <span class="phonetic">YIFT</span></div><div class="primary-trans">poison</div><div class="secondary-trans">also: venom; married</div><div class="ff-banner"><span class="ff-icon">⚠</span> <strong>False friend</strong> — Means poison (noun) or married (adj), NOT a present</div><div class="examples"><div class="example"><div class="ex-da">Er du gift?</div><div class="ex-en">Are you married?</div></div></div></div></div>
+      <div class="demo-box"><div class="entry entry-ff"><div class="entry-head"><span class="headword" style="color:#B5451B">chef</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/ˈsjɛːˀf/</span> <span class="dot">·</span> <span class="phonetic">CHEF</span></div><div class="primary-trans">boss; person in charge</div><div class="ff-banner"><span class="ff-icon">⚠</span> <strong>False friend</strong> — Means boss or manager, NOT a chef/cook</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Jeg er min egen chef.</div><div class="ex-en">I’m my own boss.</div></div></div><div class="tags"><span class="tag">work</span></div></div></div>
+    </div>
+
+    <p class="intro-subheading">Pronunciation trap &#128266;</p>
+    <p class="intro-text">
+      Entries flagged <span class="pt-flag" style="display:inline">&#128266; Pronunciation trap</span>
+      contain sounds that are especially unexpected for English speakers &mdash;
+      the soft-d, the st&oslash;d, or unusual vowel combinations.
+      Check the IPA and the pronunciation guide on page&nbsp;iii.
+    </p>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Introduction</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+<div class="page page-intro key-page">
+  <header class="page-header">
+    <span class="book-title">Ordbog DA&rarr;EN</span>
+    <span class="running-head">Colours &amp; Symbols</span>
+    <span class="page-num">ii</span>
+  </header>
+  <div class="page-body">
+    <h2 class="intro-heading">Colours and Symbols</h2>
+
+    <p class="intro-subheading">Gender &mdash; nouns</p>
+    <div class="key-row">
+      <div class="key-visual"><span class="headword" style="color:#B5451B;font-size:10.5pt">dag</span> <span class="badge badge-en">en</span></div>
+      <div class="key-desc"><strong>Common gender</strong> (f&aelig;lleskon) &mdash; terracotta headword and badge.
+        <em>Use <strong>den</strong> as definite article: dag<strong>en</strong>.</em></div>
+    </div>
+    <p class="key-eg">dag, mand, tid, bog, ven, vej, uge, skov, krig, ting, regering, k&aelig;rlighed</p>
+    <div class="key-row">
+      <div class="key-visual"><span class="headword" style="color:#1F5E9A;font-size:10.5pt">barn</span> <span class="badge badge-et">et</span></div>
+      <div class="key-desc"><strong>Neuter gender</strong> (intetk&oslash;n) &mdash; slate-blue headword and badge.
+        <em>Use <strong>det</strong> as definite article: barn<strong>et</strong>.</em></div>
+    </div>
+    <p class="key-eg">barn, hus, land, &aring;r, navn, bord, liv, svar, sp&oslash;rgsm&aring;l, omr&aring;de</p>
+
+    <p class="intro-subheading">Parts of speech &mdash; headword colours and border</p>
+    <div class="key-row">
+      <div class="key-visual" style="border-left:2.5pt solid #B5451B;padding-left:2mm"><span class="headword" style="color:#B5451B;font-size:10.5pt">mand</span> <span class="badge badge-pos">noun</span></div>
+      <div class="key-desc"><strong>Noun</strong> &mdash; terracotta (en) or slate (et) depending on gender.</div>
+    </div>
+    <div class="key-row">
+      <div class="key-visual" style="border-left:2.5pt solid #1E6B3A;padding-left:2mm"><span class="headword" style="color:#1E6B3A;font-size:10.5pt">komme</span> <span class="badge badge-pos">verb</span></div>
+      <div class="key-desc"><strong>Verb</strong> &mdash; forest green.</div>
+    </div>
+    <div class="key-row">
+      <div class="key-visual" style="border-left:2.5pt solid #7A5500;padding-left:2mm"><span class="headword" style="color:#7A5500;font-size:10.5pt">stor</span> <span class="badge badge-pos">adjective</span></div>
+      <div class="key-desc"><strong>Adjective</strong> &mdash; warm amber.</div>
+    </div>
+    <div class="key-row">
+      <div class="key-visual" style="border-left:2.5pt solid #7070AA;padding-left:2mm"><span class="headword" style="color:#7070AA;font-size:10.5pt">kun</span> <span class="badge badge-pos">adverb</span></div>
+      <div class="key-desc"><strong>Adverb / other</strong> &mdash; slate-purple.</div>
+    </div>
+
+    <p class="intro-subheading">Frequency tiers</p>
+    <div class="key-row">
+      <div class="key-visual"><span class="badge badge-tier-core">core</span></div>
+      <div class="key-desc"><strong>Core</strong> &mdash; top 500 most frequent words in Danish. Essential exam vocabulary.</div>
+    </div>
+    <div class="key-row">
+      <div class="key-visual"><span class="badge badge-tier-common">common</span></div>
+      <div class="key-desc"><strong>Common</strong> &mdash; ranks 501&ndash;2,000. High-frequency everyday language.</div>
+    </div>
+    <div class="key-row">
+      <div class="key-visual"><span class="badge badge-tier-general">general</span></div>
+      <div class="key-desc"><strong>General</strong> &mdash; ranks 2,001&ndash;5,000. Broad active vocabulary.</div>
+    </div>
+    <div class="key-row">
+      <div class="key-visual"><span class="badge badge-tier-rare">rare</span></div>
+      <div class="key-desc"><strong>Rare</strong> &mdash; rank 5,000+. Specialist, literary, or infrequent.</div>
+    </div>
+
+    <p class="intro-subheading">Special flags</p>
+    <div class="key-row">
+      <div class="key-visual">
+        <div class="ff-banner" style="padding:0.5mm 1.5mm;font-size:7pt;margin:0">&#9888; <strong>False friend</strong></div>
+      </div>
+      <div class="key-desc"><strong>False friend</strong> &mdash; looks like an English word but has a different meaning.
+        <em>gift = poison &nbsp; chef = boss &nbsp; blank = shiny &nbsp; aktuel = current</em></div>
+    </div>
+    <div class="key-row">
+      <div class="key-visual"><span class="pt-flag" style="display:inline;font-size:7pt">&#128266; Pron. trap</span></div>
+      <div class="key-desc"><strong>Pronunciation trap</strong> &mdash; sound is especially unexpected for English speakers. Check the IPA.</div>
+    </div>
+
+    <p class="intro-subheading">Thematic tags</p>
+    <p class="intro-text">Tags let you find related words in the thematic index even if you cannot spell the Danish word.</p>
+    <div class="tag-cloud"><span class="tag">emotion</span> <span class="tag">body</span> <span class="tag">health</span> <span class="tag">food</span> <span class="tag">drink</span> <span class="tag">home</span> <span class="tag">nature</span> <span class="tag">weather</span> <span class="tag">work</span> <span class="tag">education</span> <span class="tag">bureaucracy</span> <span class="tag">transport</span> <span class="tag">time</span> <span class="tag">money</span> <span class="tag">social</span> <span class="tag">family</span> <span class="tag">culture</span> <span class="tag">politics</span> <span class="tag">environment</span> <span class="tag">technology</span></div>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Colours &amp; Symbols</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+<div class="page page-intro pron-page">
+  <header class="page-header">
+    <span class="book-title">Ordbog DA&rarr;EN</span>
+    <span class="running-head">Pronunciation Guide</span>
+    <span class="page-num">iii</span>
+  </header>
+  <div class="page-body">
+    <h2 class="intro-heading">Danish Pronunciation</h2>
+    <p class="intro-text">
+      Danish spelling does not reliably predict pronunciation.
+      Silent letters, vowel shifts, and the glot&shy;tal stop (st&oslash;d) make Danish harder to read aloud than it looks.
+      Each entry gives two layers of help:
+    </p>
+    <p class="intro-text">
+      <span class="phonetic">ALL-CAPS</span> &mdash; a plain-English read-aloud approximation. &nbsp;
+      <span class="ipa">/IPA/</span> &mdash; precise phonetic transcription.
+    </p>
+
+    <p class="intro-subheading">Vowels</p>
+    <table class="pron-table">
+      <thead><tr><th>Spelling</th><th>IPA</th><th>Code</th><th>Sounds like</th><th>Example</th><th>Meaning</th></tr></thead>
+      <tbody><tr><td><strong>a</strong></td><td class="col-ipa">/aː/</td><td><span class="col-code">AH</span></td><td>&quot;a&quot; in father</td><td class="col-ex">dag</td><td class="col-gl">day</td></tr><tr><td><strong>e</strong></td><td class="col-ipa">/eː/</td><td><span class="col-code">AY</span></td><td>&quot;a&quot; in day</td><td class="col-ex">se</td><td class="col-gl">see</td></tr><tr><td><strong>i</strong></td><td class="col-ipa">/iː/</td><td><span class="col-code">EE</span></td><td>&quot;ee&quot; in feet</td><td class="col-ex">vi</td><td class="col-gl">we</td></tr><tr><td><strong>o</strong></td><td class="col-ipa">/oː/</td><td><span class="col-code">OH</span></td><td>&quot;o&quot; in go</td><td class="col-ex">stor</td><td class="col-gl">large</td></tr><tr><td><strong>u</strong></td><td class="col-ipa">/uː/</td><td><span class="col-code">OO</span></td><td>&quot;oo&quot; in food</td><td class="col-ex">hus</td><td class="col-gl">house</td></tr><tr><td><strong>y</strong></td><td class="col-ipa">/yː/</td><td><span class="col-code">EW</span></td><td>Round lips for OO, say EE</td><td class="col-ex">by</td><td class="col-gl">town</td></tr><tr><td><strong>æ</strong></td><td class="col-ipa">/ɛː/</td><td><span class="col-code">EH</span></td><td>&quot;e&quot; in bed</td><td class="col-ex">læse</td><td class="col-gl">read</td></tr><tr><td><strong>ø</strong></td><td class="col-ipa">/øː/</td><td><span class="col-code">UR</span></td><td>&quot;ur&quot; in fur (British)</td><td class="col-ex">grøn</td><td class="col-gl">green</td></tr><tr><td><strong>å</strong></td><td class="col-ipa">/ɔː/</td><td><span class="col-code">AW</span></td><td>&quot;aw&quot; in law</td><td class="col-ex">år</td><td class="col-gl">year</td></tr></tbody>
+    </table>
+
+    <p class="intro-subheading">Key consonants</p>
+    <table class="pron-table">
+      <thead><tr><th>Symbol</th><th>IPA</th><th>Code</th><th>Sounds like</th><th>Example</th><th>Meaning</th></tr></thead>
+      <tbody><tr><td><strong>d (soft)</strong></td><td class="col-ipa">/ð/</td><td><span class="col-code">-TH-</span></td><td>&quot;th&quot; in &quot;the&quot;</td><td class="col-ex">bade</td><td class="col-gl">bathe</td></tr><tr><td><strong>g (soft)</strong></td><td class="col-ipa">/ɣ/</td><td><span class="col-code">-w</span></td><td>Fades to a soft &quot;w&quot;</td><td class="col-ex">dag</td><td class="col-gl">day</td></tr><tr><td><strong>r</strong></td><td class="col-ipa">/ʁ/</td><td><span class="col-code">—</span></td><td>Back of throat, like French r</td><td class="col-ex">rød</td><td class="col-gl">red</td></tr><tr><td><strong>ˀ stød</strong></td><td class="col-ipa">ˀ</td><td><span class="col-code">(catch)</span></td><td>Catch in the throat — glottal stop</td><td class="col-ex">hund</td><td class="col-gl">dog</td></tr></tbody>
+    </table>
+
+    <p class="intro-subheading">The St&oslash;d (glottal stop)</p>
+    <div class="pron-note">
+      <strong>St&oslash;d</strong> is a brief catch or creak in the throat &mdash; like the pause in &ldquo;uh&ndash;oh&rdquo;.
+      In IPA it is written <em class="ipa">&nbsp;ˀ&nbsp;</em> after the affected sound:
+      <em>hund</em> /hunˀ/ (dog), <em>se</em> /seˀ/ (see).
+      The phonetic ALL-CAPS codes do not mark st&oslash;d &mdash; just be aware it exists.
+    </div>
+
+    <p class="intro-subheading">Soft-D</p>
+    <div class="pron-note">
+      When <strong>d</strong> appears between vowels or after a vowel at the end of a word,
+      it softens to a fricative &mdash; like the <em>th</em> in <em>&ldquo;the&rdquo;</em>.
+      Examples: <em>bade</em> (bathe), <em>ved</em> (at/by), <em>s&aelig;de</em> (seat).
+      The code writes this as <span class="phonetic" style="font-size:7pt">&ndash;TH&ndash;</span>.
+    </div>
+
+    <p class="intro-subheading">The Danish R</p>
+    <div class="pron-note">
+      Danish <strong>r</strong> is uvular &mdash; produced at the very back of the throat, like French or German r.
+      After a vowel it often weakens to a schwa /ɐ/ or disappears entirely.
+      The ALL-CAPS codes mostly omit final r sounds as they are inaudible to English ears.
+    </div>
+
+    <p class="intro-subheading">Reading the phonetic codes</p>
+    <div class="pron-note">
+      The green <span class="phonetic" style="font-size:7pt">ALL-CAPS</span> codes use English letter combinations:
+      <strong>AH</strong> (father), <strong>AY</strong> (day), <strong>EE</strong> (feet), <strong>OH</strong> (go),
+      <strong>OO</strong> (food), <strong>EW</strong> (French&nbsp;<em>tu</em>),
+      <strong>UR</strong> (British&nbsp;<em>fur</em>), <strong>AW</strong> (law).
+      They are approximations only &mdash; always check the IPA for precise pronunciation.
+    </div>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Pronunciation Guide</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+<div class="page">
+  <div class="thumb-tab"><span>A · B · C · D …</span></div>
+  <header class="page-header">
+    <span class="book-title">Ordbog DA&rarr;EN</span>
+    <span class="running-head">aften – eksempel</span>
+    <span class="page-num">5</span>
+  </header>
+  <div class="page-body">
+<div class="letter-div"><span class="letter-char">A</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">aften</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈaftən/</span> <span class="dot">·</span> <span class="phonetic">AFTEN</span> <span class="dot">·</span> <span class="syllables">af-ten</span></div><div class="primary-trans">evening</div><div class="secondary-trans">also: night (evening)</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">I aften lyder godt.</div><div class="ex-en">Tonight sounds good.</div></div><div class="example"><div class="ex-da">Sikke en smuk aften!</div><div class="ex-en">What a beautiful evening!</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry entry-ff"><div class="entry-head"><span class="headword" style="color:#7A5500">aktuel</span> <span class="badge badge-pos">adjective</span> <span class="badge badge-tier-rare">rare</span></div><div class="pron-line"><span class="phonetic">AKTUEL</span> <span class="dot">·</span> <span class="syllables">ak-tu-el</span></div><div class="primary-trans">relevant, of interest, topical</div><div class="secondary-trans">also: current, present</div><div class="ff-banner"><span class="ff-icon">⚠</span> <strong>False friend</strong> — Means current or relevant, NOT actual</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">TODO</div><div class="ex-en">TODO</div></div></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">arbejde</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈarˌbajdə/</span> <span class="dot">·</span> <span class="phonetic">ARBAYDE</span> <span class="dot">·</span> <span class="syllables">ar-bej-de</span></div><div class="primary-trans">work (labour, employment, occupation, job)</div><div class="secondary-trans">also: work; work (effort expended on a particular task); work, to do a specific task (Generally for money)</div><div class="examples"><div class="example"><div class="ex-da">Godt arbejde!</div><div class="ex-en">Good work!</div></div><div class="example"><div class="ex-da">Find et arbejde!</div><div class="ex-en">Find a job.</div></div></div><div class="tags"><span class="tag">work</span></div></div><div class="letter-div"><span class="letter-char">B</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">baggrund</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[ˈb̥ɑwˌɡ̊ʁɔnˀ]</span> <span class="dot">·</span> <span class="phonetic">BAGGRUND</span> <span class="dot">·</span> <span class="syllables">bag-grund</span></div><div class="primary-trans">background</div><div class="secondary-trans">also: background; background</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">TODO</div><div class="ex-en">TODO</div></div></div><div class="tags"><span class="tag">body</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">besøg</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[b̥eˈsøˀj]</span> <span class="dot">·</span> <span class="phonetic">BESURG</span> <span class="dot">·</span> <span class="syllables">be-søg</span></div><div class="primary-trans">a visit</div><div class="examples"><div class="example"><div class="ex-da">Kom og besøg os!</div><div class="ex-en">Do come and visit us.</div></div><div class="example"><div class="ex-da">Han nød de besøg.</div><div class="ex-en">He enjoyed those visits.</div></div></div><div class="tags"><span class="tag">social</span></div></div><div class="entry entry-verb"><div class="entry-head"><span class="headword" style="color:#1E6B3A">betale</span> <span class="badge badge-pos">verb</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/beˈtaːˀlə/</span> <span class="dot">·</span> <span class="phonetic">BETALE</span> <span class="dot">·</span> <span class="syllables">be-ta-le</span></div><div class="primary-trans">to pay</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Jeg vil betale dig.</div><div class="ex-en">I&#x27;ll pay you.</div></div><div class="example"><div class="ex-da">Jeg nægter at betale.</div><div class="ex-en">I refuse to pay.</div></div></div><div class="tags"><span class="tag">money</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">bil</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/biːl/</span> <span class="dot">·</span> <span class="phonetic">BIL</span></div><div class="primary-trans">car, automobile</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Bil!</div><div class="ex-en">Car!</div></div><div class="example"><div class="ex-da">I bil!</div><div class="ex-en">By car!</div></div></div><div class="tags"><span class="tag">transport</span></div></div><div class="letter-div"><span class="letter-char">C</span></div><div class="entry entry-ff"><div class="entry-head"><span class="headword" style="color:#B5451B">chef</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/ˈsjɛːˀf/</span> <span class="dot">·</span> <span class="phonetic">CHEF</span></div><div class="primary-trans">A boss; person in charge, person who directly oversees the work being done</div><div class="ff-banner"><span class="ff-icon">⚠</span> <strong>False friend</strong> — Means boss or manager, NOT a chef/cook</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Jeg er min egen chef.</div><div class="ex-en">I&#x27;m my own boss.</div></div><div class="example"><div class="ex-da">Min chef er en idiot.</div><div class="ex-en">My boss is a jerk.</div></div></div><div class="tags"><span class="tag">work</span> <span class="tag">family</span></div></div><div class="letter-div"><span class="letter-char">D</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">dag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/daːˀɣ/</span> <span class="dot">·</span> <span class="phonetic">DAG</span></div><div class="primary-trans">day</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Sikke en dag!</div><div class="ex-en">What a day!</div></div><div class="example"><div class="ex-da">Tak for i dag.</div><div class="ex-en">Thank you for today.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">del</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">[ˈd̥eˀl]</span> <span class="dot">·</span> <span class="phonetic">DEL</span></div><div class="primary-trans">part, portion</div><div class="secondary-trans">also: proportion; share, portion; section</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Del og hersk.</div><div class="ex-en">Divide and conquer.</div></div><div class="example"><div class="ex-da">Del og spred ordet!</div><div class="ex-en">Share and spread the word!</div></div></div><div class="tags"><span class="tag">culture</span></div></div><div class="letter-div"><span class="letter-char">E</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#2C2416">eksempel</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ɛksɛmpəl/</span> <span class="dot">·</span> <span class="phonetic">EKSEMPEL</span> <span class="dot">·</span> <span class="syllables">ek-sem-pel</span></div><div class="primary-trans">example</div><div class="secondary-trans">also: instance; illustration</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Følg hans eksempel.</div><div class="ex-en">Follow his example.</div></div><div class="example"><div class="ex-da">Tag Tom for eksempel!</div><div class="ex-en">Take Tom for example!</div></div></div><div class="tags"><span class="tag">education</span></div></div>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Danish–English Dictionary &nbsp;·&nbsp; Tatoeba (CC-BY) &nbsp;·&nbsp; Leipzig Corpora (CC-BY)</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+<div class="page">
+  <div class="thumb-tab"><span>F · G · H</span></div>
+  <header class="page-header">
+    <span class="book-title">Ordbog DA&rarr;EN</span>
+    <span class="running-head">familie – hjemme</span>
+    <span class="page-num">6</span>
+  </header>
+  <div class="page-body">
+<div class="letter-div"><span class="letter-char">F</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#1F5E9A">familie</span> <span class="badge badge-et">et</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/faˈmilˀjə/</span> <span class="dot">·</span> <span class="phonetic">FAMILIE</span> <span class="dot">·</span> <span class="syllables">fa-mi-lie</span></div><div class="primary-trans">family</div><div class="secondary-trans">also: family; family; family</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Vi er en familie.</div><div class="ex-en">We are a family.</div></div><div class="example"><div class="ex-da">Vi er en familie.</div><div class="ex-en">We&#x27;re a family.</div></div></div><div class="tags"><span class="tag">family</span></div></div><div class="entry entry-adverb"><div class="entry-head"><span class="headword" style="color:#2C2416">foran</span> <span class="badge badge-pos">adverb</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[ˈfɒːˈanˀ]</span> <span class="dot">·</span> <span class="phonetic">FORAN</span> <span class="dot">·</span> <span class="syllables">for-an</span></div><div class="primary-trans">ahead, in front</div><div class="secondary-trans">also: in front of</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Han gik foran mig.</div><div class="ex-en">He walked in front of me.</div></div><div class="example"><div class="ex-da">Tom sad foran Mary.</div><div class="ex-en">Tom sat in front of Mary.</div></div></div><div class="tags"><span class="tag">body</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">formand</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">[ˈfɒːˌmanˀ]</span> <span class="dot">·</span> <span class="phonetic">FORMAND</span> <span class="dot">·</span> <span class="syllables">for-mand</span></div><div class="primary-trans">chairman, head</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">TODO</div><div class="ex-en">TODO</div></div></div><div class="tags"><span class="tag">body</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">fredag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈfreːˀda/</span> <span class="dot">·</span> <span class="phonetic">FRETHAG</span> <span class="dot">·</span> <span class="syllables">fre-dag</span></div><div class="primary-trans">Friday</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Glædelig fredag!</div><div class="ex-en">Happy Friday!</div></div><div class="example"><div class="ex-da">Er det fredag i dag?</div><div class="ex-en">Is today Friday?</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="letter-div"><span class="letter-char">G</span></div><div class="entry entry-adverb"><div class="entry-head"><span class="headword" style="color:#2C2416">gerne</span> <span class="badge badge-pos">adverb</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈɡɛɐ̯nə/</span> <span class="dot">·</span> <span class="phonetic">YERNE</span> <span class="dot">·</span> <span class="syllables">ger-ne</span></div><div class="primary-trans">with pleasure; gladly, willingly, readily</div><div class="examples"><div class="example"><div class="ex-da">Jeg kommer gerne!</div><div class="ex-en">I&#x27;ll be happy to come!</div></div><div class="example"><div class="ex-da">Jeg vil gerne komme.</div><div class="ex-en">I want to come.</div></div></div><div class="tags"><span class="tag">health</span></div></div><div class="entry entry-ff"><div class="entry-head"><span class="headword" style="color:#2C2416">gift</span> <span class="badge badge-tier-general">general</span></div><div class="pron-line"><span class="ipa">/ɡift/</span> <span class="dot">·</span> <span class="phonetic">YIFT</span></div><div class="primary-trans">poison (substance harmful to a living organism)</div><div class="secondary-trans">also: venom (poison carried by an animal); married; a , present</div><div class="ff-banner"><span class="ff-icon">⚠</span> <strong>False friend</strong> — Means poison (noun) or married (adj), NOT a present</div><div class="examples"><div class="example"><div class="ex-da">Er du gift?</div><div class="ex-en">Are you married?</div></div><div class="example"><div class="ex-da">Er Tom gift?</div><div class="ex-en">Is Tom married?</div></div></div><div class="tags"><span class="tag">body</span> <span class="tag">family</span></div></div><div class="entry entry-adjective"><div class="entry-head"><span class="headword" style="color:#7A5500">glad</span> <span class="badge badge-pos">adjective</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/ˈɡlað/</span> <span class="dot">·</span> <span class="phonetic">GLAD</span></div><div class="primary-trans">happy,</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Jeg er glad!</div><div class="ex-en">I&#x27;m happy!</div></div><div class="example"><div class="ex-da">Er du glad nu?</div><div class="ex-en">Are you happy now?</div></div></div><div class="tags"><span class="tag">emotion</span> <span class="tag">technology</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#1F5E9A">gruppe</span> <span class="badge badge-et">et</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[ˈɡ̊ʁub̥ə]</span> <span class="dot">·</span> <span class="phonetic">GRUPPE</span> <span class="dot">·</span> <span class="syllables">grup-pe</span></div><div class="primary-trans">A group, a unit, a team.</div><div class="secondary-trans">also: A community.; A side of a debate or discussion.; A caucus.</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Vi har en god gruppe af frivillige.</div><div class="ex-en">We have a good group of volunteers.</div></div><div class="example"><div class="ex-da">Tom spillede basketball med en gruppe venner.</div><div class="ex-en">Tom was playing basketball with a group of friends.</div></div></div><div class="tags"><span class="tag">drink</span></div></div><div class="entry entry-verb"><div class="entry-head"><span class="headword" style="color:#1E6B3A">gøre</span> <span class="badge badge-pos">verb</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ɡœrə/</span> <span class="dot">·</span> <span class="phonetic">GURRE</span> <span class="dot">·</span> <span class="syllables">gø-re</span></div><div class="primary-trans">to do, perform, execute</div><div class="secondary-trans">also: to make; to make</div><div class="examples"><div class="example"><div class="ex-da">Kan du gøre det?</div><div class="ex-en">Can you do that?</div></div><div class="example"><div class="ex-da">Lad mig gøre det.</div><div class="ex-en">Let me do it.</div></div></div><div class="tags"><span class="tag">bureaucracy</span></div></div><div class="letter-div"><span class="letter-char">H</span></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">hjem</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">[ˈjɛmˀ]</span> <span class="dot">·</span> <span class="phonetic">HYEM</span></div><div class="primary-trans">home</div><div class="secondary-trans">also: home</div><div class="examples"><div class="example"><div class="ex-da">Gå hjem!</div><div class="ex-en">Go home!</div></div><div class="example"><div class="ex-da">Kom hjem!</div><div class="ex-en">Come home!</div></div></div><div class="tags"><span class="tag">home</span></div></div><div class="entry entry-adverb"><div class="entry-head"><span class="headword" style="color:#2C2416">hjemme</span> <span class="badge badge-pos">adverb</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/jɛmə/</span> <span class="dot">·</span> <span class="phonetic">HYEMME</span> <span class="dot">·</span> <span class="syllables">hjem-me</span></div><div class="primary-trans">at home, home</div><div class="examples"><div class="example"><div class="ex-da">I er hjemme.</div><div class="ex-en">You&#x27;re at home.</div></div><div class="example"><div class="ex-da">Bliv hjemme.</div><div class="ex-en">Stay home.</div></div></div><div class="tags"><span class="tag">home</span></div></div>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Danish–English Dictionary &nbsp;·&nbsp; Tatoeba (CC-BY) &nbsp;·&nbsp; Leipzig Corpora (CC-BY)</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+<div class="page">
+  <div class="thumb-tab"><span>H · I · K · L</span></div>
+  <header class="page-header">
+    <span class="book-title">Ordbog DA&rarr;EN</span>
+    <span class="running-head">hold – lørdag</span>
+    <span class="page-num">7</span>
+  </header>
+  <div class="page-body">
+<div class="letter-div"><span class="letter-char">H</span></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">hold</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[ˈhʌlˀ]</span> <span class="dot">·</span> <span class="phonetic">HOLD</span></div><div class="primary-trans">team</div><div class="secondary-trans">also: class; distance, side; truth</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Hold mund!</div><div class="ex-en">Shut up!</div></div><div class="example"><div class="ex-da">Hold mund!</div><div class="ex-en">Pipe down.</div></div></div><div class="tags"><span class="tag">drink</span></div></div><div class="letter-div"><span class="letter-char">I</span></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">indtil</span> <span class="badge badge-pos">conjunction</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈenˀte/</span> <span class="dot">·</span> <span class="phonetic">INDTIL</span> <span class="dot">·</span> <span class="syllables">ind-til</span></div><div class="primary-trans">until, till</div><div class="secondary-trans">also: until; up to; till</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Jeg venter indtil 14:30.</div><div class="ex-en">I&#x27;ll wait until 2:30.</div></div><div class="example"><div class="ex-da">Jeg venter indtil 14:30.</div><div class="ex-en">I&#x27;ll wait till 2:30.</div></div></div><div class="tags"><span class="tag">health</span></div></div><div class="entry entry-adverb"><div class="entry-head"><span class="headword" style="color:#2C2416">især</span> <span class="badge badge-pos">adverb</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[iˈsɛːˀɐ̯]</span> <span class="dot">·</span> <span class="phonetic">ISEHR</span></div><div class="primary-trans">especially, particularly</div><div class="examples"><div class="example"><div class="ex-da">Han er især glad for hunde.</div><div class="ex-en">He is especially fond of dogs.</div></div><div class="example"><div class="ex-da">Han er især glad for hunde.</div><div class="ex-en">He especially likes dogs.</div></div></div><div class="tags"><span class="tag">culture</span></div></div><div class="letter-div"><span class="letter-char">K</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">kontakt</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[kɔnˈtɑɡd]</span> <span class="dot">·</span> <span class="phonetic">KONTAKT</span> <span class="dot">·</span> <span class="syllables">kon-takt</span></div><div class="primary-trans">A contact person</div><div class="secondary-trans">also: Contact; A socket, power outlet.</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Hold dig i kontakt.</div><div class="ex-en">Please keep in touch.</div></div><div class="example"><div class="ex-da">Jeg er i kontakt med Tom.</div><div class="ex-en">I&#x27;m in touch with Tom.</div></div></div><div class="tags"><span class="tag">family</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">køre</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/køːrə/</span> <span class="dot">·</span> <span class="phonetic">KURRE</span> <span class="dot">·</span> <span class="syllables">kø-re</span></div><div class="primary-trans">to drive</div><div class="secondary-trans">also: to drive , to ride; to run; drive</div><div class="examples"><div class="example"><div class="ex-da">Kan du køre bil?</div><div class="ex-en">Can you drive a car?</div></div><div class="example"><div class="ex-da">Kan du køre bil?</div><div class="ex-en">Can you drive?</div></div></div><div class="tags"><span class="tag">transport</span></div></div><div class="letter-div"><span class="letter-char">L</span></div><div class="entry entry-adjective"><div class="entry-head"><span class="headword" style="color:#7A5500">lang</span> <span class="badge badge-pos">adjective</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/lanɡ/</span> <span class="dot">·</span> <span class="phonetic">LANG</span></div><div class="primary-trans">long (having great distance)</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Vejen er lang.</div><div class="ex-en">The way is long.</div></div><div class="example"><div class="ex-da">Vejen er lang.</div><div class="ex-en">The road is long.</div></div></div><div class="tags"><span class="tag">food</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">lave</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈlaːvə/</span> <span class="dot">·</span> <span class="phonetic">LAVE</span> <span class="dot">·</span> <span class="syllables">la-ve</span></div><div class="primary-trans">to make, create, construct, produce</div><div class="secondary-trans">also: to cook, prepare; to do; to repair, mend, fix</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Han vil lave kaffe.</div><div class="ex-en">He&#x27;ll make coffee.</div></div><div class="example"><div class="ex-da">Jeg bad ham lave te.</div><div class="ex-en">I asked him to make tea.</div></div></div><div class="tags"><span class="tag">food</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">leder</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/leːdər/</span> <span class="dot">·</span> <span class="phonetic">LETHER</span> <span class="dot">·</span> <span class="syllables">le-der</span></div><div class="primary-trans">leader, manager, head</div><div class="secondary-trans">also: editorial (opinion article in newspaper, made by editors); conductor (esp. of electrical charge)</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Tom er vores leder.</div><div class="ex-en">Tom is our leader.</div></div><div class="example"><div class="ex-da">Hvad leder I efter?</div><div class="ex-en">What are you guys looking for?</div></div></div><div class="tags"><span class="tag">body</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">lokale</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/lokaːlə/</span> <span class="dot">·</span> <span class="phonetic">LOKALE</span> <span class="dot">·</span> <span class="syllables">lo-ka-le</span></div><div class="primary-trans">room</div><div class="secondary-trans">also: hall; office</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Det er rapporteret i de lokale nyheder.</div><div class="ex-en">It is reported in the local news.</div></div><div class="example"><div class="ex-da">Sami googlede den lokale politistation.</div><div class="ex-en">Sami googled the local police station.</div></div></div><div class="tags"><span class="tag">home</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">lov</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/ˈlɔv/</span> <span class="dot">·</span> <span class="phonetic">LOW</span></div><div class="primary-trans">law</div><div class="secondary-trans">also: permission; praise</div><div class="examples"><div class="example"><div class="ex-da">Det er en dum lov.</div><div class="ex-en">It&#x27;s a stupid law.</div></div><div class="example"><div class="ex-da">Det er en tosset lov.</div><div class="ex-en">It&#x27;s a stupid law.</div></div></div><div class="tags"><span class="tag">politics</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">lørdag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈlœɐ̯da/</span> <span class="dot">·</span> <span class="phonetic">LURRDAG</span> <span class="dot">·</span> <span class="syllables">lør-dag</span></div><div class="primary-trans">Saturday</div><div class="examples"><div class="example"><div class="ex-da">Det er lørdag.</div><div class="ex-en">It is Saturday.</div></div><div class="example"><div class="ex-da">I dag er det lørdag.</div><div class="ex-en">Today is Saturday.</div></div></div><div class="tags"><span class="tag">time</span></div></div>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Danish–English Dictionary &nbsp;·&nbsp; Tatoeba (CC-BY) &nbsp;·&nbsp; Leipzig Corpora (CC-BY)</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+<div class="page">
+  <div class="thumb-tab"><span>M · O · P · S</span></div>
+  <header class="page-header">
+    <span class="book-title">Ordbog DA&rarr;EN</span>
+    <span class="running-head">mandag – stille</span>
+    <span class="page-num">8</span>
+  </header>
+  <div class="page-body">
+<div class="letter-div"><span class="letter-char">M</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">mandag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈmanˀda/</span> <span class="dot">·</span> <span class="phonetic">MANDAG</span> <span class="dot">·</span> <span class="syllables">man-dag</span></div><div class="primary-trans">Monday</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Det er mandag.</div><div class="ex-en">It&#x27;s Monday.</div></div><div class="example"><div class="ex-da">Det er kun mandag.</div><div class="ex-en">It&#x27;s only Monday.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#2C2416">morgen</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈmɔr.ən/</span> <span class="dot">·</span> <span class="phonetic">MORYEN</span> <span class="dot">·</span> <span class="syllables">mor-gen</span></div><div class="primary-trans">morning (the part of the day after midnight and before midday)</div><div class="examples"><div class="example"><div class="ex-da">Gør det i morgen!</div><div class="ex-en">Do it tomorrow.</div></div><div class="example"><div class="ex-da">Vi mødes i morgen.</div><div class="ex-en">We&#x27;re going to meet tomorrow.</div></div></div><div class="tags"><span class="tag">time</span> <span class="tag">culture</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">måned</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/ˈmɔːnəð/</span> <span class="dot">·</span> <span class="phonetic">MAWNED</span> <span class="dot">·</span> <span class="syllables">må-ned</span></div><div class="primary-trans">month</div><div class="examples"><div class="example"><div class="ex-da">Hvad måned er vi i?</div><div class="ex-en">What is the current month?</div></div><div class="example"><div class="ex-da">Marts måned er slut.</div><div class="ex-en">March is over.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="letter-div"><span class="letter-char">O</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">onsdag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈoːnˀsda/</span> <span class="dot">·</span> <span class="phonetic">ONSDAG</span> <span class="dot">·</span> <span class="syllables">ons-dag</span></div><div class="primary-trans">Wednesday</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">I dag er det onsdag.</div><div class="ex-en">It&#x27;s Wednesday.</div></div><div class="example"><div class="ex-da">Jeg skal klippes på onsdag.</div><div class="ex-en">I&#x27;m getting a haircut on Wednesday.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="letter-div"><span class="letter-char">P</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#2C2416">penge</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/pɛŋə/</span> <span class="dot">·</span> <span class="phonetic">PENYE</span> <span class="dot">·</span> <span class="syllables">pen-ge</span></div><div class="primary-trans">money</div><div class="examples"><div class="example"><div class="ex-da">I har penge.</div><div class="ex-en">You have money.</div></div><div class="example"><div class="ex-da">Har du penge?</div><div class="ex-en">Do you have money?</div></div></div><div class="tags"><span class="tag">money</span></div></div><div class="letter-div"><span class="letter-char">S</span></div><div class="entry entry-adjective"><div class="entry-head"><span class="headword" style="color:#7A5500">samtidig</span> <span class="badge badge-pos">adjective</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/samtiːdi/</span> <span class="dot">·</span> <span class="phonetic">SAMTITHEE</span> <span class="dot">·</span> <span class="syllables">sam-ti-dig</span></div><div class="primary-trans">contemporary, from the same time</div><div class="secondary-trans">also: simultaneous; synchronous; also, in addition, furthermore</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Alle kirkeklokkerne begyndte at ringe samtidig.</div><div class="ex-en">All the church bells started ringing at the same time.</div></div><div class="example"><div class="ex-da">Brug ikke strygejernet, elkedlen og komfuret samtidig.</div><div class="ex-en">Don&#x27;t use the iron, electric kettle, and electric stove at the same time.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#1F5E9A">side</span> <span class="badge badge-et">et</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/ˈsiːdə/</span> <span class="dot">·</span> <span class="phonetic">SITHE</span> <span class="dot">·</span> <span class="syllables">si-de</span></div><div class="primary-trans">side; a bounding straight edge or surface</div><div class="secondary-trans">also: side; a region in a specified position with respect to something.; viewpoint an opinion or attitude; side; one group of competitors in a game or a war.</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Denne side op!</div><div class="ex-en">This side up!</div></div><div class="example"><div class="ex-da">Hvis side er du på?</div><div class="ex-en">Whose side are you on?</div></div></div><div class="tags"><span class="tag">body</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">siden</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/sidən/</span> <span class="dot">·</span> <span class="phonetic">SITHEN</span> <span class="dot">·</span> <span class="syllables">si-den</span></div><div class="primary-trans">since, later (on), afterwards, in the time since then</div><div class="secondary-trans">also: since, ago (referring to the length of time between some past event and the (narrative) present); ago (referring to a point in time a definite amount of time in the past); since</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Siden hvornår?</div><div class="ex-en">Since when?</div></div><div class="example"><div class="ex-da">Han bor ved siden af.</div><div class="ex-en">He lives next door to us.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">skabe</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/skaːbə/</span> <span class="dot">·</span> <span class="phonetic">SKABE</span> <span class="dot">·</span> <span class="syllables">ska-be</span></div><div class="primary-trans">to create, make</div><div class="secondary-trans">also: to fuss, make a scene</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Kan man skabe noget af intet?</div><div class="ex-en">Can we create something out of nothing?</div></div><div class="example"><div class="ex-da">Han ønsker ikke at skabe problemer.</div><div class="ex-en">He doesn&#x27;t want to cause trouble.</div></div></div><div class="tags"><span class="tag">food</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#1F5E9A">skole</span> <span class="badge badge-et">et</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/skoːlə/</span> <span class="dot">·</span> <span class="phonetic">SKOLE</span> <span class="dot">·</span> <span class="syllables">sko-le</span></div><div class="primary-trans">school</div><div class="secondary-trans">also: to school, train</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Gå i skole!</div><div class="ex-en">Go to school.</div></div><div class="example"><div class="ex-da">Er Tom i skole?</div><div class="ex-en">Is Tom at school?</div></div></div><div class="tags"><span class="tag">education</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">stille</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[ˈsd̥elə]</span> <span class="dot">·</span> <span class="phonetic">STILLE</span> <span class="dot">·</span> <span class="syllables">stil-le</span></div><div class="primary-trans">still</div><div class="secondary-trans">also: quiet; calm; silent</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Ti stille!</div><div class="ex-en">Shut up!</div></div><div class="example"><div class="ex-da">Ti stille!</div><div class="ex-en">Pipe down.</div></div></div><div class="tags"><span class="tag">health</span></div></div>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Danish–English Dictionary &nbsp;·&nbsp; Tatoeba (CC-BY) &nbsp;·&nbsp; Leipzig Corpora (CC-BY)</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+<div class="page">
+  <div class="thumb-tab"><span>S · T · V · Å</span></div>
+  <header class="page-header">
+    <span class="book-title">Ordbog DA&rarr;EN</span>
+    <span class="running-head">særlig – år</span>
+    <span class="page-num">9</span>
+  </header>
+  <div class="page-body">
+<div class="letter-div"><span class="letter-char">S</span></div><div class="entry entry-adjective"><div class="entry-head"><span class="headword" style="color:#7A5500">særlig</span> <span class="badge badge-pos">adjective</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/ˈsæɐ̯li/</span> <span class="dot">·</span> <span class="phonetic">SEHRLEE</span> <span class="dot">·</span> <span class="syllables">sær-lig</span></div><div class="primary-trans">special; particular</div><div class="examples"><div class="example"><div class="ex-da">I dag er en særlig dag.</div><div class="ex-en">Today is a special day.</div></div><div class="example"><div class="ex-da">Mary er ikke særlig feminin.</div><div class="ex-en">Mary isn&#x27;t very feminine.</div></div></div><div class="tags"><span class="tag">culture</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#2C2416">sæson</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">/sɛˈsɔŋ/</span> <span class="dot">·</span> <span class="phonetic">SEHSON</span> <span class="dot">·</span> <span class="syllables">sæ-son</span></div><div class="primary-trans">the time in which something is done</div><div class="examples"><div class="example"><div class="ex-da">TODO</div><div class="ex-en">TODO</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">søndag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈsœnˀda/</span> <span class="dot">·</span> <span class="phonetic">SURNDAG</span> <span class="dot">·</span> <span class="syllables">søn-dag</span></div><div class="primary-trans">Sunday</div><div class="examples"><div class="example"><div class="ex-da">I morgen er det søndag.</div><div class="ex-en">It is Sunday tomorrow.</div></div><div class="example"><div class="ex-da">I morgen er det søndag.</div><div class="ex-en">Tomorrow is Sunday.</div></div></div><div class="tags"><span class="tag">weather</span> <span class="tag">time</span></div></div><div class="letter-div"><span class="letter-char">T</span></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">tale</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">[ˈtˢæːlə]</span> <span class="dot">·</span> <span class="phonetic">TALE</span> <span class="dot">·</span> <span class="syllables">ta-le</span></div><div class="primary-trans">speech, talk, address, discourse</div><div class="secondary-trans">also: to make a speech; to speak, talk</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Ikke tale om!</div><div class="ex-en">No way!</div></div><div class="example"><div class="ex-da">Han kan tale.</div><div class="ex-en">He can talk.</div></div></div><div class="tags"><span class="tag">education</span> <span class="tag">social</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#1F5E9A">tidspunkt</span> <span class="badge badge-et">et</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-common">common</span></div><div class="pron-line"><span class="ipa">[ˈtˢiðsˌpʰɔŋˀd̥]</span> <span class="dot">·</span> <span class="phonetic">TIDSPUNKT</span> <span class="dot">·</span> <span class="syllables">tids-punkt</span></div><div class="primary-trans">time, moment, date, point in time</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Vi burde gå ud på et tidspunkt.</div><div class="ex-en">We should go out sometime.</div></div><div class="example"><div class="ex-da">Hun var nitten på det tidspunkt.</div><div class="ex-en">She was nineteen at that time.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry entry-adverb"><div class="entry-head"><span class="headword" style="color:#2C2416">tilbage</span> <span class="badge badge-pos">adverb</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/teˈbaːjə/</span> <span class="dot">·</span> <span class="phonetic">TILBAYE</span> <span class="dot">·</span> <span class="syllables">til-ba-ge</span></div><div class="primary-trans">back</div><div class="secondary-trans">also: left, remaining; backwards</div><div class="examples"><div class="example"><div class="ex-da">Kom tilbage!</div><div class="ex-en">Come back.</div></div><div class="example"><div class="ex-da">Ingen kom tilbage.</div><div class="ex-en">Nobody came back.</div></div></div><div class="tags"><span class="tag">body</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">tirsdag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈtiɐ̯ˀsda/</span> <span class="dot">·</span> <span class="phonetic">TIRSDAG</span> <span class="dot">·</span> <span class="syllables">tirs-dag</span></div><div class="primary-trans">Tuesday</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Det er tirsdag i morgen.</div><div class="ex-en">It&#x27;s Tuesday tomorrow.</div></div><div class="example"><div class="ex-da">I morgen er det tirsdag.</div><div class="ex-en">Tomorrow is Tuesday.</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">tog</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/tɔː(ˀ)ɣ/</span> <span class="dot">·</span> <span class="phonetic">TOG</span></div><div class="primary-trans">train</div><div class="secondary-trans">also: expedition</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">Du tog fejl.</div><div class="ex-en">You were mistaken.</div></div><div class="example"><div class="ex-da">Du tog fejl.</div><div class="ex-en">You were wrong.</div></div></div><div class="tags"><span class="tag">weather</span> <span class="tag">transport</span></div></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#B5451B">torsdag</span> <span class="badge badge-en">en</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ˈtɒːˀsda/</span> <span class="dot">·</span> <span class="phonetic">TORSDAG</span> <span class="dot">·</span> <span class="syllables">tors-dag</span></div><div class="primary-trans">Thursday</div><div class="pt-flag">🔊 Pronunciation trap — check phonetic guide</div><div class="examples"><div class="example"><div class="ex-da">I dag er det torsdag.</div><div class="ex-en">Today is Thursday.</div></div><div class="example"><div class="ex-da">Er det torsdag i dag?</div><div class="ex-en">Is today Thursday?</div></div></div><div class="tags"><span class="tag">time</span></div></div><div class="letter-div"><span class="letter-char">V</span></div><div class="entry"><div class="entry-head"><span class="headword" style="color:#2C2416">vej</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">[ˈʋɑjˀ]</span> <span class="dot">·</span> <span class="phonetic">VAY</span></div><div class="primary-trans">road (strip of land made suitable for travel, the path or route one takes)</div><div class="secondary-trans">also: way; route</div><div class="examples"><div class="example"><div class="ex-da">Denne vej!</div><div class="ex-en">Right this way.</div></div><div class="example"><div class="ex-da">Gå din vej!</div><div class="ex-en">Go away!</div></div></div><div class="tags"><span class="tag">transport</span></div></div><div class="letter-div"><span class="letter-char">Å</span></div><div class="entry entry-noun"><div class="entry-head"><span class="headword" style="color:#1F5E9A">år</span> <span class="badge badge-et">et</span> <span class="badge badge-pos">noun</span> <span class="badge badge-tier-core">core</span></div><div class="pron-line"><span class="ipa">/ɔːˀr/</span> <span class="dot">·</span> <span class="phonetic">AWR</span></div><div class="primary-trans">year</div><div class="examples"><div class="example"><div class="ex-da">Hun er 31 år.</div><div class="ex-en">She is thirty-one.</div></div><div class="example"><div class="ex-da">Hun er ottiét år.</div><div class="ex-en">She is eighty-one.</div></div></div><div class="tags"><span class="tag">time</span></div></div>
+  </div>
+  <footer class="page-footer">
+    <span class="footer-left">Danish–English Dictionary &nbsp;·&nbsp; Tatoeba (CC-BY) &nbsp;·&nbsp; Leipzig Corpora (CC-BY)</span>
+    <span class="footer-right">DA &rarr; EN</span>
+  </footer>
+</div>
+</body>
+</html>

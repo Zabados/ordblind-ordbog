@@ -1,0 +1,130 @@
+﻿---
+
+## HEADWORD [REQUIRED]
+
+```
+headword: foran
+direction: DA→EN
+```
+
+---
+
+## GRAMMAR [REQUIRED]
+
+```
+pos: adverb
+gender: SKIP
+```
+
+### Inflections [OPTIONAL]
+
+```
+inflections: SKIP
+```
+
+---
+
+## PRONUNCIATION [REQUIRED]
+
+```
+phonetic_plain: FORAN
+ipa: [ˈfɒːˈanˀ]
+syllables: for-an
+stoed: TODO
+```
+
+---
+
+## TRANSLATION [REQUIRED]
+
+```
+primary_translation: ahead, in front
+secondary_translations:
+  - in front of
+```
+
+---
+
+## REGISTER [OPTIONAL]
+
+```
+register: TODO
+domain: TODO
+formality: TODO
+```
+
+---
+
+## EXAMPLE SENTENCES [REQUIRED]
+
+```yaml
+examples:
+  - danish: Han gik foran mig.
+    english: He walked in front of me.
+    source: tatoeba
+    source_id: 8628109
+  - danish: Tom sad foran Mary.
+    english: Tom sat in front of Mary.
+    source: tatoeba
+    source_id: 7067098
+  - danish: Tom stod foran Mary.
+    english: Tom was standing in front of Mary.
+    source: tatoeba
+    source_id: 7067090
+```
+
+
+---
+
+## RELATED WORDS [OPTIONAL]
+
+```
+related: TODO
+```
+
+---
+
+## THEMATIC TAGS [REQUIRED]
+
+```
+tags:
+  - body
+```
+
+---
+
+## FREQUENCY [REQUIRED]
+
+```
+frequency_rank: 552
+frequency_tier: common
+```
+
+---
+
+## LAYOUT HINTS [MANUAL]
+
+```
+layout:
+  print_emphasis: normal
+  flag_false_friend: false
+  flag_false_friend_note: SKIP
+  flag_spelling_trap: false
+  flag_pronunciation_trap: false
+```
+
+---
+
+## PIPELINE METADATA
+
+```
+entry_id: da-foran-001
+created: 2026-05-05
+last_modified: 2026-05-05
+source_wiktionary: true
+source_tatoeba: true
+source_leipzig: true
+review_status: draft
+reviewed_by: SKIP
+notes: Phonetic approximation needs manual review.
+```

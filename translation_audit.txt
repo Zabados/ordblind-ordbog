@@ -1,0 +1,1592 @@
+TRANSLATION AUDIT REPORT
+============================================================
+
+Total entries scanned : 1772
+Entries flagged       : 481
+
+Flag breakdown:
+  TODO_PRIMARY              335
+  SPURIOUS_TO               54
+  MISSING_TO                48
+  TOO_LONG                  38
+  DANISH_WORD               14
+  DANISH_CHARS              3
+  PACKED_PRIMARY            1
+
+============================================================
+
+indstille             [verb]  DANISH_CHARS, DANISH_WORD, TOO_LONG, MISSING_TO
+  primary   : to set, tune, adjust
+  secondary : nogen på: prepare somebody for; make somebody realise or accept; make somebody willing (for something, to do something) | discontinue, suspend, cease, stop, cancel | recommend, propose, advice, set up (for approval)
+
+få                    [noun]  SPURIOUS_TO, DANISH_CHARS, DANISH_WORD
+  primary   : few
+  secondary : to get | to have | på må og få – at random
+
+fase                  [noun]  TOO_LONG, SPURIOUS_TO
+  primary   : phase
+  secondary : state at a particular time in a system that is in periodic oscillations | homogeneous component of a heterogeneous mixture | to phase (,  / in, out)
+
+foreslå               [verb]  MISSING_TO, TOO_LONG
+  primary   : to suggest (ask for without demanding)
+  secondary : propose (to suggest a plan or course of action) | move (to propose formally for consideration and determination, in a deliberative assembly)
+
+hvid                  [noun]  DANISH_WORD, TOO_LONG
+  primary   : white
+  secondary : blank | penny, cent/dime (han ejer ikke en hvid = he has not got a penny/cent/dime)
+
+reducere              [verb]  TOO_LONG, MISSING_TO
+  primary   : to reduce, lessen
+  secondary : to reduce the score and thereby closer to the opponent | make (something) more concentrated by letting it boil so that some of the liquid evaporates | to reduce fractions
+
+slukke                [verb]  MISSING_TO, TOO_LONG
+  primary   : to put out (extinguish)
+  secondary : to quench, slake | turn off (to power down) | switch off (to turn a switch to the "off" position in order to stop or disable a device)
+
+sørge                 [verb]  DANISH_CHARS, MISSING_TO
+  primary   : to grieve, mourn, lament
+  secondary : in the expression sørge for: to take care of, look after, make sure
+
+undersøge             [verb]  DANISH_WORD, MISSING_TO
+  primary   : to examine, go over, look over, scrutinize
+  secondary : test | investigate
+
+advare                [verb]  MISSING_TO
+  primary   : to warn (to make someone aware of impending danger)
+  secondary : caution
+
+advarsel              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+afholdes              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+aflevere              [verb]  DANISH_WORD
+  primary   : To convey or hand over something.
+  secondary : to hand in an assignment
+
+aflyse                [verb]  TODO_PRIMARY
+  primary   : TODO
+
+aflyste               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+afslutte              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+afstand               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+afsted                [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+afvikle               [verb]  TOO_LONG
+  primary   : to discontinue an enterprise, especially gradually and in an ordered manner
+  secondary : to cause some activity to take place
+
+aldrig                [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+altså                 [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+alvorlig              [adjective]  PACKED_PRIMARY
+  primary   : serious (important; weighty; not trifling; leaving no room for play)
+  secondary : grave | earnest | grievous
+
+ambulance             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+analyse               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+anbefaling            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+anklage               [noun]  SPURIOUS_TO
+  primary   : an accusation
+  secondary : a indictment, charge | to accuse
+
+ansvar                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+argument              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+bakke                 [noun]  SPURIOUS_TO
+  primary   : hill, rise, slope
+  secondary : tray, salver | jaw (of a tool) | to back
+
+bank                  [noun]  TOO_LONG
+  primary   : (financial institution, branch office, controller of a game, a safe and guaranteed place of storage)
+  secondary : only used in certain expressions | knock (an abrupt rapping sound) | () a beating
+
+bede                  [noun]  SPURIOUS_TO
+  primary   : beet
+  secondary : wether | to ask, request | to beg, entreat, implore
+
+begå                  [verb]  MISSING_TO
+  primary   : to commit
+  secondary : create or produce
+
+beklage               [verb]  MISSING_TO
+  primary   : to apologize for
+  secondary : express dissatisfaction about | complain | express one's sympathy with someone's plight
+
+bekæmpe               [verb]  TOO_LONG
+  primary   : to fight (physically), to be in armed conflict with
+  secondary : to counteract, overcome, destroy, combat (a disease, a pest, a setback, etc)
+
+ben                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+besiddelse            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+besparelse            [noun]  TOO_LONG
+  primary   : a cost saving (measure that consists of reducing one or more expenses and thereby saving money)
+
+bestil                [verb]  TODO_PRIMARY
+  primary   : TODO
+
+beting                [verb]  TODO_PRIMARY
+  primary   : TODO
+
+betjent               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+bevæge                [verb]  TODO_PRIMARY
+  primary   : TODO
+
+billig                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+bo                    [noun]  SPURIOUS_TO
+  primary   : estate
+  secondary : den, nest | abode, home | to live, reside, dwell
+
+bog                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+bold                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+bopæl                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+bremse                [noun]  SPURIOUS_TO
+  primary   : brake
+  secondary : to brake | a botfly
+
+bringe                [noun]  SPURIOUS_TO
+  primary   : chest
+  secondary : to bring | to publish
+
+brudt                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+brug                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+bruge                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+bruger                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+brænde                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+budget                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+byge                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+båd                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+bøde                  [noun]  SPURIOUS_TO
+  primary   : fine
+  secondary : ticket | to be fined, to forfeit | to mend, to repair
+
+bølge                 [noun]  SPURIOUS_TO
+  primary   : wave
+  secondary : a trend | to wave | to wave
+
+bør                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+børnenes              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+centrum               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+chef                  [noun]  TOO_LONG
+  primary   : A boss; person in charge, person who directly oversees the work being done
+
+corona                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+coronavirus           [noun]  TODO_PRIMARY
+  primary   : TODO
+
+dansker               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+dele                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+delstat               [noun]  TOO_LONG
+  primary   : a member state in a confederational nation, such as a German  or a Usonian
+
+delt                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+demonstration         [noun]  TODO_PRIMARY
+  primary   : TODO
+
+derefter              [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+dertil                [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+diagram               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+dialog                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+digital               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+digitale              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+dollar                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+drab                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+drik                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+driv                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+drøm                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+dygtig                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+dække                 [verb]  MISSING_TO
+  primary   : to cover
+  secondary : to veil | to set | cover
+
+dømme                 [verb]  MISSING_TO
+  primary   : to convict
+  secondary : sentence | judge; form an opinion on, especially a negative one
+
+døre                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+efterhånden           [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+eftersom              [conjunction]  TODO_PRIMARY
+  primary   : TODO
+
+eje                   [verb]  TODO_PRIMARY
+  primary   : TODO
+
+ejer                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ekstremt              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+ende                  [noun]  SPURIOUS_TO
+  primary   : end
+  secondary : point, prong, tine | behind, bottom, buttocks, backside, bum, fanny | to end, finish
+
+enkelt                [adjective]  TOO_LONG
+  primary   : single, individual, not immediately surrounded or followed by other similar specimens or cases
+  secondary : for use by no more than one person | one-way | special, particular, occurring once or only a few times and therefore particularly prominent
+
+enormt                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+erhverv               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+erklære               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+euro                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+evne                  [noun]  SPURIOUS_TO
+  primary   : ability
+  secondary : power | capacity | to be able to
+
+falde                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+fans                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+fare                  [noun]  SPURIOUS_TO
+  primary   : danger, hazard
+  secondary : risk | to rush, run | to , travel
+
+farve                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+farvel                [interjection]  TODO_PRIMARY
+  primary   : TODO
+
+fat                   [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+februar               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+felt                  [noun]  TOO_LONG
+  primary   : field (the practical part of something)
+  secondary : field; an outlying area, as opposed to e.g. the lab, office or barracks | field | sphere, province
+
+ferie                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+festival              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+fire                  [adjective]  SPURIOUS_TO
+  primary   : four
+  secondary : to lower something fixed to a rope or something similar
+
+flag                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+flest                 [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+flot                  [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+fly                   [noun]  SPURIOUS_TO
+  primary   : airplane, aeroplane
+  secondary : to flee | to shun | to hand, give
+
+flytte                [verb]  MISSING_TO
+  primary   : to move, remove
+  secondary : move | move, move away
+
+fod                   [noun]  TOO_LONG
+  primary   : foot
+  secondary : the base or lower part of something, e.g. a page or a mountain | foot, unit of measure, in Denmark 31.4 cm until 1907, equal to 12  (inches) | foot, a rhythmical unit
+
+fodbold               [noun]  TOO_LONG
+  primary   : football: the sport association football; soccer
+  secondary : a football: the ball with which association football is played; soccer ball
+
+folk                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+forbi                 [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+forbrug               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+fordele               [verb]  MISSING_TO
+  primary   : to distribute
+  secondary : divide, share out | spread
+
+foredrag              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+forholdene            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+forhånd               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+forklar               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+forlæng               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+forlænge              [verb]  TOO_LONG
+  primary   : to prolong, lengthen
+  secondary : to multiply the denominator and enumerator of a fraction with the same number
+
+fornuftig             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+forsikring            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+forskellig            [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+forsøge               [verb]  MISSING_TO
+  primary   : to try
+  secondary : attempt
+
+fortalt               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+forud                 [adverb]  SPURIOUS_TO
+  primary   : ahead of, before, prior to, preceding
+  secondary : to be ahead of time, be diligent, industrious | the direction one is looking or walking towards
+
+forvent               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+fremme                [verb]  MISSING_TO
+  primary   : to promote, further
+  secondary : invigoration (to cause something to prosper) | at the front of something or in a place that is in front of you | in use, accessible, or visible; (not hidden or tucked away)
+
+fremmest              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+fremover              [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+fremstillet           [verb]  TODO_PRIMARY
+  primary   : TODO
+
+fri                   [verb]  MISSING_TO
+  primary   : to propose
+  secondary : free | vacant, unoccupied | available
+
+frit                  [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+front                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+fuldt                 [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+fylde                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+færdig                [adjective]  TOO_LONG
+  primary   : finished, completed
+  secondary : skillfulness, tendency, habit (added as a prefix or suffix to nouns, verbs and adjectives). | I will debate this no further
+
+færg                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+føde                  [noun]  SPURIOUS_TO
+  primary   : food
+  secondary : nourishment | diet | to bear, give birth
+
+føre                  [noun]  SPURIOUS_TO
+  primary   : state of the roads
+  secondary : to lead, guide | to wage | to lead
+
+førende               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+generation            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+generelle             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+gerningsmænd          [noun]  TODO_PRIMARY
+  primary   : TODO
+
+global                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+gratis                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+grundigt              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+grænse                [noun]  SPURIOUS_TO
+  primary   : border (the line or frontier area separating regions)
+  secondary : boundary | limit | to border
+
+gymnasium             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+halvanden             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+halvleg               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+handle                [verb]  MISSING_TO
+  primary   : to act (to do something)
+  secondary : trade, shop
+
+helst                 [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+hen                   [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+hensyn                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+hente                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+henvendelser          [noun]  TODO_PRIMARY
+  primary   : TODO
+
+herhjemme             [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+herunder              [adverb]  DANISH_WORD
+  primary   : included herein
+  secondary : under here | while or during something just mentioned is happening | less or fewer than the thing just mentioned
+
+historisk             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+hjemmefra             [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+hjælpe                [verb]  TODO_PRIMARY
+  primary   : TODO
+
+hospital              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+hotel                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+hurtigere             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+hurtigst              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+huske                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+hvis                  [pronoun]  TODO_PRIMARY
+  primary   : TODO
+
+hvoraf                [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+hvorvidt              [conjunction]  TOO_LONG
+  primary   : whether (used to introduce a clause that contains an indirect question, or that expresses uncertainty or doubt)
+
+hygge                 [noun]  SPURIOUS_TO
+  primary   : cosiness
+  secondary : to have a good time | to make it comfortable, cozy | to have a good time, enjoy oneself
+
+hårdest               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+høre                  [verb]  DANISH_WORD
+  primary   : to hear
+  secondary : to learn | to belong to | to belong under, come under
+
+ide                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ihjel                 [adverb]  SPURIOUS_TO
+  primary   : to death
+
+inde                  [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+indeholde             [verb]  TODO_PRIMARY
+  primary   : TODO
+
+indføre               [verb]  MISSING_TO
+  primary   : to introduce, bring something new into effect
+  secondary : import | to insert | to state, assert (in a book or other written format)
+
+indgå                 [verb]  MISSING_TO
+  primary   : to be or become a part of; to join
+  secondary : to join a joint (legally binding) agreement | be received
+
+inspiration           [noun]  TODO_PRIMARY
+  primary   : TODO
+
+institution           [noun]  TODO_PRIMARY
+  primary   : TODO
+
+interessere           [verb]  MISSING_TO
+  primary   : to hold someone's interest
+  secondary : be interested
+
+interview             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+inviter               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+isolere               [verb]  MISSING_TO
+  primary   : to isolate
+  secondary : insulate | lag (cover, e.g. pipes, with felt strips or similar material)
+
+jagt                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+kampagne              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+kandidat              [noun]  TOO_LONG
+  primary   : candidate (someone who is up for consideration for a title, office, etc.)
+  secondary : a person who holds a master's degree
+
+karriere              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+kaste                 [noun]  SPURIOUS_TO
+  primary   : caste
+  secondary : to throw, to chuck | to drop | to cast
+
+kende                 [noun]  SPURIOUS_TO
+  primary   : know
+  secondary : recognise as one’s own | to feel | a little bit
+
+kilde                 [noun]  SPURIOUS_TO
+  primary   : spring, fountain, source
+  secondary : source, fountain, fount | to tickle
+
+kilo                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+klage                 [noun]  SPURIOUS_TO
+  primary   : complaint
+  secondary : to complain
+
+knap                  [noun]  DANISH_WORD
+  primary   : scant, scarce
+  secondary : brief, concise | hardly, scarcely | just under
+
+kokain                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+kollegaer             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+konsekvens            [noun]  TOO_LONG
+  primary   : consequence (that which follows something on which it depends; that which is produced by a cause)
+  secondary : consistency (reliability or uniformity; the quality of being consistent)
+
+kontant               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+kontrast              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+kriminel              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+krise                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+kritisere             [verb]  TODO_PRIMARY
+  primary   : TODO
+
+kritisk               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+kuns                  [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+kæmpe                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+købe                  [verb]  MISSING_TO
+  primary   : to buy
+  secondary : purchase | bribe
+
+køre                  [verb]  MISSING_TO
+  primary   : to drive
+  secondary : to drive , to ride | to run | drive
+
+kørende               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+langsomt              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+langt                 [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+lavt                  [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+led                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+lej                   [verb]  TODO_PRIMARY
+  primary   : TODO
+
+levere                [verb]  MISSING_TO
+  primary   : to supply, furnish
+  secondary : provide | contribute | produce
+
+lide                  [verb]  MISSING_TO
+  primary   : to suffer
+  secondary : To have some disease or similar condition. | See | approach
+
+ligesom               [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+ligne                 [verb]  MISSING_TO
+  primary   : to resemble, look like
+  secondary : take after | be like | assess
+
+liste                 [noun]  SPURIOUS_TO
+  primary   : a list
+  secondary : To sneak, creep | To tiptoe, walk softly
+
+lokalt                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+love                  [noun]  SPURIOUS_TO
+  primary   : trust, faith
+  secondary : to promise | to praise | palm of the hand
+
+lovlig                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+lukke                 [noun]  SPURIOUS_TO
+  primary   : fastening, lock
+  secondary : cover | closure, flap, tap, | to close
+
+lyde                  [noun]  SPURIOUS_TO
+  primary   : flaw, blemish
+  secondary : to sound, to be realized | to sound (some way) | to obey
+
+låne                  [verb]  MISSING_TO
+  primary   : to borrow
+  secondary : lend
+
+læge                  [noun]  SPURIOUS_TO
+  primary   : doctor
+  secondary : physician | surgeon | to cure, to heal
+
+længst                [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+løbende               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+løfte                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+mail                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+mange                 [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+massivt               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+meddeler              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+medlem                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+meld                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+melde                 [verb]  MISSING_TO
+  primary   : to announce, declare
+  secondary : inform, notify, report
+
+meters                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+midlertidig           [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+midlertidigt          [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+milliard              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+minde                 [noun]  SPURIOUS_TO
+  primary   : a memory, remembrance
+  secondary : a memorial | permission, consent | to remind
+
+minimum               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+minister              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+mink                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+mistænkt              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+mobile                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+model                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+modsige               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+modsætning            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+modtage               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+motorveje             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+mundbind              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+museum                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+mål                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+måle                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+mændene               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+møde                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+mødt                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+national              [adjective]  TOO_LONG
+  primary   : , having to do with a particular country in opposition to other nations
+  secondary : , having to do with the whole and not only single parts of it | patriotic, having positive feelings for one's own nation
+
+navn                  [noun]  TOO_LONG
+  primary   : name (word or phrase indicating a particular person, place, class or thing)
+  secondary : reputation
+
+negativ               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+nemt                  [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+netværk               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+nok                   [noun]  TOO_LONG
+  primary   : tap
+  secondary : yardarm, peak | something curved', related to (a) key, protruding pin-/wedge-shaped part of an object, pin that engages in a corresponding hole, outer end of a spar, e.g. a boom on a ship, end of a quay/pier  Den_Danske_Ordbog | enough
+
+normalt               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+nyde                  [verb]  MISSING_TO
+  primary   : to enjoy, relish
+  secondary : have, take | indulge in | receive
+
+nå                    [interjection]  SPURIOUS_TO
+  primary   : to reach
+  secondary : to have time | to be in time, arrive | oh
+
+næppe                 [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+nævnt                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+nøje                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+nøjes                 [verb]  MISSING_TO
+  primary   : make do, go without, content oneself
+  secondary : do nothing else | careful, thorough | without deviation or distance, fitting
+
+officielt             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+omkring               [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+ondt                  [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+online                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+opfordring            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+opføre                [verb]  MISSING_TO
+  primary   : to behave a particular way
+  secondary : stage (a play) | erect, build | add to a list, registry etc.
+
+ophold                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+oplevelser            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+oppe                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+oprindelig            [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+opstod                [verb]  TODO_PRIMARY
+  primary   : TODO
+
+optaget               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ordentligt            [adjective]  TOO_LONG
+  primary   : accurately, awfully, carefully, correctly, decently, methodically, neatly, properly, regularly, steadily, thoroughly, tidily, well
+
+overbevise            [verb]  TODO_PRIMARY
+  primary   : TODO
+
+overhold              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+overhovedet           [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+overlæge              [noun]  DANISH_WORD
+  primary   : some kind of doctor with authority over other doctors
+
+overtage              [verb]  DANISH_WORD
+  primary   : to take over (assume control of something)
+
+pakke                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+park                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+parti                 [noun]  TOO_LONG
+  primary   : lot, quantity, batch
+  secondary : party | game (of e.g. chess or tennis) | A prospective spouse perceived as an economical or social boon rather than a person; a
+
+patient               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+pause                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+permanent             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+person                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+personbil             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+personligt            [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+placere               [verb]  MISSING_TO
+  primary   : to place
+  secondary : invest | site
+
+plan                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+plant                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+pleje                 [verb]  MISSING_TO
+  primary   : use to, used to
+  secondary : to nurse, to care for, to maintain | care
+
+plejehjem             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+point                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+politik               [noun]  TOO_LONG
+  primary   : politics
+  secondary : a policy (course or principle of action adopted or proposed by an organisation)
+
+populær               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+populært              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+position              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+post                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+pres                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+presse                [noun]  SPURIOUS_TO
+  primary   : a press (a machine for pressing things, like fruits, cloths and books)
+  secondary : a press (a machine for printing) | the press (printed media and journalism) | to press, squeeze
+
+problem               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+producer              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+professionel          [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+professor             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+program               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+præcist               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+pårørende             [noun]  TOO_LONG
+  primary   : next of kin; person who is close (e.g. as a spouse, relative, close friend) to someone who has fallen ill, been in an accident, died etc.
+
+racisme               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ramme                 [noun]  SPURIOUS_TO
+  primary   : a frame
+  secondary : to affect | to hit (affect adversely) | (ramme ind) to frame (a picture)
+
+rapport               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+regering              [noun]  TODO_PRIMARY
+  primary   : TODO
+
+region                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+regne                 [verb]  MISSING_TO
+  primary   : to rain
+  secondary : solve, work out | estimate | consider
+
+rekord                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+respirator            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+restaurant            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ringe                 [verb]  MISSING_TO
+  primary   : To call, to telephone
+  secondary : of (rather) limited size, quantity or extent etc. | of limited or insufficient value, quality, effect or importance etc.
+
+rute                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+rykke                 [verb]  MISSING_TO
+  primary   : to jerk, pull, tug
+  secondary : rykke ind: to move in ; to insert
+
+rådhuse               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+rådighed              [noun]  TOO_LONG
+  primary   : presence of mind, resourcefulness (the ability to control something or someone)
+
+række                 [noun]  TOO_LONG
+  primary   : row, line, rank; things arranged spatially
+  secondary : series | series; succession; sequence; things or events arranged in order of time | rank
+
+samle                 [verb]  MISSING_TO
+  primary   : to collect
+  secondary : gather | assemble | attract
+
+samt                  [conjunction]  DANISH_WORD
+  primary   : and, and also, plus, as well as
+  secondary : med samt – together with
+
+sekund                [noun]  TOO_LONG
+  primary   : second (SI unit of time, unit of angular measure, short, indeterminate amount of time)
+  secondary : second | seconde
+
+selvom                [conjunction]  TODO_PRIMARY
+  primary   : TODO
+
+senest                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+sent                  [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+siden                 [adverb]  TOO_LONG
+  primary   : since, later (on), afterwards, in the time since then
+  secondary : since, ago (referring to the length of time between some past event and the (narrative) present) | ago (referring to a point in time a definite amount of time in the past) | since
+
+sigte                 [noun]  SPURIOUS_TO
+  primary   : intention, goal, purpose
+  secondary : aim | sieve | to aim
+
+sikkerhed             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+sikre                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+situation             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+sjældent              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+skade                 [noun]  SPURIOUS_TO
+  primary   : damage, harm
+  secondary : to harm, damage | to hurt, injure | skate
+
+sko                   [noun]  SPURIOUS_TO
+  primary   : shoe
+  secondary : to shoe
+
+skole                 [noun]  SPURIOUS_TO
+  primary   : school
+  secondary : to school, train
+
+skrue                 [noun]  SPURIOUS_TO
+  primary   : a screw or bolt
+  secondary : propeller | pasta | to screw
+
+skyld                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+skyldes               [verb]  MISSING_TO
+  primary   : be due to, be caused by
+
+skære                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+slippe                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+slut                  [noun]  DANISH_WORD
+  primary   : over
+  secondary : finished | over and out, out | end
+
+slå                   [noun]  SPURIOUS_TO
+  primary   : bolt
+  secondary : to beat, hit, knock | to mow | to strike, defeat
+
+smide                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+smidt                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+smitte                [noun]  SPURIOUS_TO
+  primary   : infection
+  secondary : to infect
+
+smule                 [noun]  TOO_LONG
+  primary   : a little bit of something (especially, but far from exclusively, of food)
+
+småt                  [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+snak                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+sommerferie           [noun]  TODO_PRIMARY
+  primary   : TODO
+
+sort                  [noun]  DANISH_WORD
+  primary   : black
+  secondary : under the table; done in secret so as to avoid taxation | under the table; secretly, so as to avoid taxation | , kind
+
+specielt              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+spise                 [noun]  SPURIOUS_TO
+  primary   : food
+  secondary : dish | to eat
+
+sport                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+spredning             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+start                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+station               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+stem                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+stemme                [noun]  TOO_LONG
+  primary   : voice (sound uttered by the mouth, especially that uttered by human beings in speech or song)
+  secondary : vote | voice | tune
+
+stikke                [verb]  MISSING_TO
+  primary   : to stick
+  secondary : put | thrust | shove
+
+stop                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+stoppet               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+strand                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+stribe                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+stykke                [noun]  SPURIOUS_TO
+  primary   : piece
+  secondary : to divide into pieces
+
+styr                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+styre                 [noun]  SPURIOUS_TO
+  primary   : government, regime
+  secondary : rule | management | to head, govern, rule, manage, control
+
+styrke                [noun]  SPURIOUS_TO
+  primary   : strength
+  secondary : optical strength; the quality of being prescription | to strengthen, invigorate | to refresh, strengthen oneself
+
+stå                   [verb]  MISSING_TO
+  primary   : to stand
+  secondary : to be, appear , to say, to be written | standstill, halt
+
+størst                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+system                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+sådan                 [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+således               [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+sårbare               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+såsom                 [conjunction]  TODO_PRIMARY
+  primary   : TODO
+
+såvel                 [conjunction]  TODO_PRIMARY
+  primary   : TODO
+
+søen                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+søge                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+søn                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+takt                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+tale                  [noun]  SPURIOUS_TO
+  primary   : speech, talk, address, discourse
+  secondary : to make a speech | to speak, talk
+
+tegne                 [verb]  MISSING_TO
+  primary   : to draw
+  secondary : design | represent | appear, seem, promise
+
+teknologi             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+tests                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+the                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+tid                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+tide                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+tidlig                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+tidligt               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+tilbudt               [verb]  TODO_PRIMARY
+  primary   : TODO
+
+tilfreds              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+tilkalde              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+tilstrækkeligt        [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+tilsvarende           [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+tiltale               [noun]  SPURIOUS_TO
+  primary   : indictment
+  secondary : the act of addressing or getting addressed by someone | to satisfy, please, make an impact (on someone) | to indict, accuse
+
+time                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+timen                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+tit                   [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+tjekke                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ton                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+top                   [interjection]  TODO_PRIMARY
+  primary   : TODO
+
+tradition             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+trafik                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+trafikken             [noun]  TODO_PRIMARY
+  primary   : TODO
+
+travlt                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+trygge                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+trygt                 [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+trådt                 [verb]  TODO_PRIMARY
+  primary   : TODO
+
+træffe                [verb]  MISSING_TO
+  primary   : to meet, hook up
+  secondary : to hit | meet, see
+
+turde                 [verb]  MISSING_TO
+  primary   : to dare
+  secondary : ought to | might
+
+tyde                  [verb]  MISSING_TO
+  primary   : to interpret
+  secondary : decipher, read
+
+tydeligt              [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+type                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+tælle                 [noun]  SPURIOUS_TO
+  primary   : tallow
+  secondary : to count | to number
+
+udbrud                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+udbud                 [noun]  TOO_LONG
+  primary   : supply
+  secondary : Something being available for choosing, such as on a market; an option, offer.
+
+udelukke              [verb]  MISSING_TO
+  primary   : to shut out, exclude
+  secondary : bar, exclude | ban | debar
+
+udfordring            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+udland                [noun]  TOO_LONG
+  primary   : abroad, foreign countries; everywhere that is not this country, taken as a whole
+
+udlevere              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+udnytte               [verb]  MISSING_TO
+  primary   : to exploit
+  secondary : expedient use
+
+udover                [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+udstilling            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+udtale                [noun]  SPURIOUS_TO
+  primary   : pronunciation
+  secondary : to say, to declare, to state | to express | to pronounce
+
+udtaler               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+udvalgte              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+uge                   [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ulovlig               [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+undersøg              [verb]  TODO_PRIMARY
+  primary   : TODO
+
+undervejs             [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+vaccine               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+vanskeligt            [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+vant                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+vask                  [noun]  TODO_PRIMARY
+  primary   : TODO
+
+vedkommende           [noun]  TODO_PRIMARY
+  primary   : TODO
+
+vej                   [noun]  TOO_LONG
+  primary   : road (strip of land made suitable for travel, the path or route one takes)
+  secondary : way | route
+
+vejene                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+velfærd               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+vende                 [verb]  DANISH_WORD
+  primary   : to turn (all senses)
+  secondary : to turn over (all senses) | to discuss, debate
+
+vente                 [verb]  MISSING_TO
+  primary   : to wait
+  secondary : expect
+
+ventet                [verb]  TODO_PRIMARY
+  primary   : TODO
+
+vidne                 [noun]  SPURIOUS_TO
+  primary   : witness
+  secondary : to testify, give evidence
+
+vigtigste             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+vildt                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+villa                 [noun]  TODO_PRIMARY
+  primary   : TODO
+
+virke                 [noun]  SPURIOUS_TO
+  primary   : function properly
+  secondary : to work, to labor | exert influence upon | seem, appear
+
+virkelighed           [noun]  TODO_PRIMARY
+  primary   : TODO
+
+virksomhed            [noun]  TODO_PRIMARY
+  primary   : TODO
+
+vise                  [noun]  SPURIOUS_TO
+  primary   : song, ballad, ditty
+  secondary : to show | to prove | show off
+
+voldsom               [adjective]  TOO_LONG
+  primary   : forceful, violent (in the sense: involving extreme force, not necessarily implying any physical conflict)
+
+von                   [adverb]  TODO_PRIMARY
+  primary   : TODO
+
+vores                 [pronoun]  TODO_PRIMARY
+  primary   : TODO
+
+vælger                [noun]  TODO_PRIMARY
+  primary   : TODO
+
+værste                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+væsentligt            [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+weekend               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+yderst                [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+ældst                 [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+ærgerligt             [adjective]  TODO_PRIMARY
+  primary   : TODO
+
+ærgre                 [verb]  MISSING_TO
+  primary   : to annoy
+  secondary : be disgruntled or annoyed
+
+øget                  [verb]  TODO_PRIMARY
+  primary   : TODO
+
+øje                   [noun]  SPURIOUS_TO
+  primary   : eye
+  secondary : to see, watch
+
+økonomi               [noun]  TODO_PRIMARY
+  primary   : TODO
+
+ønske                 [noun]  SPURIOUS_TO
+  primary   : wish
+  secondary : to wish
+
+øvrigt                [adjective]  TODO_PRIMARY
+  primary   : TODO
+

@@ -1,0 +1,17 @@
+﻿absolut: absolut1 substantiv, intetk├©n
+  B├ÿJNING: B├ÿJNING -tet, -ter, -terne
+for├ªldre: for├ªldre substantiv pluralis
+  B├ÿJNING: B├ÿJNING -ne
+h├©j: h├©j1 substantiv, f├ªllesk├©n
+  B├ÿJNING: B├ÿJNING -en, -e, -ene
+konkret: konkret1 substantiv, intetk├©n
+  B├ÿJNING: B├ÿJNING -et, -er, -erne
+massiv: massiv1 substantiv, intetk├©n
+  B├ÿJNING: B├ÿJNING -et, -er, -erne
+penge: penge substantiv pluralis
+  B├ÿJNING: B├ÿJNING -ne
+permanent: permanent1 substantiv, f├ªllesk├©n
+  B├ÿJNING: B├ÿJNING -en, -er, -erne
+vegne: vegne substantiv pluralis
+  B├ÿJNING: B├ÿJNING -ne
+par: no substantiv article found

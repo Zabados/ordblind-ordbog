@@ -1,0 +1,33 @@
+# Generated output
+dictionary.html
+dictionary_sample.html
+
+# Downloaded corpora (not ours — see pipeline_guide.md for download instructions)
+data/
+
+# ibog pages
+ibog_pages/
+
+# Conda environment
+.conda/
+
+# Archives
+*.tar
+*.tar.gz
+*.bz2
+*.zip
+
+# Random photos
+*.jpg
+*.jpeg
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db

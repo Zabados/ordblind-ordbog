@@ -1,0 +1,51 @@
+file,headword,pos,primary_translation,ipa,phonetic_plain,syllables,stoed,frequency_rank,frequency_tier,tags,has_examples,has_tatoeba,todos,review_status
+da--r-001.md,år,noun,year,da,AWR,TODO,TODO,28984,rare,TODO,True,True,9,draft
+da-af-001.md,af,preposition,by,da,AF,TODO,TODO,115845,rare,TODO,True,True,9,draft
+da-at-001.md,at,TODO,that,da,AT,TODO,TODO,76584,rare,TODO,True,True,10,draft
+da-blev-001.md,blev,verb,TODO,da,BLEW,TODO,TODO,17839,rare,TODO,True,True,10,draft
+da-bliver-001.md,bliver,verb,TODO,da,BLIVER,TODO,TODO,213413,rare,TODO,True,True,10,draft
+da-de-001.md,de,pronoun,plural definite article,da,DE,TODO,TODO,86503,rare,TODO,True,True,9,draft
+da-den-001.md,den,pronoun,the,da,DEN,TODO,TODO,117856,rare,TODO,True,True,9,draft
+da-der-001.md,der,adverb,there,da,DER,TODO,TODO,222081,rare,TODO,True,True,9,draft
+da-det-001.md,det,pronoun,the (used before an adjective preceding a noun),da,DET,TODO,TODO,222082,rare,TODO,True,True,9,draft
+da-efter-001.md,efter,preposition,after; subsequent; later in time than,da,EFTER,TODO,TODO,86763,rare,TODO,True,True,9,draft
+da-eller-001.md,eller,conjunction,or,da,ELLER,TODO,TODO,1739,common,TODO,True,True,9,draft
+da-en-001.md,en,pronoun,"a, an",da,EN,TODO,TODO,59902,rare,TODO,True,True,9,draft
+da-er-001.md,er,verb,TODO,da,ER,TODO,TODO,24399,rare,TODO,True,True,10,draft
+da-et-001.md,et,TODO,"a, an",da,ET,TODO,TODO,99602,rare,TODO,True,True,10,draft
+da-f--001.md,få,TODO,few,da,FAW,TODO,TODO,2409,general,TODO,True,True,10,draft
+da-flere-001.md,flere,adjective,more,da,FLERE,TODO,TODO,150933,rare,TODO,True,True,9,draft
+da-for-001.md,for,TODO,lining,da,FOR,TODO,TODO,228405,rare,TODO,True,True,10,draft
+da-fra-001.md,fra,preposition,from,da,FRA,TODO,TODO,150960,rare,TODO,True,True,9,draft
+da-han-001.md,han,pronoun,he,da,HAN,TODO,TODO,235866,rare,TODO,True,True,9,draft
+da-har-001.md,har,verb,TODO,da,HAR,TODO,TODO,87437,rare,TODO,True,True,10,draft
+da-hun-001.md,hun,pronoun,she,da,HUN,TODO,TODO,236081,rare,TODO,True,True,9,draft
+da-hvor-001.md,hvor,adverb,where,da,VOR,TODO,TODO,236090,rare,TODO,True,True,9,draft
+da-ikke-001.md,ikke,adverb,not,da,IKKE,TODO,TODO,12657,rare,TODO,True,True,9,draft
+da-jeg-001.md,jeg,TODO,self,da,YAY,TODO,TODO,241948,rare,TODO,True,True,10,draft
+da-kan-001.md,kan,verb,TODO,da,KAN,TODO,TODO,65136,rare,TODO,True,True,10,draft
+da-man-001.md,man,TODO,mane,da,MAN,TODO,TODO,65382,rare,TODO,True,True,10,draft
+da-mange-001.md,mange,adjective,TODO,da,MANYE,TODO,TODO,251778,rare,TODO,True,True,10,draft
+da-med-001.md,med,preposition,with,da,MED,TODO,TODO,78635,rare,TODO,True,True,9,draft
+da-men-001.md,men,TODO,injury,da,MEN,TODO,TODO,47610,rare,TODO,True,True,10,draft
+da-nu-001.md,nu,noun,"now (present time), present (current time)",da,NU,TODO,TODO,27773,rare,TODO,True,True,9,draft
+da-og-001.md,og,conjunction,and,da,OG,TODO,TODO,31647,rare,TODO,True,True,9,draft
+da-ogs--001.md,også,adverb,"too, as well, also",da,OGSAW,TODO,TODO,25459,rare,TODO,True,True,9,draft
+da-om-001.md,om,TODO,about,da,OM,TODO,TODO,43485,rare,TODO,True,True,10,draft
+da-op-001.md,op,adverb,up (away from earth’s centre),da,OP,TODO,TODO,160203,rare,TODO,True,True,9,draft
+da-over-001.md,over,TODO,above,TODO,OVER,TODO,TODO,259136,rare,TODO,True,True,11,draft
+da-p--001.md,på,preposition,on,da,PAW,TODO,TODO,50365,rare,TODO,True,True,9,draft
+da-s--001.md,så,TODO,so,da,SAW,TODO,TODO,43642,rare,TODO,True,True,10,draft
+da-sig-001.md,sig,TODO,third-person pronoun,da,SEE,TODO,TODO,124768,rare,TODO,True,True,10,draft
+da-siger-001.md,siger,verb,TODO,da,SIYER,TODO,TODO,25490,rare,TODO,True,True,10,draft
+da-skal-001.md,skal,TODO,"shell, valve",da,SKAL,TODO,TODO,38539,rare,TODO,True,True,10,draft
+da-som-001.md,som,conjunction,"as, like",da,SOM,TODO,TODO,267812,rare,TODO,True,True,9,draft
+da-til-001.md,til,preposition,"to, towards (the direction or goal of a physical movement)",da,TIL,TODO,TODO,126081,rare,TODO,True,True,9,draft
+da-to-001.md,to,TODO,two,da,TO,TODO,TODO,276257,rare,TODO,True,True,10,draft
+da-ud-001.md,ud,adverb,out,da,UD,TODO,TODO,72336,rare,TODO,True,True,9,draft
+da-v-re-001.md,være,verb,to be,da,VEHRE,TODO,TODO,66333,rare,TODO,True,True,9,draft
+da-v-ret-001.md,været,verb,TODO,TODO,VEHRET,TODO,TODO,284496,rare,TODO,True,True,11,draft
+da-var-001.md,var,TODO,TODO,da,VAR,TODO,TODO,10899,rare,TODO,True,True,11,draft
+da-ved-001.md,ved,TODO,"at, by",da,VED,TODO,TODO,105024,rare,TODO,True,True,10,draft
+da-vi-001.md,vi,pronoun,we,da,VI,TODO,TODO,31749,rare,TODO,True,True,9,draft
+da-vil-001.md,vil,verb,TODO,da,VIL,TODO,TODO,90611,rare,TODO,True,True,10,draft

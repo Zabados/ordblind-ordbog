@@ -1,0 +1,482 @@
+﻿file	headword	pos	primary	secondaries	flags	dictcc_status	dictcc_results
+da-indstille-001.md	indstille	verb	to set, tune, adjust	nogen på: prepare somebody for; make somebody realise or accept; make somebody willing (for something, to do something) | discontinue, suspend, cease, stop, cancel | recommend, propose, advice, set up (for approval)	DANISH_CHARS, DANISH_WORD, TOO_LONG, MISSING_TO		
+da-f--001.md	få	noun	few	to get | to have | på må og få – at random	SPURIOUS_TO, DANISH_CHARS, DANISH_WORD		
+da-fase-001.md	fase	noun	phase	state at a particular time in a system that is in periodic oscillations | homogeneous component of a heterogeneous mixture | to phase (,  / in, out)	TOO_LONG, SPURIOUS_TO		
+da-foresl--001.md	foreslå	verb	to suggest (ask for without demanding)	propose (to suggest a plan or course of action) | move (to propose formally for consideration and determination, in a deliberative assembly)	MISSING_TO, TOO_LONG		
+da-hvid-001.md	hvid	noun	white	blank | penny, cent/dime (han ejer ikke en hvid = he has not got a penny/cent/dime)	DANISH_WORD, TOO_LONG		
+da-reducere-001.md	reducere	verb	to reduce, lessen	to reduce the score and thereby closer to the opponent | make (something) more concentrated by letting it boil so that some of the liquid evaporates | to reduce fractions	TOO_LONG, MISSING_TO		
+da-slukke-001.md	slukke	verb	to put out (extinguish)	"to quench, slake | turn off (to power down) | switch off (to turn a switch to the ""off"" position in order to stop or disable a device)"	MISSING_TO, TOO_LONG		
+da-s-rge-001.md	sørge	verb	to grieve, mourn, lament	in the expression sørge for: to take care of, look after, make sure	DANISH_CHARS, MISSING_TO		
+da-unders-ge-001.md	undersøge	verb	to examine, go over, look over, scrutinize	test | investigate	DANISH_WORD, MISSING_TO		
+da-advare-001.md	advare	verb	to warn (to make someone aware of impending danger)	caution	MISSING_TO		
+da-advarsel-001.md	advarsel	noun	TODO		TODO_PRIMARY		
+da-afholdes-001.md	afholdes	verb	TODO		TODO_PRIMARY		
+da-aflevere-001.md	aflevere	verb	To convey or hand over something.	to hand in an assignment	DANISH_WORD		
+da-aflyse-001.md	aflyse	verb	TODO		TODO_PRIMARY		
+da-aflyste-001.md	aflyste	verb	TODO		TODO_PRIMARY		
+da-afslutte-001.md	afslutte	verb	TODO		TODO_PRIMARY		
+da-afstand-001.md	afstand	noun	TODO		TODO_PRIMARY		
+da-afsted-001.md	afsted	adverb	TODO		TODO_PRIMARY		
+da-afvikle-001.md	afvikle	verb	to discontinue an enterprise, especially gradually and in an ordered manner	to cause some activity to take place	TOO_LONG		
+da-aldrig-001.md	aldrig	adverb	TODO		TODO_PRIMARY		
+da-alts--001.md	altså	adverb	TODO		TODO_PRIMARY		
+da-alvorlig-001.md	alvorlig	adjective	serious (important; weighty; not trifling; leaving no room for play)	grave | earnest | grievous	PACKED_PRIMARY		
+da-ambulance-001.md	ambulance	noun	TODO		TODO_PRIMARY		
+da-analyse-001.md	analyse	noun	TODO		TODO_PRIMARY		
+da-anbefaling-001.md	anbefaling	noun	TODO		TODO_PRIMARY		
+da-anklage-001.md	anklage	noun	an accusation	a indictment, charge | to accuse	SPURIOUS_TO		
+da-ansvar-001.md	ansvar	noun	TODO		TODO_PRIMARY		
+da-argument-001.md	argument	noun	TODO		TODO_PRIMARY		
+da-bakke-001.md	bakke	noun	hill, rise, slope	tray, salver | jaw (of a tool) | to back	SPURIOUS_TO		
+da-bank-001.md	bank	noun	(financial institution, branch office, controller of a game, a safe and guaranteed place of storage)	only used in certain expressions | knock (an abrupt rapping sound) | () a beating	TOO_LONG		
+da-bede-001.md	bede	noun	beet	wether | to ask, request | to beg, entreat, implore	SPURIOUS_TO		
+da-beg--001.md	begå	verb	to commit	create or produce	MISSING_TO		
+da-beklage-001.md	beklage	verb	to apologize for	express dissatisfaction about | complain | express one's sympathy with someone's plight	MISSING_TO		
+da-bek-mpe-001.md	bekæmpe	verb	to fight (physically), to be in armed conflict with	to counteract, overcome, destroy, combat (a disease, a pest, a setback, etc)	TOO_LONG		
+da-ben-001.md	ben	noun	TODO		TODO_PRIMARY		
+da-besiddelse-001.md	besiddelse	noun	TODO		TODO_PRIMARY		
+da-besparelse-001.md	besparelse	noun	a cost saving (measure that consists of reducing one or more expenses and thereby saving money)		TOO_LONG		
+da-bestil-001.md	bestil	verb	TODO		TODO_PRIMARY		
+da-beting-001.md	beting	verb	TODO		TODO_PRIMARY		
+da-betjent-001.md	betjent	noun	TODO		TODO_PRIMARY		
+da-bev-ge-001.md	bevæge	verb	TODO		TODO_PRIMARY		
+da-billig-001.md	billig	adjective	TODO		TODO_PRIMARY		
+da-bo-001.md	bo	noun	estate	den, nest | abode, home | to live, reside, dwell	SPURIOUS_TO		
+da-bog-001.md	bog	noun	TODO		TODO_PRIMARY		
+da-bold-001.md	bold	noun	TODO		TODO_PRIMARY		
+da-bop-l-001.md	bopæl	noun	TODO		TODO_PRIMARY		
+da-bremse-001.md	bremse	noun	brake	to brake | a botfly	SPURIOUS_TO		
+da-bringe-001.md	bringe	noun	chest	to bring | to publish	SPURIOUS_TO		
+da-brudt-001.md	brudt	verb	TODO		TODO_PRIMARY		
+da-brug-001.md	brug	noun	TODO		TODO_PRIMARY		
+da-bruge-001.md	bruge	verb	TODO		TODO_PRIMARY		
+da-bruger-001.md	bruger	noun	TODO		TODO_PRIMARY		
+da-br-nde-001.md	brænde	noun	TODO		TODO_PRIMARY		
+da-budget-001.md	budget	noun	TODO		TODO_PRIMARY		
+da-byge-001.md	byge	noun	TODO		TODO_PRIMARY		
+da-b-d-001.md	båd	noun	TODO		TODO_PRIMARY		
+da-b-de-001.md	bøde	noun	fine	ticket | to be fined, to forfeit | to mend, to repair	SPURIOUS_TO		
+da-b-lge-001.md	bølge	noun	wave	a trend | to wave | to wave	SPURIOUS_TO		
+da-b-r-001.md	bør	noun	TODO		TODO_PRIMARY		
+da-b-rnenes-001.md	børnenes	noun	TODO		TODO_PRIMARY		
+da-centrum-001.md	centrum	noun	TODO		TODO_PRIMARY		
+da-chef-001.md	chef	noun	A boss; person in charge, person who directly oversees the work being done		TOO_LONG		
+da-corona-001.md	corona	noun	TODO		TODO_PRIMARY		
+da-coronavirus-001.md	coronavirus	noun	TODO		TODO_PRIMARY		
+da-dansker-001.md	dansker	noun	TODO		TODO_PRIMARY		
+da-dele-001.md	dele	verb	TODO		TODO_PRIMARY		
+da-delstat-001.md	delstat	noun	a member state in a confederational nation, such as a German  or a Usonian		TOO_LONG		
+da-delt-001.md	delt	verb	TODO		TODO_PRIMARY		
+da-demonstration-001.md	demonstration	noun	TODO		TODO_PRIMARY		
+da-derefter-001.md	derefter	adverb	TODO		TODO_PRIMARY		
+da-dertil-001.md	dertil	adverb	TODO		TODO_PRIMARY		
+da-diagram-001.md	diagram	noun	TODO		TODO_PRIMARY		
+da-dialog-001.md	dialog	noun	TODO		TODO_PRIMARY		
+da-digital-001.md	digital	adjective	TODO		TODO_PRIMARY		
+da-digitale-001.md	digitale	adjective	TODO		TODO_PRIMARY		
+da-dollar-001.md	dollar	noun	TODO		TODO_PRIMARY		
+da-drab-001.md	drab	noun	TODO		TODO_PRIMARY		
+da-drik-001.md	drik	noun	TODO		TODO_PRIMARY		
+da-driv-001.md	driv	noun	TODO		TODO_PRIMARY		
+da-dr-m-001.md	drøm	noun	TODO		TODO_PRIMARY		
+da-dygtig-001.md	dygtig	adjective	TODO		TODO_PRIMARY		
+da-d-kke-001.md	dække	verb	to cover	to veil | to set | cover	MISSING_TO		
+da-d-mme-001.md	dømme	verb	to convict	sentence | judge; form an opinion on, especially a negative one	MISSING_TO		
+da-d-re-001.md	døre	noun	TODO		TODO_PRIMARY		
+da-efterh-nden-001.md	efterhånden	adverb	TODO		TODO_PRIMARY		
+da-eftersom-001.md	eftersom	conjunction	TODO		TODO_PRIMARY		
+da-eje-001.md	eje	verb	TODO		TODO_PRIMARY		
+da-ejer-001.md	ejer	noun	TODO		TODO_PRIMARY		
+da-ekstremt-001.md	ekstremt	adjective	TODO		TODO_PRIMARY		
+da-ende-001.md	ende	noun	end	point, prong, tine | behind, bottom, buttocks, backside, bum, fanny | to end, finish	SPURIOUS_TO		
+da-enkelt-001.md	enkelt	adjective	single, individual, not immediately surrounded or followed by other similar specimens or cases	for use by no more than one person | one-way | special, particular, occurring once or only a few times and therefore particularly prominent	TOO_LONG		
+da-enormt-001.md	enormt	adjective	TODO		TODO_PRIMARY		
+da-erhverv-001.md	erhverv	noun	TODO		TODO_PRIMARY		
+da-erkl-re-001.md	erklære	verb	TODO		TODO_PRIMARY		
+da-euro-001.md	euro	noun	TODO		TODO_PRIMARY		
+da-evne-001.md	evne	noun	ability	power | capacity | to be able to	SPURIOUS_TO		
+da-falde-001.md	falde	verb	TODO		TODO_PRIMARY		
+da-fans-001.md	fans	noun	TODO		TODO_PRIMARY		
+da-fare-001.md	fare	noun	danger, hazard	risk | to rush, run | to , travel	SPURIOUS_TO		
+da-farve-001.md	farve	noun	TODO		TODO_PRIMARY		
+da-farvel-001.md	farvel	interjection	TODO		TODO_PRIMARY		
+da-fat-001.md	fat	adverb	TODO		TODO_PRIMARY		
+da-februar-001.md	februar	noun	TODO		TODO_PRIMARY		
+da-felt-001.md	felt	noun	field (the practical part of something)	field; an outlying area, as opposed to e.g. the lab, office or barracks | field | sphere, province	TOO_LONG		
+da-ferie-001.md	ferie	noun	TODO		TODO_PRIMARY		
+da-festival-001.md	festival	noun	TODO		TODO_PRIMARY		
+da-fire-001.md	fire	adjective	four	to lower something fixed to a rope or something similar	SPURIOUS_TO		
+da-flag-001.md	flag	noun	TODO		TODO_PRIMARY		
+da-flest-001.md	flest	adjective	TODO		TODO_PRIMARY		
+da-flot-001.md	flot	adjective	TODO		TODO_PRIMARY		
+da-fly-001.md	fly	noun	airplane, aeroplane	to flee | to shun | to hand, give	SPURIOUS_TO		
+da-flytte-001.md	flytte	verb	to move, remove	move | move, move away	MISSING_TO		
+da-fod-001.md	fod	noun	foot	the base or lower part of something, e.g. a page or a mountain | foot, unit of measure, in Denmark 31.4 cm until 1907, equal to 12  (inches) | foot, a rhythmical unit	TOO_LONG		
+da-fodbold-001.md	fodbold	noun	football: the sport association football; soccer	a football: the ball with which association football is played; soccer ball	TOO_LONG		
+da-folk-001.md	folk	noun	TODO		TODO_PRIMARY		
+da-forbi-001.md	forbi	adverb	TODO		TODO_PRIMARY		
+da-forbrug-001.md	forbrug	noun	TODO		TODO_PRIMARY		
+da-fordele-001.md	fordele	verb	to distribute	divide, share out | spread	MISSING_TO		
+da-foredrag-001.md	foredrag	noun	TODO		TODO_PRIMARY		
+da-forholdene-001.md	forholdene	noun	TODO		TODO_PRIMARY		
+da-forh-nd-001.md	forhånd	noun	TODO		TODO_PRIMARY		
+da-forklar-001.md	forklar	verb	TODO		TODO_PRIMARY		
+da-forl-ng-001.md	forlæng	verb	TODO		TODO_PRIMARY		
+da-forl-nge-001.md	forlænge	verb	to prolong, lengthen	to multiply the denominator and enumerator of a fraction with the same number	TOO_LONG		
+da-fornuftig-001.md	fornuftig	adjective	TODO		TODO_PRIMARY		
+da-forsikring-001.md	forsikring	noun	TODO		TODO_PRIMARY		
+da-forskellig-001.md	forskellig	adjective	TODO		TODO_PRIMARY		
+da-fors-ge-001.md	forsøge	verb	to try	attempt	MISSING_TO		
+da-fortalt-001.md	fortalt	verb	TODO		TODO_PRIMARY		
+da-forud-001.md	forud	adverb	ahead of, before, prior to, preceding	to be ahead of time, be diligent, industrious | the direction one is looking or walking towards	SPURIOUS_TO		
+da-forvent-001.md	forvent	verb	TODO		TODO_PRIMARY		
+da-fremme-001.md	fremme	verb	to promote, further	invigoration (to cause something to prosper) | at the front of something or in a place that is in front of you | in use, accessible, or visible; (not hidden or tucked away)	MISSING_TO		
+da-fremmest-001.md	fremmest	adjective	TODO		TODO_PRIMARY		
+da-fremover-001.md	fremover	adverb	TODO		TODO_PRIMARY		
+da-fremstillet-001.md	fremstillet	verb	TODO		TODO_PRIMARY		
+da-fri-001.md	fri	verb	to propose	free | vacant, unoccupied | available	MISSING_TO		
+da-frit-001.md	frit	adjective	TODO		TODO_PRIMARY		
+da-front-001.md	front	noun	TODO		TODO_PRIMARY		
+da-fuldt-001.md	fuldt	adjective	TODO		TODO_PRIMARY		
+da-fylde-001.md	fylde	noun	TODO		TODO_PRIMARY		
+da-f-rdig-001.md	færdig	adjective	finished, completed	skillfulness, tendency, habit (added as a prefix or suffix to nouns, verbs and adjectives). | I will debate this no further	TOO_LONG		
+da-f-rg-001.md	færg	verb	TODO		TODO_PRIMARY		
+da-f-de-001.md	føde	noun	food	nourishment | diet | to bear, give birth	SPURIOUS_TO		
+da-f-re-001.md	føre	noun	state of the roads	to lead, guide | to wage | to lead	SPURIOUS_TO		
+da-f-rende-001.md	førende	adjective	TODO		TODO_PRIMARY		
+da-generation-001.md	generation	noun	TODO		TODO_PRIMARY		
+da-generelle-001.md	generelle	adjective	TODO		TODO_PRIMARY		
+da-gerningsm-nd-001.md	gerningsmænd	noun	TODO		TODO_PRIMARY		
+da-global-001.md	global	adjective	TODO		TODO_PRIMARY		
+da-gratis-001.md	gratis	adjective	TODO		TODO_PRIMARY		
+da-grundigt-001.md	grundigt	adjective	TODO		TODO_PRIMARY		
+da-gr-nse-001.md	grænse	noun	border (the line or frontier area separating regions)	boundary | limit | to border	SPURIOUS_TO		
+da-gymnasium-001.md	gymnasium	noun	TODO		TODO_PRIMARY		
+da-halvanden-001.md	halvanden	adjective	TODO		TODO_PRIMARY		
+da-halvleg-001.md	halvleg	noun	TODO		TODO_PRIMARY		
+da-handle-001.md	handle	verb	to act (to do something)	trade, shop	MISSING_TO		
+da-helst-001.md	helst	adverb	TODO		TODO_PRIMARY		
+da-hen-001.md	hen	adverb	TODO		TODO_PRIMARY		
+da-hensyn-001.md	hensyn	noun	TODO		TODO_PRIMARY		
+da-hente-001.md	hente	verb	TODO		TODO_PRIMARY		
+da-henvendelser-001.md	henvendelser	noun	TODO		TODO_PRIMARY		
+da-herhjemme-001.md	herhjemme	adverb	TODO		TODO_PRIMARY		
+da-herunder-001.md	herunder	adverb	included herein	under here | while or during something just mentioned is happening | less or fewer than the thing just mentioned	DANISH_WORD		
+da-historisk-001.md	historisk	adjective	TODO		TODO_PRIMARY		
+da-hjemmefra-001.md	hjemmefra	adverb	TODO		TODO_PRIMARY		
+da-hj-lpe-001.md	hjælpe	verb	TODO		TODO_PRIMARY		
+da-hospital-001.md	hospital	noun	TODO		TODO_PRIMARY		
+da-hotel-001.md	hotel	noun	TODO		TODO_PRIMARY		
+da-hurtigere-001.md	hurtigere	adjective	TODO		TODO_PRIMARY		
+da-hurtigst-001.md	hurtigst	adjective	TODO		TODO_PRIMARY		
+da-huske-001.md	huske	verb	TODO		TODO_PRIMARY		
+da-hvis-001.md	hvis	pronoun	TODO		TODO_PRIMARY		
+da-hvoraf-001.md	hvoraf	adverb	TODO		TODO_PRIMARY		
+da-hvorvidt-001.md	hvorvidt	conjunction	whether (used to introduce a clause that contains an indirect question, or that expresses uncertainty or doubt)		TOO_LONG		
+da-hygge-001.md	hygge	noun	cosiness	to have a good time | to make it comfortable, cozy | to have a good time, enjoy oneself	SPURIOUS_TO		
+da-h-rdest-001.md	hårdest	adjective	TODO		TODO_PRIMARY		
+da-h-re-001.md	høre	verb	to hear	to learn | to belong to | to belong under, come under	DANISH_WORD		
+da-ide-001.md	ide	noun	TODO		TODO_PRIMARY		
+da-ihjel-001.md	ihjel	adverb	to death		SPURIOUS_TO		
+da-inde-001.md	inde	adverb	TODO		TODO_PRIMARY		
+da-indeholde-001.md	indeholde	verb	TODO		TODO_PRIMARY		
+da-indf-re-001.md	indføre	verb	to introduce, bring something new into effect	import | to insert | to state, assert (in a book or other written format)	MISSING_TO		
+da-indg--001.md	indgå	verb	to be or become a part of; to join	to join a joint (legally binding) agreement | be received	MISSING_TO		
+da-inspiration-001.md	inspiration	noun	TODO		TODO_PRIMARY		
+da-institution-001.md	institution	noun	TODO		TODO_PRIMARY		
+da-interessere-001.md	interessere	verb	to hold someone's interest	be interested	MISSING_TO		
+da-interview-001.md	interview	noun	TODO		TODO_PRIMARY		
+da-inviter-001.md	inviter	verb	TODO		TODO_PRIMARY		
+da-isolere-001.md	isolere	verb	to isolate	insulate | lag (cover, e.g. pipes, with felt strips or similar material)	MISSING_TO		
+da-jagt-001.md	jagt	noun	TODO		TODO_PRIMARY		
+da-kampagne-001.md	kampagne	noun	TODO		TODO_PRIMARY		
+da-kandidat-001.md	kandidat	noun	candidate (someone who is up for consideration for a title, office, etc.)	a person who holds a master's degree	TOO_LONG		
+da-karriere-001.md	karriere	noun	TODO		TODO_PRIMARY		
+da-kaste-001.md	kaste	noun	caste	to throw, to chuck | to drop | to cast	SPURIOUS_TO		
+da-kende-001.md	kende	noun	know	recognise as one’s own | to feel | a little bit	SPURIOUS_TO		
+da-kilde-001.md	kilde	noun	spring, fountain, source	source, fountain, fount | to tickle	SPURIOUS_TO		
+da-kilo-001.md	kilo	noun	TODO		TODO_PRIMARY		
+da-klage-001.md	klage	noun	complaint	to complain	SPURIOUS_TO		
+da-knap-001.md	knap	noun	scant, scarce	brief, concise | hardly, scarcely | just under	DANISH_WORD		
+da-kokain-001.md	kokain	noun	TODO		TODO_PRIMARY		
+da-kollegaer-001.md	kollegaer	noun	TODO		TODO_PRIMARY		
+da-konsekvens-001.md	konsekvens	noun	consequence (that which follows something on which it depends; that which is produced by a cause)	consistency (reliability or uniformity; the quality of being consistent)	TOO_LONG		
+da-kontant-001.md	kontant	adjective	TODO		TODO_PRIMARY		
+da-kontrast-001.md	kontrast	noun	TODO		TODO_PRIMARY		
+da-kriminel-001.md	kriminel	adjective	TODO		TODO_PRIMARY		
+da-krise-001.md	krise	noun	TODO		TODO_PRIMARY		
+da-kritisere-001.md	kritisere	verb	TODO		TODO_PRIMARY		
+da-kritisk-001.md	kritisk	adjective	TODO		TODO_PRIMARY		
+da-kuns-001.md	kuns	adverb	TODO		TODO_PRIMARY		
+da-k-mpe-001.md	kæmpe	noun	TODO		TODO_PRIMARY		
+da-k-be-001.md	købe	verb	to buy	purchase | bribe	MISSING_TO		
+da-k-re-001.md	køre	verb	to drive	to drive , to ride | to run | drive	MISSING_TO		
+da-k-rende-001.md	kørende	verb	TODO		TODO_PRIMARY		
+da-langsomt-001.md	langsomt	adjective	TODO		TODO_PRIMARY		
+da-langt-001.md	langt	adjective	TODO		TODO_PRIMARY		
+da-lavt-001.md	lavt	adjective	TODO		TODO_PRIMARY		
+da-led-001.md	led	noun	TODO		TODO_PRIMARY		
+da-lej-001.md	lej	verb	TODO		TODO_PRIMARY		
+da-levere-001.md	levere	verb	to supply, furnish	provide | contribute | produce	MISSING_TO		
+da-lide-001.md	lide	verb	to suffer	To have some disease or similar condition. | See | approach	MISSING_TO		
+da-ligesom-001.md	ligesom	adverb	TODO		TODO_PRIMARY		
+da-ligne-001.md	ligne	verb	to resemble, look like	take after | be like | assess	MISSING_TO		
+da-liste-001.md	liste	noun	a list	To sneak, creep | To tiptoe, walk softly	SPURIOUS_TO		
+da-lokalt-001.md	lokalt	adjective	TODO		TODO_PRIMARY		
+da-love-001.md	love	noun	trust, faith	to promise | to praise | palm of the hand	SPURIOUS_TO		
+da-lovlig-001.md	lovlig	adjective	TODO		TODO_PRIMARY		
+da-lukke-001.md	lukke	noun	fastening, lock	cover | closure, flap, tap, | to close	SPURIOUS_TO		
+da-lyde-001.md	lyde	noun	flaw, blemish	to sound, to be realized | to sound (some way) | to obey	SPURIOUS_TO		
+da-l-ne-001.md	låne	verb	to borrow	lend	MISSING_TO		
+da-l-ge-001.md	læge	noun	doctor	physician | surgeon | to cure, to heal	SPURIOUS_TO		
+da-l-ngst-001.md	længst	adverb	TODO		TODO_PRIMARY		
+da-l-bende-001.md	løbende	adjective	TODO		TODO_PRIMARY		
+da-l-fte-001.md	løfte	noun	TODO		TODO_PRIMARY		
+da-mail-001.md	mail	noun	TODO		TODO_PRIMARY		
+da-mange-001.md	mange	adjective	TODO		TODO_PRIMARY		
+da-massivt-001.md	massivt	adjective	TODO		TODO_PRIMARY		
+da-meddeler-001.md	meddeler	noun	TODO		TODO_PRIMARY		
+da-medlem-001.md	medlem	noun	TODO		TODO_PRIMARY		
+da-meld-001.md	meld	verb	TODO		TODO_PRIMARY		
+da-melde-001.md	melde	verb	to announce, declare	inform, notify, report	MISSING_TO		
+da-meters-001.md	meters	noun	TODO		TODO_PRIMARY		
+da-midlertidig-001.md	midlertidig	adjective	TODO		TODO_PRIMARY		
+da-midlertidigt-001.md	midlertidigt	adjective	TODO		TODO_PRIMARY		
+da-milliard-001.md	milliard	noun	TODO		TODO_PRIMARY		
+da-minde-001.md	minde	noun	a memory, remembrance	a memorial | permission, consent | to remind	SPURIOUS_TO		
+da-minimum-001.md	minimum	noun	TODO		TODO_PRIMARY		
+da-minister-001.md	minister	noun	TODO		TODO_PRIMARY		
+da-mink-001.md	mink	noun	TODO		TODO_PRIMARY		
+da-mist-nkt-001.md	mistænkt	verb	TODO		TODO_PRIMARY		
+da-mobile-001.md	mobile	adjective	TODO		TODO_PRIMARY		
+da-model-001.md	model	noun	TODO		TODO_PRIMARY		
+da-modsige-001.md	modsige	verb	TODO		TODO_PRIMARY		
+da-mods-tning-001.md	modsætning	noun	TODO		TODO_PRIMARY		
+da-modtage-001.md	modtage	verb	TODO		TODO_PRIMARY		
+da-motorveje-001.md	motorveje	noun	TODO		TODO_PRIMARY		
+da-mundbind-001.md	mundbind	noun	TODO		TODO_PRIMARY		
+da-museum-001.md	museum	noun	TODO		TODO_PRIMARY		
+da-m-l-001.md	mål	noun	TODO		TODO_PRIMARY		
+da-m-le-001.md	måle	verb	TODO		TODO_PRIMARY		
+da-m-ndene-001.md	mændene	noun	TODO		TODO_PRIMARY		
+da-m-de-001.md	møde	noun	TODO		TODO_PRIMARY		
+da-m-dt-001.md	mødt	verb	TODO		TODO_PRIMARY		
+da-national-001.md	national	adjective	, having to do with a particular country in opposition to other nations	, having to do with the whole and not only single parts of it | patriotic, having positive feelings for one's own nation	TOO_LONG		
+da-navn-001.md	navn	noun	name (word or phrase indicating a particular person, place, class or thing)	reputation	TOO_LONG		
+da-negativ-001.md	negativ	noun	TODO		TODO_PRIMARY		
+da-nemt-001.md	nemt	adjective	TODO		TODO_PRIMARY		
+da-netv-rk-001.md	netværk	noun	TODO		TODO_PRIMARY		
+da-nok-001.md	nok	noun	tap	yardarm, peak | something curved', related to (a) key, protruding pin-/wedge-shaped part of an object, pin that engages in a corresponding hole, outer end of a spar, e.g. a boom on a ship, end of a quay/pier  Den_Danske_Ordbog | enough	TOO_LONG		
+da-normalt-001.md	normalt	adjective	TODO		TODO_PRIMARY		
+da-nyde-001.md	nyde	verb	to enjoy, relish	have, take | indulge in | receive	MISSING_TO		
+da-n--001.md	nå	interjection	to reach	to have time | to be in time, arrive | oh	SPURIOUS_TO		
+da-n-ppe-001.md	næppe	adverb	TODO		TODO_PRIMARY		
+da-n-vnt-001.md	nævnt	verb	TODO		TODO_PRIMARY		
+da-n-je-001.md	nøje	verb	TODO		TODO_PRIMARY		
+da-n-jes-001.md	nøjes	verb	make do, go without, content oneself	do nothing else | careful, thorough | without deviation or distance, fitting	MISSING_TO		
+da-officielt-001.md	officielt	adjective	TODO		TODO_PRIMARY		
+da-omkring-001.md	omkring	adverb	TODO		TODO_PRIMARY		
+da-ondt-001.md	ondt	adjective	TODO		TODO_PRIMARY		
+da-online-001.md	online	adjective	TODO		TODO_PRIMARY		
+da-opfordring-001.md	opfordring	noun	TODO		TODO_PRIMARY		
+da-opf-re-001.md	opføre	verb	to behave a particular way	stage (a play) | erect, build | add to a list, registry etc.	MISSING_TO		
+da-ophold-001.md	ophold	noun	TODO		TODO_PRIMARY		
+da-oplevelser-001.md	oplevelser	noun	TODO		TODO_PRIMARY		
+da-oppe-001.md	oppe	verb	TODO		TODO_PRIMARY		
+da-oprindelig-001.md	oprindelig	adjective	TODO		TODO_PRIMARY		
+da-opstod-001.md	opstod	verb	TODO		TODO_PRIMARY		
+da-optaget-001.md	optaget	noun	TODO		TODO_PRIMARY		
+da-ordentligt-001.md	ordentligt	adjective	accurately, awfully, carefully, correctly, decently, methodically, neatly, properly, regularly, steadily, thoroughly, tidily, well		TOO_LONG		
+da-overbevise-001.md	overbevise	verb	TODO		TODO_PRIMARY		
+da-overhold-001.md	overhold	verb	TODO		TODO_PRIMARY		
+da-overhovedet-001.md	overhovedet	adverb	TODO		TODO_PRIMARY		
+da-overl-ge-001.md	overlæge	noun	some kind of doctor with authority over other doctors		DANISH_WORD		
+da-overtage-001.md	overtage	verb	to take over (assume control of something)		DANISH_WORD		
+da-pakke-001.md	pakke	noun	TODO		TODO_PRIMARY		
+da-park-001.md	park	noun	TODO		TODO_PRIMARY		
+da-parti-001.md	parti	noun	lot, quantity, batch	party | game (of e.g. chess or tennis) | A prospective spouse perceived as an economical or social boon rather than a person; a	TOO_LONG		
+da-patient-001.md	patient	noun	TODO		TODO_PRIMARY		
+da-pause-001.md	pause	noun	TODO		TODO_PRIMARY		
+da-permanent-001.md	permanent	adjective	TODO		TODO_PRIMARY		
+da-person-001.md	person	noun	TODO		TODO_PRIMARY		
+da-personbil-001.md	personbil	noun	TODO		TODO_PRIMARY		
+da-personligt-001.md	personligt	adjective	TODO		TODO_PRIMARY		
+da-placere-001.md	placere	verb	to place	invest | site	MISSING_TO		
+da-plan-001.md	plan	noun	TODO		TODO_PRIMARY		
+da-plant-001.md	plant	verb	TODO		TODO_PRIMARY		
+da-pleje-001.md	pleje	verb	use to, used to	to nurse, to care for, to maintain | care	MISSING_TO		
+da-plejehjem-001.md	plejehjem	noun	TODO		TODO_PRIMARY		
+da-point-001.md	point	noun	TODO		TODO_PRIMARY		
+da-politik-001.md	politik	noun	politics	a policy (course or principle of action adopted or proposed by an organisation)	TOO_LONG		
+da-popul-r-001.md	populær	adjective	TODO		TODO_PRIMARY		
+da-popul-rt-001.md	populært	adjective	TODO		TODO_PRIMARY		
+da-position-001.md	position	noun	TODO		TODO_PRIMARY		
+da-post-001.md	post	noun	TODO		TODO_PRIMARY		
+da-pres-001.md	pres	noun	TODO		TODO_PRIMARY		
+da-presse-001.md	presse	noun	a press (a machine for pressing things, like fruits, cloths and books)	a press (a machine for printing) | the press (printed media and journalism) | to press, squeeze	SPURIOUS_TO		
+da-problem-001.md	problem	noun	TODO		TODO_PRIMARY		
+da-producer-001.md	producer	noun	TODO		TODO_PRIMARY		
+da-professionel-001.md	professionel	adjective	TODO		TODO_PRIMARY		
+da-professor-001.md	professor	noun	TODO		TODO_PRIMARY		
+da-program-001.md	program	noun	TODO		TODO_PRIMARY		
+da-pr-cist-001.md	præcist	adjective	TODO		TODO_PRIMARY		
+da-p-r-rende-001.md	pårørende	noun	next of kin; person who is close (e.g. as a spouse, relative, close friend) to someone who has fallen ill, been in an accident, died etc.		TOO_LONG		
+da-racisme-001.md	racisme	noun	TODO		TODO_PRIMARY		
+da-ramme-001.md	ramme	noun	a frame	to affect | to hit (affect adversely) | (ramme ind) to frame (a picture)	SPURIOUS_TO		
+da-rapport-001.md	rapport	noun	TODO		TODO_PRIMARY		
+da-regering-001.md	regering	noun	TODO		TODO_PRIMARY		
+da-region-001.md	region	noun	TODO		TODO_PRIMARY		
+da-regne-001.md	regne	verb	to rain	solve, work out | estimate | consider	MISSING_TO		
+da-rekord-001.md	rekord	noun	TODO		TODO_PRIMARY		
+da-respirator-001.md	respirator	noun	TODO		TODO_PRIMARY		
+da-restaurant-001.md	restaurant	noun	TODO		TODO_PRIMARY		
+da-ringe-001.md	ringe	verb	To call, to telephone	of (rather) limited size, quantity or extent etc. | of limited or insufficient value, quality, effect or importance etc.	MISSING_TO		
+da-rute-001.md	rute	noun	TODO		TODO_PRIMARY		
+da-rykke-001.md	rykke	verb	to jerk, pull, tug	rykke ind: to move in ; to insert	MISSING_TO		
+da-r-dhuse-001.md	rådhuse	noun	TODO		TODO_PRIMARY		
+da-r-dighed-001.md	rådighed	noun	presence of mind, resourcefulness (the ability to control something or someone)		TOO_LONG		
+da-r-kke-001.md	række	noun	row, line, rank; things arranged spatially	series | series; succession; sequence; things or events arranged in order of time | rank	TOO_LONG		
+da-samle-001.md	samle	verb	to collect	gather | assemble | attract	MISSING_TO		
+da-samt-001.md	samt	conjunction	and, and also, plus, as well as	med samt – together with	DANISH_WORD		
+da-sekund-001.md	sekund	noun	second (SI unit of time, unit of angular measure, short, indeterminate amount of time)	second | seconde	TOO_LONG		
+da-selvom-001.md	selvom	conjunction	TODO		TODO_PRIMARY		
+da-senest-001.md	senest	adjective	TODO		TODO_PRIMARY		
+da-sent-001.md	sent	adjective	TODO		TODO_PRIMARY		
+da-siden-001.md	siden	adverb	since, later (on), afterwards, in the time since then	since, ago (referring to the length of time between some past event and the (narrative) present) | ago (referring to a point in time a definite amount of time in the past) | since	TOO_LONG		
+da-sigte-001.md	sigte	noun	intention, goal, purpose	aim | sieve | to aim	SPURIOUS_TO		
+da-sikkerhed-001.md	sikkerhed	noun	TODO		TODO_PRIMARY		
+da-sikre-001.md	sikre	verb	TODO		TODO_PRIMARY		
+da-situation-001.md	situation	noun	TODO		TODO_PRIMARY		
+da-sj-ldent-001.md	sjældent	adjective	TODO		TODO_PRIMARY		
+da-skade-001.md	skade	noun	damage, harm	to harm, damage | to hurt, injure | skate	SPURIOUS_TO		
+da-sko-001.md	sko	noun	shoe	to shoe	SPURIOUS_TO		
+da-skole-001.md	skole	noun	school	to school, train	SPURIOUS_TO		
+da-skrue-001.md	skrue	noun	a screw or bolt	propeller | pasta | to screw	SPURIOUS_TO		
+da-skyld-001.md	skyld	noun	TODO		TODO_PRIMARY		
+da-skyldes-001.md	skyldes	verb	be due to, be caused by		MISSING_TO		
+da-sk-re-001.md	skære	verb	TODO		TODO_PRIMARY		
+da-slippe-001.md	slippe	noun	TODO		TODO_PRIMARY		
+da-slut-001.md	slut	noun	over	finished | over and out, out | end	DANISH_WORD		
+da-sl--001.md	slå	noun	bolt	to beat, hit, knock | to mow | to strike, defeat	SPURIOUS_TO		
+da-smide-001.md	smide	verb	TODO		TODO_PRIMARY		
+da-smidt-001.md	smidt	verb	TODO		TODO_PRIMARY		
+da-smitte-001.md	smitte	noun	infection	to infect	SPURIOUS_TO		
+da-smule-001.md	smule	noun	a little bit of something (especially, but far from exclusively, of food)		TOO_LONG		
+da-sm-t-001.md	småt	adjective	TODO		TODO_PRIMARY		
+da-snak-001.md	snak	verb	TODO		TODO_PRIMARY		
+da-sommerferie-001.md	sommerferie	noun	TODO		TODO_PRIMARY		
+da-sort-001.md	sort	noun	black	under the table; done in secret so as to avoid taxation | under the table; secretly, so as to avoid taxation | , kind	DANISH_WORD		
+da-specielt-001.md	specielt	adjective	TODO		TODO_PRIMARY		
+da-spise-001.md	spise	noun	food	dish | to eat	SPURIOUS_TO		
+da-sport-001.md	sport	noun	TODO		TODO_PRIMARY		
+da-spredning-001.md	spredning	noun	TODO		TODO_PRIMARY		
+da-start-001.md	start	noun	TODO		TODO_PRIMARY		
+da-station-001.md	station	noun	TODO		TODO_PRIMARY		
+da-stem-001.md	stem	noun	TODO		TODO_PRIMARY		
+da-stemme-001.md	stemme	noun	voice (sound uttered by the mouth, especially that uttered by human beings in speech or song)	vote | voice | tune	TOO_LONG		
+da-stikke-001.md	stikke	verb	to stick	put | thrust | shove	MISSING_TO		
+da-stop-001.md	stop	noun	TODO		TODO_PRIMARY		
+da-stoppet-001.md	stoppet	verb	TODO		TODO_PRIMARY		
+da-strand-001.md	strand	noun	TODO		TODO_PRIMARY		
+da-stribe-001.md	stribe	noun	TODO		TODO_PRIMARY		
+da-stykke-001.md	stykke	noun	piece	to divide into pieces	SPURIOUS_TO		
+da-styr-001.md	styr	noun	TODO		TODO_PRIMARY		
+da-styre-001.md	styre	noun	government, regime	rule | management | to head, govern, rule, manage, control	SPURIOUS_TO		
+da-styrke-001.md	styrke	noun	strength	optical strength; the quality of being prescription | to strengthen, invigorate | to refresh, strengthen oneself	SPURIOUS_TO		
+da-st--001.md	stå	verb	to stand	to be, appear , to say, to be written | standstill, halt	MISSING_TO		
+da-st-rst-001.md	størst	adjective	TODO		TODO_PRIMARY		
+da-system-001.md	system	noun	TODO		TODO_PRIMARY		
+da-s-dan-001.md	sådan	adjective	TODO		TODO_PRIMARY		
+da-s-ledes-001.md	således	adverb	TODO		TODO_PRIMARY		
+da-s-rbare-001.md	sårbare	adjective	TODO		TODO_PRIMARY		
+da-s-som-001.md	såsom	conjunction	TODO		TODO_PRIMARY		
+da-s-vel-001.md	såvel	conjunction	TODO		TODO_PRIMARY		
+da-s-en-001.md	søen	noun	TODO		TODO_PRIMARY		
+da-s-ge-001.md	søge	verb	TODO		TODO_PRIMARY		
+da-s-n-001.md	søn	noun	TODO		TODO_PRIMARY		
+da-takt-001.md	takt	noun	TODO		TODO_PRIMARY		
+da-tale-001.md	tale	noun	speech, talk, address, discourse	to make a speech | to speak, talk	SPURIOUS_TO		
+da-tegne-001.md	tegne	verb	to draw	design | represent | appear, seem, promise	MISSING_TO		
+da-teknologi-001.md	teknologi	noun	TODO		TODO_PRIMARY		
+da-tests-001.md	tests	noun	TODO		TODO_PRIMARY		
+da-the-001.md	the	noun	TODO		TODO_PRIMARY		
+da-tid-001.md	tid	noun	TODO		TODO_PRIMARY		
+da-tide-001.md	tide	noun	TODO		TODO_PRIMARY		
+da-tidlig-001.md	tidlig	adjective	TODO		TODO_PRIMARY		
+da-tidligt-001.md	tidligt	adjective	TODO		TODO_PRIMARY		
+da-tilbudt-001.md	tilbudt	verb	TODO		TODO_PRIMARY		
+da-tilfreds-001.md	tilfreds	adjective	TODO		TODO_PRIMARY		
+da-tilkalde-001.md	tilkalde	verb	TODO		TODO_PRIMARY		
+da-tilstr-kkeligt-001.md	tilstrækkeligt	adjective	TODO		TODO_PRIMARY		
+da-tilsvarende-001.md	tilsvarende	adjective	TODO		TODO_PRIMARY		
+da-tiltale-001.md	tiltale	noun	indictment	the act of addressing or getting addressed by someone | to satisfy, please, make an impact (on someone) | to indict, accuse	SPURIOUS_TO		
+da-time-001.md	time	noun	TODO		TODO_PRIMARY		
+da-timen-001.md	timen	noun	TODO		TODO_PRIMARY		
+da-tit-001.md	tit	adverb	TODO		TODO_PRIMARY		
+da-tjekke-001.md	tjekke	noun	TODO		TODO_PRIMARY		
+da-ton-001.md	ton	noun	TODO		TODO_PRIMARY		
+da-top-001.md	top	interjection	TODO		TODO_PRIMARY		
+da-tradition-001.md	tradition	noun	TODO		TODO_PRIMARY		
+da-trafik-001.md	trafik	noun	TODO		TODO_PRIMARY		
+da-trafikken-001.md	trafikken	noun	TODO		TODO_PRIMARY		
+da-travlt-001.md	travlt	adjective	TODO		TODO_PRIMARY		
+da-trygge-001.md	trygge	adjective	TODO		TODO_PRIMARY		
+da-trygt-001.md	trygt	adjective	TODO		TODO_PRIMARY		
+da-tr-dt-001.md	trådt	verb	TODO		TODO_PRIMARY		
+da-tr-ffe-001.md	træffe	verb	to meet, hook up	to hit | meet, see	MISSING_TO		
+da-turde-001.md	turde	verb	to dare	ought to | might	MISSING_TO		
+da-tyde-001.md	tyde	verb	to interpret	decipher, read	MISSING_TO		
+da-tydeligt-001.md	tydeligt	adjective	TODO		TODO_PRIMARY		
+da-type-001.md	type	noun	TODO		TODO_PRIMARY		
+da-t-lle-001.md	tælle	noun	tallow	to count | to number	SPURIOUS_TO		
+da-udbrud-001.md	udbrud	noun	TODO		TODO_PRIMARY		
+da-udbud-001.md	udbud	noun	supply	Something being available for choosing, such as on a market; an option, offer.	TOO_LONG		
+da-udelukke-001.md	udelukke	verb	to shut out, exclude	bar, exclude | ban | debar	MISSING_TO		
+da-udfordring-001.md	udfordring	noun	TODO		TODO_PRIMARY		
+da-udland-001.md	udland	noun	abroad, foreign countries; everywhere that is not this country, taken as a whole		TOO_LONG		
+da-udlevere-001.md	udlevere	verb	TODO		TODO_PRIMARY		
+da-udnytte-001.md	udnytte	verb	to exploit	expedient use	MISSING_TO		
+da-udover-001.md	udover	adverb	TODO		TODO_PRIMARY		
+da-udstilling-001.md	udstilling	noun	TODO		TODO_PRIMARY		
+da-udtale-001.md	udtale	noun	pronunciation	to say, to declare, to state | to express | to pronounce	SPURIOUS_TO		
+da-udtaler-001.md	udtaler	noun	TODO		TODO_PRIMARY		
+da-udvalgte-001.md	udvalgte	verb	TODO		TODO_PRIMARY		
+da-uge-001.md	uge	noun	TODO		TODO_PRIMARY		
+da-ulovlig-001.md	ulovlig	adjective	TODO		TODO_PRIMARY		
+da-unders-g-001.md	undersøg	verb	TODO		TODO_PRIMARY		
+da-undervejs-001.md	undervejs	adverb	TODO		TODO_PRIMARY		
+da-vaccine-001.md	vaccine	noun	TODO		TODO_PRIMARY		
+da-vanskeligt-001.md	vanskeligt	adjective	TODO		TODO_PRIMARY		
+da-vant-001.md	vant	noun	TODO		TODO_PRIMARY		
+da-vask-001.md	vask	noun	TODO		TODO_PRIMARY		
+da-vedkommende-001.md	vedkommende	noun	TODO		TODO_PRIMARY		
+da-vej-001.md	vej	noun	road (strip of land made suitable for travel, the path or route one takes)	way | route	TOO_LONG		
+da-vejene-001.md	vejene	noun	TODO		TODO_PRIMARY		
+da-velf-rd-001.md	velfærd	noun	TODO		TODO_PRIMARY		
+da-vende-001.md	vende	verb	to turn (all senses)	to turn over (all senses) | to discuss, debate	DANISH_WORD		
+da-vente-001.md	vente	verb	to wait	expect	MISSING_TO		
+da-ventet-001.md	ventet	verb	TODO		TODO_PRIMARY		
+da-vidne-001.md	vidne	noun	witness	to testify, give evidence	SPURIOUS_TO		
+da-vigtigste-001.md	vigtigste	adjective	TODO		TODO_PRIMARY		
+da-vildt-001.md	vildt	noun	TODO		TODO_PRIMARY		
+da-villa-001.md	villa	noun	TODO		TODO_PRIMARY		
+da-virke-001.md	virke	noun	function properly	to work, to labor | exert influence upon | seem, appear	SPURIOUS_TO		
+da-virkelighed-001.md	virkelighed	noun	TODO		TODO_PRIMARY		
+da-virksomhed-001.md	virksomhed	noun	TODO		TODO_PRIMARY		
+da-vise-001.md	vise	noun	song, ballad, ditty	to show | to prove | show off	SPURIOUS_TO		
+da-voldsom-001.md	voldsom	adjective	forceful, violent (in the sense: involving extreme force, not necessarily implying any physical conflict)		TOO_LONG		
+da-von-001.md	von	adverb	TODO		TODO_PRIMARY		
+da-vores-001.md	vores	pronoun	TODO		TODO_PRIMARY		
+da-v-lger-001.md	vælger	noun	TODO		TODO_PRIMARY		
+da-v-rste-001.md	værste	adjective	TODO		TODO_PRIMARY		
+da-v-sentligt-001.md	væsentligt	adjective	TODO		TODO_PRIMARY		
+da-weekend-001.md	weekend	noun	TODO		TODO_PRIMARY		
+da-yderst-001.md	yderst	adjective	TODO		TODO_PRIMARY		
+da--ldst-001.md	ældst	adjective	TODO		TODO_PRIMARY		
+da--rgerligt-001.md	ærgerligt	adjective	TODO		TODO_PRIMARY		
+da--rgre-001.md	ærgre	verb	to annoy	be disgruntled or annoyed	MISSING_TO		
+da--get-001.md	øget	verb	TODO		TODO_PRIMARY		
+da--je-001.md	øje	noun	eye	to see, watch	SPURIOUS_TO		
+da--konomi-001.md	økonomi	noun	TODO		TODO_PRIMARY		
+da--nske-001.md	ønske	noun	wish	to wish	SPURIOUS_TO		
+da--vrigt-001.md	øvrigt	adjective	TODO		TODO_PRIMARY		

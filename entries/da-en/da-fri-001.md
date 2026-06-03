@@ -1,0 +1,137 @@
+﻿---
+
+## HEADWORD [REQUIRED]
+
+```
+headword: fri
+direction: DA→EN
+```
+
+---
+
+## GRAMMAR [REQUIRED]
+
+```
+pos: verb
+gender: SKIP
+```
+
+### Inflections [OPTIONAL]
+
+```
+inflections:
+  infinitive: fri
+  present: frier eller -r
+  past: friede
+  past_participle: friet
+  present_participle: TODO
+```
+
+---
+
+## PRONUNCIATION [REQUIRED]
+
+```
+phonetic_plain: FRI
+ipa: /friː/
+syllables: fri
+stoed: TODO
+```
+
+---
+
+## TRANSLATION [REQUIRED]
+
+```
+primary_translation: to propose
+secondary_translations:
+  - to free
+  - vacant, unoccupied
+  - to available
+```
+
+---
+
+## REGISTER [OPTIONAL]
+
+```
+register: TODO
+domain: TODO
+formality: TODO
+```
+
+---
+
+## EXAMPLE SENTENCES [REQUIRED]
+
+```yaml
+examples:
+  - danish: Jeg er fri.
+    english: I'm free.
+    source: tatoeba
+    source_id: 2342836
+  - danish: Arbejde gør fri.
+    english: Work makes free.
+    source: tatoeba
+    source_id: 4807710
+  - danish: Dan var på fri fod.
+    english: Dan was on the loose.
+    source: tatoeba
+    source_id: 10566331
+```
+
+
+---
+
+## RELATED WORDS [OPTIONAL]
+
+```
+related: TODO
+```
+
+---
+
+## THEMATIC TAGS [REQUIRED]
+
+```
+tags:
+  - TODO
+```
+
+---
+
+## FREQUENCY [REQUIRED]
+
+```
+frequency_rank: 992
+frequency_tier: common
+```
+
+---
+
+## LAYOUT HINTS [MANUAL]
+
+```
+layout:
+  print_emphasis: normal
+  flag_false_friend: false
+  flag_false_friend_note: SKIP
+  flag_spelling_trap: false
+  flag_pronunciation_trap: false
+```
+
+---
+
+## PIPELINE METADATA
+
+```
+entry_id: da-fri-001
+created: 2026-05-05
+last_modified: 2026-05-05
+source_wiktionary: true
+source_tatoeba: true
+source_leipzig: true
+review_status: draft
+reviewed_by: SKIP
+notes: Phonetic approximation needs manual review.
+```

@@ -1,0 +1,69 @@
+# date
+
+```
+headword: date
+direction: EN->DA
+```
+
+```
+pos: noun
+gender: SKIP
+```
+
+```
+inflections: TODO
+```
+
+```
+phonetic_plain: TODO
+ipa: /deɪt/
+syllables: TODO
+stoed: false
+```
+
+```
+primary_translation: dato (en)
+secondary_translations:
+  - TODO
+```
+
+```
+register: neutral
+domain: SKIP
+formality: neutral
+```
+
+```yaml
+examples:
+  - danish: Hvilken dato er det i dag?
+    english: What is the date today?
+    source: manual
+    source_id: SKIP
+```
+
+```
+related: TODO
+```
+
+```
+tags:
+  - time
+```
+
+```
+frequency_rank: 558
+frequency_tier: common
+```
+
+```
+layout:
+  print_emphasis: normal
+  flag_false_friend: false
+  flag_spelling_trap: false
+  flag_pronunciation_trap: false
+```
+
+```
+review_status: draft
+notes: auto-generated from DA->EN reverse lookup
+```

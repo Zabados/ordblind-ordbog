@@ -1,0 +1,1443 @@
+   1  say                     verb          sige                                 udtale
+   2  make                    verb          lave                                 gøre
+   3  time                    noun          tidspunkt                            tide | tid | klokke
+   4  new                     noun          ny                                   
+   5  year                    noun          år                                   
+   6  take                    verb          tage                                 
+   7  come                    verb          komme                                
+   8  state                   noun          tilstand                             erklære
+   9  get                     noun          få                                   komme
+  10  know                    verb          vide                                 kende
+  11  use                     verb          bruge                                brug | benytte
+  12  first                   adjective     første                               først
+  13  give                    verb          give                                 
+  14  work                    noun          værk                                 arbejde | virke
+  15  see                     verb          se                                   øje | lide
+  16  good                    adjective     god                                  
+  17  day                     noun          dag                                  
+  18  find                    noun          fund                                 finde | befinde
+  19  way                     noun          vej                                  
+  20  look                    verb          kigge                                se | synes
+  21  back                    adverb        tilbage                              ryg
+  22  many                    adjective     mange                                masse
+  23  think                   verb          tænke                                synes | finde | mene
+  24  well                    adverb        vel                                  godt
+  25  great                   adjective     flot                                 stor
+  26  much                    adjective     meget                                
+  27  people                  noun          folk                                 
+  28  long                    adjective     lang                                 længe
+  29  little                  adverb        lidt                                 
+  30  seem                    verb          synes                                
+  31  place                   noun          sted                                 plads | placere
+  32  world                   noun          verden                               
+  33  old                     adjective     gammel                               
+  34  life                    noun          liv                                  
+  35  hand                    noun          hånd                                 
+  36  become                  verb          blive                                
+  37  tell                    verb          fortælle                             sige
+  38  show                    noun          vise                                 
+  39  house                   noun          hus                                  
+  40  need                    verb          trænge                               savn | behov | behøve
+  41  high                    adjective     høj                                  
+  42  call                    verb          ringe                                kalde | telefon
+  43  last                    adjective     sidste                               sidst | forrige | holde
+  44  thing                   noun          ting                                 sag
+  45  school                  noun          skole                                
+  46  right                   adjective     rigtig                               ret | højre
+  47  one                     noun          man                                  en | én | ettal (et)
+  48  turn                    verb          vende                                tur | omgang | dreje
+  49  leave                   verb          forlade                              lade
+  50  want                    verb          mangle                               savn | savne
+  51  point                   verb          pege                                 ende
+  52  small                   adjective     lille                                
+  53  mean                    verb          mene                                 sige
+  54  part                    noun          vedkommende                          del | afsnit | afdeling
+  55  number                  noun          tal                                  nummer | antal | mængde
+  56  ask                     verb          spørge                               bede | byde
+  57  home                    noun          hjem                                 bolig
+  58  form                    verb          udgøre                               
+  59  begin                   verb          begynde                              
+  60  child                   noun          barn                                 
+  61  end                     verb          slutte                               slutning | ende | afslutning
+  62  far                     adjective     vidt                                 
+  63  problem                 noun          problem                              
+  64  area                    noun          område                               areal
+  65  write                   verb          skrive                               
+  66  word                    noun          ord                                  
+  67  however                 adverb        imidlertid                           dog | derimod
+  68  program                 noun          program                              udsendelse (en) | programme (et)
+  69  system                  noun          system                               
+  70  head                    noun          hoved                                lede
+  71  follow                  verb          følge                                
+  72  large                   adjective     stor                                 
+  73  hold                    verb          holde                                afholde | tag
+  74  eye                     noun          øje                                  
+  75  fact                    noun          kendsgerning (en)                    faktum (et) | virkelighed (en)
+  76  face                    noun          ansigt                               
+  77  keep                    verb          beholde                              holde
+  78  course                  noun          kurs                                 forløb
+  79  stand                   verb          stå                                  ligge
+  80  group                   noun          gruppe                               
+  81  run                     verb          løbe                                 løb | drive
+  82  open                    verb          åbne                                 åben
+  83  interest                noun          interesse                            
+  84  line                    noun          linje                                
+  85  put                     verb          sætte                                lægge | stikke
+  86  case                    noun          tilfælde                             fald
+  87  change                  verb          skifte                               ændring | ændre
+  88  general                 adjective     generel                              
+  89  set                     noun          sæt                                  indstille | dække
+  90  order                   noun          orden                                byde | bestille | besked
+  91  present                 verb          præsentere                           fremlægge
+  92  city                    noun          by (en)                              
+  93  water                   noun          vand                                 
+  94  unite                   verb          forene                               sammenslutte
+  95  force                   verb          tvinge                               drive | kraft | magt
+  96  live                    verb          leve                                 levende
+  97  move                    verb          flytte                               bevæge | træk
+  98  war                     noun          krig                                 
+  99  bring                   noun          bringe                               
+ 100  increase                verb          øget                                 øge | stigning
+ 101  provide                 verb          levere                               
+ 102  side                    noun          side                                 
+ 103  government              noun          styre                                regering
+ 104  plan                    verb          planlægge                            plan
+ 105  try                     verb          forsøge                              
+ 106  country                 noun          land                                 
+ 107  result                  noun          resultat                             
+ 108  name                    noun          navn (et)                            
+ 109  study                   verb          dyrke                                studie
+ 110  early                   adjective     tidlig                               
+ 111  member                  noun          medlem (et)                          
+ 112  less                    adverb        mindre                               færre
+ 113  service                 noun          drift                                
+ 114  play                    verb          spille                               leg
+ 115  light                   noun          lys                                  let | fyre
+ 116  help                    verb          hjælpe                               hjælp
+ 117  something               pronoun       noget                                et eller andet
+ 118  start                   verb          starte                               start | begynde | sæt
+ 119  question                noun          spørgsmål                            
+ 120  night                   noun          nat                                  aften
+ 121  church                  noun          kirke                                
+ 122  room                    noun          rum                                  lokale
+ 123  young                   adjective     ung                                  
+ 124  public                  adjective     offentlig                            publikum
+ 125  almost                  adjective     nærmest                              næsten
+ 126  enough                  adverb        nok                                  tilstrækkeligt
+ 127  hear                    verb          høre                                 
+ 128  let                     noun          lade                                 lej
+ 129  big                     adjective     stor                                 
+ 130  once                    adverb        engang                               
+ 131  power                   noun          magt                                 effekt | evne | kraft
+ 132  week                    noun          uge                                  
+ 133  business                noun          forretning                           
+ 134  nothing                 pronoun       intet                                ingenting
+ 135  cost                    verb          koste                                pris
+ 136  value                   noun          værdi                                
+ 137  second                  adjective     anden                                sekund
+ 138  family                  noun          familie                              
+ 139  act                     verb          handle                               
+ 140  president               noun          præsident                            
+ 141  close                   adjective     tæt                                  afslutte | nær | slutte
+ 142  report                  noun          rapport                              anmelde | melding | oplyse
+ 143  experience              noun          oplevelse                            opleve | erfaring
+ 144  law                     noun          lov                                  ret
+ 145  car                     noun          personbil                            bil
+ 146  mind                    noun          hoved                                indre
+ 147  white                   noun          hvid                                 
+ 148  social                  adjective     social                               udadvendt | selskabelig
+ 149  national                adjective     national                             
+ 150  matter                  noun          sag                                  mål | stof
+ 151  company                 noun          virksomhed                           selskab | firma
+ 152  several                 adjective     flere                                
+ 153  development             noun          udvikling                            
+ 154  possible                adjective     mulig                                
+ 155  important               adjective     vigtig                               væsentlig
+ 156  return                  noun          gengæld                              
+ 157  lead                    noun          føre                                 lede
+ 158  pay                     verb          betale                               afholde
+ 159  action                  noun          handling                             aktion
+ 160  felt                    noun          filt (et)                            filthat (en) | filte
+ 161  saw                     noun          sav (en)                             save
+ 162  foot                    noun          fod                                  
+ 163  best                    adjective     bedst                                bedste
+ 164  next                    noun          næste                                
+ 165  appear                  verb          fremgå                               komme
+ 166  reason                  noun          grund                                
+ 167  kind                    noun          slags                                rar
+ 168  field                   noun          felt                                 
+ 169  door                    noun          dør                                  
+ 170  meet                    verb          træffe                               
+ 171  figure                  noun          person                               tal
+ 172  example                 noun          eksempel                             
+ 173  student                 noun          studerende                           elev
+ 174  least                   adjective     mindst                               
+ 175  continue                verb          fortsætte                            
+ 176  later                   adjective     senere                               
+ 177  reach                   verb          opnå                                 
+ 178  require                 verb          kræve                                
+ 179  body                    noun          krop                                 
+ 180  idea                    noun          idé                                  tanke
+ 181  effect                  noun          effekt                               
+ 182  sense                   noun          sans (en)                            fornemmelse
+ 183  expect                  verb          forvente                             vente
+ 184  believe                 verb          tænke                                
+ 185  miss                    verb          savne                                
+ 186  talk                    verb          tale                                 snakke | fortælle | snak
+ 187  like                    noun          lige                                 
+ 188  god                     noun          gud                                  
+ 189  walk                    verb          gå                                   tur
+ 190  type                    noun          indtaste                             taste
+ 191  develop                 verb          udvikle                              
+ 192  love                    noun          kærlighed                            elske
+ 193  hour                    noun          time                                 hel
+ 194  month                   noun          måned                                
+ 195  consider                verb          overveje                             
+ 196  control                 noun          kontrol                              styr
+ 197  sit                     verb          sidde                                
+ 198  nation                  noun          nation (en)                          stat (en)
+ 199  remain                  verb          blive                                
+ 200  certain                 adjective     vis                                  vist | visse
+ 201  individual              noun          individ (et)                         individuel
+ 202  different               adjective     forskellig                           anderledes
+ 203  period                  noun          periode                              
+ 204  whole                   adjective     hel                                  ganske | fylde
+ 205  thus                    adverb        således                              dermed
+ 206  speak                   noun          tale                                 
+ 207  pass                    verb          vedtage                              bestå
+ 208  human                   noun          menneske                             
+ 209  perhaps                 adverb        måske                                
+ 210  rate                    noun          sats                                 rate | hastighed
+ 211  college                 noun          college                              højskole
+ 212  level                   noun          niveau                               
+ 213  carry                   verb          bære                                 
+ 214  street                  noun          gade (et)                            
+ 215  job                     noun          arbejdsplads                         
+ 216  feel                    verb          føle                                 kende
+ 217  office                  noun          kontor                               lokale
+ 218  serve                   verb          tjene                                
+ 219  book                    noun          bog                                  
+ 220  sound                   noun          lyde                                 
+ 221  step                    verb          træde                                skridt
+ 222  age                     noun          alder                                
+ 223  grow                    verb          vokse                                
+ 224  history                 noun          historie                             
+ 225  low                     adjective     lav                                  
+ 226  position                noun          stilling                             stand | position | plads
+ 227  moment                  noun          stund                                
+ 228  board                   noun          styrelse                             nævn
+ 229  person                  noun          person                               hoved | menneske
+ 230  cause                   noun          anledning                            årsag | sag
+ 231  condition               noun          betingelse                           forudsætning | tilstand
+ 232  class                   noun          klasse                               hold | stand
+ 233  center                  noun          centrum (et)                         midte
+ 234  friend                  noun          ven                                  
+ 235  receive                 verb          modtage                              
+ 236  add                     verb          tilføje                              
+ 237  note                    noun          brev                                 kommentar | sol
+ 238  policy                  noun          politik                              
+ 239  local                   adjective     lokal                                
+ 240  record                  noun          rekord                               registrere
+ 241  process                 noun          proces                               gennemføre
+ 242  death                   adverb        ihjel                                dødsfald | død
+ 243  method                  noun          måde                                 
+ 244  today                   adverb        i dag                                idag
+ 245  court                   noun          gård                                 
+ 246  free                    verb          fri                                  
+ 247  cut                     verb          udelukke                             snyde | skære | beskære
+ 248  anything                pronoun       noget                                hvad som helst
+ 249  society                 noun          samfund                              
+ 250  happen                  verb          foregå                               ske
+ 251  answer                  verb          svare                                svar | løsning
+ 252  support                 noun          støtte                               
+ 253  read                    verb          læse                                 
+ 254  concern                 noun          bekymring                            
+ 255  party                   noun          fest                                 parti
+ 256  arm                     noun          våben                                våbenmærke (et) | våbenskjold (et) | bevæbne
+ 257  lose                    verb          tabe                                 miste
+ 258  art                     noun          kunst                                kunstværk (et)
+ 259  wait                    verb          vente                                
+ 260  determine               verb          bestemme                             fastslå
+ 261  issue                   noun          emne                                 sag | udgave
+ 262  effort                  noun          indsats                              anstrengelse
+ 263  community               noun          fællesskab                           
+ 264  view                    noun          udsigt                               sigt
+ 265  fire                    noun          ild                                  brand | fyre
+ 266  stop                    verb          stoppe                               standse
+ 267  land                    noun          score                                
+ 268  material                noun          materiale                            
+ 269  information             noun          oplysning                            
+ 270  late                    adjective     sen                                  
+ 271  voice                   noun          stemme                               
+ 272  complete                adjective     fuldstændig                          fuld
+ 273  tax                     noun          skat                                 
+ 274  clear                   adjective     tydelig                              klar
+ 275  money                   noun          penge                                
+ 276  together                adverb        sammen                               
+ 277  subject                 adjective     grundled                             subjekt | emne | tema
+ 278  sure                    adjective     sikker                               vis
+ 279  letter                  noun          brev                                 
+ 280  air                     noun          luft                                 
+ 281  town                    noun          by                                   
+ 282  drive                   verb          køre                                 driv | drift
+ 283  short                   noun          kort                                 lav
+ 284  probably                adjective     sikkert                              
+ 285  real                    adjective     virkelig                             reel | egentlig
+ 286  include                 verb          omfatte                              involvere
+ 287  strong                  adjective     stærk                                kraftig
+ 288  term                    noun          vilkår                               
+ 289  political               adjective     politisk                             
+ 290  cannot                  verb          [[kan]] [[ikke]]                     
+ 291  design                  verb          indrette                             tegne
+ 292  section                 noun          afdeling                             afsnit
+ 293  road                    noun          vej (en)                             
+ 294  learn                   verb          høre                                 lære
+ 295  cover                   noun          dække                                lukke
+ 296  rise                    verb          hæve                                 stige | stigning
+ 297  send                    verb          sende                                
+ 298  century                 noun          århundrede (et)                      århundred (et) | centurie (en)
+ 299  major                   adjective     fuldmyndig                           major | voksen
+ 300  minute                  noun          minut                                
+ 301  break                   verb          bryde                                brud
+ 302  department              noun          division                             
+ 303  special                 adjective     speciel                              særlig
+ 304  build                   verb          bygge                                
+ 305  remember                verb          huske                                husk
+ 306  wife                    noun          kone                                 
+ 307  involve                 verb          involvere                            omfatte
+ 308  rather                  adverb        hellere                              
+ 309  federal                 adjective     føderal                              
+ 310  situation               noun          situation                            
+ 311  university              noun          universitet (et)                     
+ 312  ago                     adverb        siden                                
+ 313  available               adjective     tilgængelig                          
+ 314  fall                    verb          falde                                fald | sænke
+ 315  indicate                verb          anvise                               
+ 316  economic                adjective     økonomisk                            
+ 317  table                   noun          bord                                 
+ 318  mother                  noun          mor                                  
+ 319  south                   noun          syd                                  
+ 320  purpose                 noun          formål                               
+ 321  full                    adjective     fuld                                 
+ 322  understand              verb          forstå                               
+ 323  watch                   verb          se                                   
+ 324  base                    noun          base (en)                            hovedkvarter (et) | basis (en) | skjoldfod (en)
+ 325  hard                    adjective     hård                                 
+ 326  picture                 noun          billede                              
+ 327  measure                 verb          måle                                 måde | skridt
+ 328  west                    noun          vest                                 
+ 329  true                    adjective     ret                                  
+ 330  ground                  verb          grunde                               
+ 331  total                   noun          total                                
+ 332  spirit                  noun          ånd (en)                             liv (et) | mod (et) | kraft (en)
+ 333  charge                  verb          tage                                 
+ 334  front                   noun          front                                
+ 335  lay                     verb          lægge                                
+ 336  activity                noun          aktivitet                            
+ 337  wall                    noun          væg (en)                             mur (en) | vejrandøje (en)
+ 338  offer                   verb          tilbyde                              tilbud | byde
+ 339  draw                    verb          tegne                                hæve | tiltrække | trække
+ 340  common                  adjective     fælles                               almindelig
+ 341  surface                 noun          overflade (et)                       
+ 342  test                    verb          teste                                undersøge
+ 343  future                  adjective     fremtidig                            fremtid
+ 344  color                   noun          farve                                
+ 345  difference              noun          forskel                              
+ 346  bad                     adjective     slet                                 slem | skidt | dårlig
+ 347  stage                   noun          scene                                etape | opføre
+ 348  market                  noun          marked                               
+ 349  produce                 verb          fremstille                           udføre
+ 350  deal                    noun          aftale                               
+ 351  claim                   verb          påstå                                kræve | påstand
+ 352  pressure                noun          pres                                 
+ 353  necessary               adjective     nødvendig                            
+ 354  evidence                noun          vidne                                godtgøre | bevise
+ 355  property                noun          ejendom                              besiddelse
+ 356  amount                  noun          mængde                               
+ 357  top                     adjective     aktiv                                
+ 358  mile                    noun          mil (en)                             
+ 359  sometimes               adverb        sommetider                           
+ 360  past                    verb          havde                                fortid | aflyste
+ 361  bear                    noun          bjørn                                bære | tåle
+ 362  approach                verb          nærme                                tilgang
+ 363  morning                 noun          morgen                               
+ 364  piece                   noun          stykke                               
+ 365  able                    adjective     i stand til                          have mulighed for | habil | kompetent
+ 366  train                   verb          træne                                tog
+ 367  rest                    noun          hvile (en)                           ro | rest (en)
+ 368  music                   noun          musik                                
+ 369  education               noun          undervisning                         uddannelse
+ 370  range                   noun          værdimængde (en)                     
+ 371  demand                  verb          kræve                                efterspørgsel | forvente | krav
+ 372  list                    noun          liste                                
+ 373  enter                   verb          gå ind                               gå ind i | indgå i
+ 374  fight                   verb          bekæmpe                              
+ 375  military                adjective     militær                              
+ 376  story                   noun          historie                             
+ 377  union                   noun          forening                             
+ 378  stay                    noun          ophold                               
+ 379  apply                   verb          gælde                                
+ 380  black                   noun          sort                                 
+ 381  direct                  adjective     direkte                              
+ 382  statement               noun          udmelding                            
+ 383  allow                   verb          tillade                              
+ 384  hope                    verb          håbe                                 håb
+ 385  paper                   noun          papir                                
+ 386  north                   noun          nord                                 
+ 387  industry                noun          industri (en)                        
+ 388  limit                   verb          begrænse                             grænse
+ 389  usually                 adverb        som regel                            sædvanligvis
+ 390  mark                    noun          mærke                                karakter
+ 391  decide                  verb          beslutte                             afgøre
+ 392  share                   noun          andel                                del | dele
+ 393  space                   noun          rum                                  
+ 394  therefore               adverb        derfor                               
+ 395  sign                    noun          tegn                                 
+ 396  red                     adjective     rød                                  
+ 397  father                  noun          far                                  
+ 398  visit                   verb          gæste                                besøge | besøg
+ 399  rule                    noun          regel                                styre
+ 400  exist                   verb          findes                               eksistere
+ 401  various                 adjective     diverse                              
+ 402  modern                  adjective     moderne                              
+ 403  suggest                 verb          foreslå                              
+ 404  secretary               noun          sekretær (en)                        minister (en) | sekretærfugl (en)
+ 405  describe                verb          beskrive                             
+ 406  soon                    adverb        snart                                
+ 407  food                    noun          spise                                mad | føde
+ 408  plant                   verb          sætte                                vækst
+ 409  peace                   noun          fred                                 
+ 410  supply                  noun          udbud                                levere
+ 411  operation               noun          drift                                
+ 412  island                  noun          ø                                    
+ 413  personal                adjective     personlig                            
+ 414  care                    noun          pleje                                hensyn
+ 415  heart                   noun          hjerte                               
+ 416  raise                   verb          hæve                                 
+ 417  establish               verb          etablere                             oprette
+ 418  alone                   adjective     ene                                  alene
+ 419  nature                  noun          natur                                
+ 420  station                 noun          station (en)                         tv-station
+ 421  product                 noun          produkt                              
+ 422  drop                    verb          falde                                kaste
+ 423  third                   adjective     tredje                               
+ 424  spend                   verb          give ud                              spendere | bruge
+ 425  wish                    noun          ønske                                
+ 426  accept                  verb          acceptere                            
+ 427  fear                    verb          frygte                               frygt | angst
+ 428  son                     noun          søn                                  dreng
+ 429  feeling                 noun          følelse                              
+ 430  finally                 adjective     endelig                              
+ 431  private                 adjective     privat                               egen
+ 432  die                     verb          dø                                   
+ 433  county                  noun          grevskab (et)                        amt (et)
+ 434  unit                    noun          enhed (en)                           
+ 435  trouble                 noun          problem                              besvær
+ 436  press                   noun          presse                               trænge
+ 437  organization            noun          organisation                         
+ 438  attempt                 noun          forsøg                               forsøge
+ 439  simple                  adjective     enkel                                
+ 440  dark                    adjective     mørk                                 tung
+ 441  contain                 verb          rumme                                indeholde
+ 442  committee               noun          udvalg                               
+ 443  everything              pronoun       alt                                  
+ 444  horse                   noun          kavaleri (et)                        
+ 445  trade                   verb          forhandle                            handel | handle
+ 446  officer                 noun          officer (en)                         
+ 447  basis                   noun          grundlag                             forudsætning
+ 448  single                  adjective     enkelt                               enkel | ledig
+ 449  particular              adjective     bestemt                              særlig
+ 450  standard                adjective     standard                             standart | estandart | fane
+ 451  fill                    verb          fylde                                udfylde
+ 452  east                    noun          øst                                  
+ 453  source                  noun          kilde                                
+ 454  event                   noun          arrangement                          
+ 455  building                noun          bygning                              hus
+ 456  cold                    adjective     kold                                 
+ 457  river                   noun          flod                                 å
+ 458  cent                    noun          cent (en)                            
+ 459  detail                  noun          detalje                              
+ 460  fine                    adjective     fin                                  bøde | smuk
+ 461  project                 noun          projekt                              
+ 462  leader                  noun          leder                                
+ 463  sort                    noun          sortering (en)                       løse
+ 464  attention               noun          opmærksomhed                         
+ 465  principle               noun          princip (et)                         
+ 466  recent                  adjective     nylig                                ny
+ 467  reduce                  verb          reducere                             mindske
+ 468  aid                     verb          hjælpe                               
+ 469  volume                  noun          fylde                                
+ 470  defense                 noun          forsvar (et)                         
+ 471  price                   noun          pris                                 kurs
+ 472  seek                    verb          søge                                 
+ 473  game                    noun          kamp                                 parti
+ 474  operate                 verb          betjene                              operere | drive
+ 475  sale                    noun          salg                                 
+ 476  choose                  verb          vælge                                
+ 477  explain                 verb          forklare                             
+ 478  factor                  noun          agent (en)                           faktor (en) | faktorisere
+ 479  create                  verb          skabe                                oprette
+ 480  brown                   noun          brun                                 brune
+ 481  easy                    adjective     nem                                  let | tryg
+ 482  wear                    verb          have på                              
+ 483  smile                   noun          smil                                 
+ 484  movement                noun          bevægelse                            retning
+ 485  park                    noun          park                                 
+ 486  dead                    noun          død                                  
+ 487  research                noun          forskning                            
+ 488  district                noun          distrikt (et)                        
+ 489  instead                 adverb        i stedet                             i stedet for
+ 490  trial                   noun          prøve                                
+ 491  decision                noun          beslutning                           afgørelse
+ 492  data                    noun          data (et)                            
+ 493  basic                   adjective     grundlæggende                        
+ 494  opportunity             noun          lejlighed                            mulighed
+ 495  window                  noun          vindue                               
+ 496  spring                  noun          kilde                                forår
+ 497  because                 conjunction   fordi                                eftersom | nemlig
+ 498  club                    noun          klub                                 
+ 499  simply                  adverb        simpelthen                           bare | udelukkende
+ 500  permit                  verb          tillade                              tilladelse | lov
+ 501  firm                    adjective     fast                                 forretning
+ 502  floor                   noun          gulv                                 
+ 503  practice                noun          praksis                              dyrke
+ 504  function                verb          fungere                              
+ 505  account                 noun          konto (en)                           redegørelse (en) | forklaring (en) | regning (en)
+ 506  lot                     noun          parti                                
+ 507  lack                    verb          mangle                               mangel
+ 508  equipment               noun          udstyr                               
+ 509  obtain                  verb          erholde                              opnå
+ 510  stock                   noun          levkøj (en)                          
+ 511  final                   adjective     endelig                              
+ 512  science                 noun          videnskab (en)                       viden
+ 513  actually                adjective     faktisk                              
+ 514  reaction                noun          reaktion                             
+ 515  drink                   noun          drik                                 
+ 516  pattern                 noun          mønster                              
+ 517  blue                    adjective     blå                                  
+ 518  relation                noun          forhold                              
+ 519  central                 noun          central                              
+ 520  religious               adjective     religiøs                             
+ 521  influence               noun          indflydelse                          
+ 522  represent               verb          tegne                                
+ 523  direction               noun          retning                              
+ 524  prepare                 verb          udarbejde                            forberede
+ 525  suppose                 verb          formode                              antage
+ 526  win                     noun          sejr                                 vinde
+ 527  association             noun          forbund                              
+ 528  medical                 adjective     medicinsk                            
+ 529  recognize               verb          acceptere                            erkende
+ 530  especially              adverb        især                                 
+ 531  administration          noun          ledelse                              
+ 532  gun                     noun          pistol (en)                          håndvåben (et) | revolver (en) | gevær (et)
+ 533  difficult               noun          svær                                 
+ 534  respect                 noun          respekt                              
+ 535  average                 noun          gennemsnit                           
+ 536  square                  noun          kvadrat (et)                         torv (et) | firkant | kvadratisk
+ 537  buy                     verb          købe                                 
+ 538  temperature             noun          temperatur                           
+ 539  attack                  noun          angreb                               
+ 540  assume                  verb          antage                               formode
+ 541  tree                    noun          træ                                  
+ 542  hair                    noun          hår                                  
+ 543  element                 noun          element (et)                         grundstof (et) | elementer | es
+ 544  technique               noun          teknik (en)                          
+ 545  indeed                  adverb        sandelig                             sandhed | søreme
+ 546  quality                 noun          kvalitet                             
+ 547  fund                    noun          fond (en)                            finansiere
+ 548  police                  noun          politi                               
+ 549  foreign                 adjective     udenlandsk                           
+ 550  chance                  noun          chance                               mulighed
+ 551  pull                    verb          trække                               træk
+ 552  desire                  verb          ønske                                begære | attrå | begær
+ 553  occur                   verb          forekomme                            
+ 554  similar                 adjective     lignende                             magen til
+ 555  kill                    verb          dræbe                                
+ 556  machine                 noun          maskine (en)                         
+ 557  thought                 noun          tanke                                
+ 558  date                    noun          dato                                 
+ 559  couple                  noun          par                                  
+ 560  natural                 adjective     selvfølgelig                         naturlig
+ 561  prove                   noun          vise                                 
+ 562  growth                  noun          vækst                                tilgang | trivsel
+ 563  labor                   noun          arbejde                              arbejdskraft
+ 564  image                   noun          billede (et)                         
+ 565  hall                    noun          lokale                               
+ 567  international           adjective     international                        internationale
+ 568  performance             noun          præstation                           optræden | forestilling
+ 569  touch                   verb          berøre                               træk
+ 570  production              noun          produktion                           
+ 571  attitude                noun          holdning (en)                        positur (en) | attitude (en) | indstilling (en)
+ 572  stress                  noun          stress (et)                          stresse | fremhæve
+ 573  character               noun          karakter                             person | tegn
+ 574  size                    noun          størrelse                            
+ 575  realize                 verb          realisere                            gennemføre | virkeliggøre
+ 576  farm                    noun          gård                                 brug
+ 577  meeting                 noun          møde                                 
+ 578  congress                noun          kongres (en)                         
+ 579  teach                   verb          lære                                 
+ 580  throw                   verb          smide                                kaste
+ 581  hit                     noun          slag                                 ramme | træffe
+ 582  suddenly                adjective     pludselig                            
+ 583  dance                   noun          dans (en)                            danse
+ 584  wonder                  verb          undre                                
+ 585  maintain                verb          vedligeholde                         
+ 586  likely                  adverb        sandsynligvis                        
+ 587  addition                noun          addition (en)                        
+ 588  summer                  noun          sommer                               
+ 589  deep                    adjective     dyb                                  bred | dybsindig | dybttænkende
+ 590  agree                   verb          stemme overens                       overensstemme | rette sig efter
+ 591  pick                    noun          plukke                               
+ 592  express                 noun          udtale                               
+ 593  catch                   verb          fange                                tage
+ 594  earth                   noun          jord                                 
+ 595  race                    noun          løb                                  
+ 596  teacher                 noun          lærer                                
+ 597  store                   noun          butik                                
+ 598  language                noun          sprog                                mål
+ 599  entire                  adjective     hel                                  fuldstændig
+ 600  lie                     verb          ligge                                
+ 601  moral                   adjective     moralsk                              sømmelig | moralisk | moral
+ 602  theory                  noun          teori (en)                           
+ 603  degree                  noun          grad                                 
+ 604  evening                 noun          aften                                
+ 605  army                    noun          hær (en)                             forsvar (et)
+ 606  ship                    noun          skib                                 
+ 607  file                    noun          linje                                
+ 608  gain                    noun          gavn                                 vinde
+ 609  remove                  verb          fjerne                               aftage
+ 610  hotel                   noun          hotel                                
+ 611  writer                  noun          forfatter                            
+ 612  cell                    noun          celle (en)                           
+ 613  vote                    noun          stemme                               
+ 614  knowledge               noun          viden                                kendskab
+ 615  wide                    adjective     vidt                                 
+ 616  dog                     noun          hund                                 
+ 617  husband                 noun          mand                                 
+ 618  ready                   adjective     klar                                 parat
+ 619  population              noun          befolkning                           
+ 620  yes                     interjection  ja                                   jo
+ 621  object                  noun          objekt                               ting | genstand (en) | genstandsled (et)
+ 622  star                    noun          stjerne                              
+ 623  mention                 verb          omtale                               nævne
+ 624  dollar                  noun          dollar (en)                          
+ 625  responsibility          noun          ansvar (et)                          
+ 626  industrial              adjective     industriel                           
+ 627  doubt                   noun          tvivl                                
+ 628  fail                    verb          dumpe                                fejle | mislykkes | slå fejl
+ 629  left                    adjective     venstre                              tilbage
+ 630  due                     adjective     skyldig                              
+ 631  experiment              noun          forsøg                               
+ 632  hot                     adjective     stærk                                
+ 633  soviet                  noun          sovjet (en)                          
+ 634  nearly                  adverb        næsten                               nær
+ 635  progress                noun          fremgang                             
+ 636  strength                noun          styrke                               kraft
+ 637  procedure               noun          procedure (en)                       
+ 638  opinion                 noun          mening                               holdning
+ 639  check                   noun          skak (en)                            kontrollere | tjekke | tern
+ 640  anyone                  pronoun       nogen                                hvemsomhelst
+ 641  bed                     noun          seng                                 
+ 642  plane                   adjective     plan                                 høvl | høvle | flyver
+ 643  boat                    noun          båd                                  
+ 644  manner                  noun          vis                                  stil
+ 645  length                  noun          længde (en)                          
+ 646  strike                  verb          overstrege                           gennemstrege | strike | strejke
+ 647  institution             noun          institution                          
+ 648  join                    verb          slutte sig til                       tilslutte | forbinde
+ 649  role                    noun          rolle                                
+ 650  treatment               noun          behandling                           
+ 651  shape                   noun          form                                 danne
+ 652  physical                adjective     fysisk                               
+ 653  official                adjective     officiel                             embedsmand
+ 654  normal                  adjective     normal                               almindelig | rask
+ 655  meaning                 noun          betydning                            
+ 656  southern                adjective     sydlig                               
+ 657  western                 adjective     vestlig                              
+ 658  relate                  verb          relatere                             fortælle
+ 659  structure               noun          struktur (en)                        strukturere
+ 660  religion                noun          religion (en)                        
+ 661  communist               adjective     kommunistisk                         kommunist
+ 662  wrong                   adjective     forkert                              fejl | gal
+ 663  finish                  verb          afslutte                             
+ 664  feed                    verb          fodre                                foder | gilde
+ 665  corner                  noun          hjørne (et)                          
+ 666  scene                   noun          scene (en)                           
+ 667  doctor                  noun          læge                                 
+ 668  literature              noun          litteratur (en)                      
+ 669  achieve                 verb          opnå                                 
+ 670  bar                     noun          spærre                               udelukke
+ 671  maybe                   adverb        måske                                
+ 672  authority               noun          myndighed                            
+ 673  estimate                verb          ansætte                              regne
+ 674  separate                verb          adskille                             afsondre
+ 675  advance                 verb          trænge                               udvikling
+ 676  loss                    noun          tab                                  
+ 677  film                    noun          film (en)                            filme
+ 678  audience                noun          publikum                             
+ 679  former                  adjective     første                               
+ 680  freedom                 noun          frihed                               
+ 681  sleep                   verb          sove                                 søvn
+ 682  poet                    noun          digter (en)                          digterinde (en)
+ 683  grant                   verb          bevilge                              tilstå
+ 684  hospital                noun          sygehus                              hospital
+ 685  series                  noun          række                                
+ 686  prevent                 verb          forhindre                            forebygge | afholde
+ 687  truth                   noun          sandhed (en)                         
+ 688  heat                    noun          runde                                
+ 689  dress                   verb          afrette                              afpudse | behandle | ordne
+ 690  objective               adjective     mål                                  
+ 691  poem                    noun          digt (et)                            
+ 692  effective               adjective     effektiv                             
+ 693  marry                   verb          gifte                                
+ 694  feature                 noun          feature (en)                         træk (et) | ansigtstræk (et)
+ 695  radio                   noun          bilradio (en)                        
+ 696  possibility             noun          mulighed                             
+ 697  sell                    verb          sælge                                
+ 698  pool                    noun          pool (en)                            pøl (en)
+ 699  ball                    noun          bold                                 
+ 700  song                    noun          vise                                 sang
+ 701  hang                    verb          hænge                                
+ 702  election                noun          valg                                 
+ 703  clearly                 adverb        tydelig                              evident | indlysende | klart
+ 704  model                   noun          model                                
+ 705  enjoy                   verb          nyde                                 
+ 706  glass                   noun          glas (et)                            
+ 707  burn                    noun          brandsår                             forbrænding | afbrænding (en) | brænde
+ 708  conduct                 noun          føre                                 
+ 709  item                    noun          vare                                 
+ 710  extend                  verb          udvide                               forlænge | strække
+ 711  choice                  noun          valg                                 fin
+ 712  surprise                verb          undre                                overraskelse
+ 713  somewhat                adjective     nogenlunde                           
+ 714  distance                noun          afstand                              hold
+ 715  season                  noun          årstid (en)                          sæson
+ 716  beautiful               adjective     smuk                                 dejlig
+ 717  outside                 adverb        udenfor                              ude
+ 718  vary                    verb          variere                              skifte
+ 719  bank                    noun          bank                                 bred
+ 720  address                 noun          adresse                              bopæl
+ 721  discussion              noun          diskussion (en)                      
+ 722  treat                   verb          behandle                             
+ 723  heavy                   adjective     tung                                 
+ 724  edge                    noun          rand                                 kant (en)
+ 725  animal                  noun          dyr                                  
+ 726  relationship            noun          relation                             forhold
+ 727  inch                    noun          tomme (en)                           
+ 728  apparently              adverb        åbenbart                             
+ 729  cool                    adjective     kold                                 kølig | cool | koldblodig
+ 730  chief                   noun          chef                                 leder
+ 731  staff                   noun          stav (en)                            stang (en)
+ 732  green                   adjective     grøn                                 
+ 733  key                     noun          nøgle (en)                           signaturforklaring (en) | tast (en) | tangent (en)
+ 734  wave                    noun          bølge                                
+ 735  leg                     noun          ben                                  
+ 736  dry                     adjective     tør                                  tørre
+ 737  dream                   verb          drømme                               drøm
+ 738  bridge                  noun          bro                                  
+ 739  sing                    verb          synge                                
+ 740  notice                  noun          opslag                               
+ 741  immediately             adjective     umiddelbart                          
+ 742  discover                verb          opdage                               
+ 743  recently                adjective     nylig                                
+ 744  blood                   noun          blod                                 
+ 745  hill                    noun          bakke                                
+ 746  patient                 adjective     tålmodig                             patient
+ 747  difficulty              noun          sværhed (en)                         vanskelighed (en) | besvær (et)
+ 748  daily                   adjective     daglig                               
+ 749  listen                  verb          lytte                                
+ 750  division                noun          afdeling                             
+ 751  mass                    noun          masse                                
+ 752  brother                 noun          bror                                 broder
+ 753  marriage                noun          ægteskab (et)                        giftermål (et) | forbindelse (en) | forening (en)
+ 754  judge                   noun          dommer                               dømme
+ 755  improve                 verb          forbedre                             
+ 756  save                    verb          spare                                redde
+ 757  analysis                noun          analyse                              
+ 758  conference              noun          konference (en)                      
+ 759  agreement               noun          enighed                              aftale | kontrakt
+ 760  style                   noun          stil                                 
+ 761  eat                     noun          spise                                
+ 762  fit                     adjective     frisk                                oplagt | passe | sidde
+ 763  additional              adjective     yderligere                           
+ 764  director                noun          direktør                             
+ 765  technical               adjective     teknisk                              
+ 766  fiscal                  adjective     fiskal                               skattemæssig
+ 767  main                    adjective     generel                              hovedsagelig | hovedledning
+ 768  observe                 verb          bemærke                              
+ 769  characteristic          adjective     karakteristisk                       kendetegnende | karakteristik
+ 770  attend                  verb          deltage                              overværre
+ 771  afternoon               noun          eftermiddag                          
+ 772  further                 adjective     videre                               
+ 773  poor                    adjective     fattige                              fattigfolk
+ 774  frame                   noun          ramme                                
+ 775  forward                 adverb        frem                                 
+ 776  middle                  noun          midte (en)                           
+ 777  paint                   verb          male                                 
+ 778  agency                  noun          agentbureau (et)                     bureau (et) | myndighedskontor (et)
+ 779  remark                  noun          påpegning (en)                       observation (en) | bemærkning (en) | kommentar (en)
+ 780  block                   noun          blok                                 
+ 781  select                  verb          vælge                                
+ 782  justice                 noun          dommer                               
+ 783  affair                  noun          historie                             
+ 784  forget                  verb          glemme                               
+ 785  citizen                 noun          borger                               
+ 786  announce                verb          melde                                anmelde | meddele
+ 787  commission              noun          opgave (en)                          kommission (en) | undersøgelseskommission (en) | provision (en)
+ 788  serious                 adjective     alvorlig                             
+ 789  worker                  noun          arbejder (en)                        
+ 790  specific                adjective     bestemt                              
+ 791  shoulder                noun          skulder                              
+ 792  region                  noun          region                               
+ 793  travel                  verb          rejse                                
+ 794  shoot                   verb          skyde                                skud
+ 795  corporation             noun          aktieselskab (et)                    
+ 796  balance                 noun          ligevægt (en)                        afvejning (en) | balance (en) | saldo (en)
+ 797  nuclear                 adjective     kerne                                
+ 798  enemy                   noun          fjende (en)                          fjendtlig
+ 799  cross                   noun          kryds                                
+ 800  worry                   verb          bekymre                              
+ 801  professional            adjective     professionel                         faglig | erhverv
+ 802  fly                     verb          flyve                                
+ 803  pretty                  adjective     godt                                 
+ 804  sun                     noun          sol                                  
+ 805  success                 noun          succes                               
+ 806  tradition               noun          tradition                            
+ 807  slowly                  adverb        langsomt                             
+ 808  post                    noun          stilling                             
+ 809  promise                 noun          løfte                                love
+ 810  trip                    noun          fart                                 rejse
+ 811  mouth                   noun          udmunding (en)                       
+ 812  latter                  pronoun       denne                                sidste
+ 813  compare                 verb          sammenligne                          
+ 814  faith                   noun          tro (en)                             
+ 815  straight                noun          lige                                 ret
+ 816  obviously               adverb        naturligvis                          
+ 817  current                 noun          strøm                                nuværende | aktuel
+ 818  honor                   noun          ære (en)                             ærbødighed (en) | agtelse (en)
+ 819  speed                   noun          fart                                 
+ 820  discuss                 verb          drøfte                               diskutere | vende
+ 821  rock                    noun          blok                                 
+ 822  oil                     noun          olie (en)                            madolie | vegetabilsk olie (en) | planteolie (en)
+ 823  instance                noun          eksempel                             
+ 824  manager                 noun          bestyrer (en)                        leder | chef | direktør (en)
+ 825  clean                   noun          ren                                  
+ 826  artist                  noun          kunstner (en)                        
+ 827  camp                    noun          lejr (et)                            
+ 828  happy                   adjective     glad                                 
+ 829  command                 noun          bud                                  
+ 830  roll                    verb          vælte                                
+ 831  concept                 noun          begreb (et)                          koncept (et)
+ 832  aspect                  noun          aspekt (et)                          
+ 833  facility                noun          mulighed (en)                        færdighed (en)
+ 834  energy                  noun          energi                               strøm
+ 835  russian                 adjective     russisk                              
+ 836  wash                    noun          vask                                 
+ 837  laugh                   noun          latter (en)                          le | grine | smile
+ 838  propose                 verb          fri                                  foreslå
+ 839  requirement             noun          krav                                 
+ 840  reply                   noun          svar                                 
+ 841  fix                     verb          sætte                                
+ 842  completely              adjective     fuldstændig                          
+ 843  favor                   noun          tjeneste (en)                        god vilje | gunst (en)
+ 844  income                  noun          indtægt                              
+ 845  suffer                  verb          lide                                 
+ 846  finger                  noun          udpege                               pege | fingerere | famle
+ 847  shake                   verb          ryste                                chokere | ryste af sig | rokke
+ 848  extent                  noun          omfang                               
+ 849  council                 noun          råd (et)                             
+ 850  democratic              adjective     demokratisk                          
+ 851  deny                    verb          afvise                               
+ 852  gas                     noun          gas (et)                             
+ 853  push                    verb          skyde                                
+ 854  ahead                   adverb        foran                                
+ 855  consist                 verb          bestå                                
+ 856  none                    pronoun       ingen                                
+ 857  team                    noun          hold                                 
+ 858  hop                     noun          hop (et)                             hoppe | humle (en)
+ 859  refer                   verb          henvise                              
+ 860  publish                 verb          udgive                               bringe
+ 861  contribute              verb          bidrage                              levere
+ 862  arrive                  verb          ankomme                              
+ 863  spread                  verb          sprede                               brede | fordele
+ 864  lady                    noun          dame (en)                            
+ 865  importance              noun          betydning                            
+ 866  fee                     noun          gebyr (et)                           
+ 867  wind                    noun          blæst                                vejr | vind
+ 868  spot                    noun          sted                                 
+ 869  motor                   noun          motor (en)                           
+ 870  easily                  adverb        sagtens                              
+ 871  sight                   noun          sigt                                 
+ 872  column                  noun          søjle (en)                           kolonne (en) | klumme (en) | avisklumme (en)
+ 873  existence               noun          eksistens                            tilværelse
+ 874  engineer                noun          ingeniør (en)                        
+ 875  reflect                 verb          reflektere                           spejle | tænke over
+ 876  title                   noun          titel (en)                           
+ 877  session                 noun          session (en)                         møde (et)
+ 878  junior                  adjective     junior                               yngre
+ 879  depend                  verb          afhænge                              
+ 880  parent                  noun          forælder                             
+ 881  hardly                  noun          knap                                 næppe
+ 882  original                adjective     oprindelig                           
+ 883  weight                  noun          vægt                                 
+ 884  health                  noun          sundhed                              helbred
+ 885  response                noun          svar                                 
+ 886  campaign                noun          kampagne                             
+ 887  bit                     adverb        lidt                                 
+ 888  settle                  verb          slå sig ned                          afgøre | ordne
+ 889  sea                     noun          hav                                  vand
+ 890  sample                  noun          prøve                                eksempel
+ 891  destroy                 verb          ødelægge                             
+ 892  tend                    verb          have tendens til                     passe
+ 893  broad                   noun          bred                                 
+ 894  exercise                noun          øvelse (en)                          motionere
+ 895  handle                  noun          klinke                               
+ 896  newspaper               noun          avis                                 
+ 897  round                   adjective     rundt                                runde | omgang
+ 898  pain                    adjective     ondt                                 
+ 899  exactly                 adjective     præcis                               
+ 900  hat                     noun          hat (en)                             kasket (en)
+ 901  circle                  noun          ring                                 
+ 902  weapon                  noun          våben                                
+ 903  crowd                   noun          mængde                               
+ 904  master                  noun          kandidat (en)                        
+ 905  crisis                  noun          krise                                
+ 906  payment                 noun          betaling (en)                        
+ 907  news                    noun          budskab                              
+ 908  match                   noun          kamp (en)                            tændstik (en)
+ 909  advantage               noun          fordel                               
+ 910  ride                    verb          ride                                 køre | ridt | lift
+ 911  guest                   noun          gæst (en)                            gæste
+ 912  clay                    noun          ler (et)                             grus (et)
+ 913  telephone               noun          telefon                              
+ 914  score                   noun          score (en)                           partitur (et) | ridse
+ 915  goal                    noun          mål                                  
+ 916  contrast                noun          modsætning                           kontrast
+ 917  search                  verb          søge                                 
+ 918  dinner                  noun          middag                               
+ 919  thin                    adjective     tynd                                 fortynde
+ 920  radiation               noun          varmestråling (en)                   stråling (en)
+ 921  benefit                 noun          hjælp                                
+ 922  associate               adjective     med-                                 tilknyttet | ledsagende | kompagnon
+ 923  security                noun          sikkerhed                            
+ 924  equal                   noun          lige                                 samme
+ 925  circumstance            noun          omstændighed                         
+ 926  status                  noun          anseende (en)                        status (en)
+ 927  shop                    noun          forretning                           
+ 928  yard                    noun          gård (en)                            
+ 929  kid                     noun          barn                                 unge | en ung (en) | gedekid
+ 930  shelter                 noun          ly (et)                              
+ 931  cry                     verb          græde                                udbryde | bekendtgøre | råbe
+ 932  jazz                    noun          jazz (en)                            spille | jazze
+ 933  murder                  noun          mord (et)                            myrde | smadre | slå ihjel
+ 934  actual                  adjective     faktisk                              virkelig
+ 935  article                 noun          vare                                 artikel
+ 936  primary                 adjective     primær                               
+ 937  purchase                verb          købe                                 
+ 938  construction            noun          byggeri                              bygning
+ 939  repeat                  verb          gentage                              
+ 940  wage                    noun          føre                                 
+ 941  appeal                  noun          appel                                tiltrækningskraft
+ 942  popular                 adjective     populær                              
+ 943  secret                  noun          hemmelighed (en)                     hemmelig
+ 944  seat                    noun          bag                                  plads
+ 945  apartment               noun          lejlighed                            
+ 946  hole                    noun          hul                                  
+ 947  tone                    noun          tone (en)                            klang (en) | tonefald | farvetone
+ 948  battle                  noun          kamp                                 slag
+ 949  expense                 noun          udgift                               
+ 950  signal                  noun          signal (et)                          signalere
+ 951  beat                    noun          slå                                  slag
+ 952  inside                  adverb        indenfor                             inde
+ 953  bright                  adjective     klar                                 
+ 954  page                    noun          side (en)                            page (en)
+ 955  behavior                noun          opførsel (en)                        adfærd (en)
+ 956  reveal                  noun          afsløre                              
+ 957  complex                 adjective     kompleks                             
+ 958  cattle                  noun          kvæg (et)                            
+ 959  bond                    noun          obligation (en)                      
+ 960  principal               adjective     hovedstol                            
+ 961  usual                   noun          vant                                 almindelig
+ 962  soldier                 noun          soldat                               
+ 963  flow                    noun          strøm                                
+ 964  active                  adjective     aktiv                                
+ 965  lord                    noun          herre (en)                           husbond (en) | husherre (en) | godsejer (en)
+ 966  bottom                  noun          bund                                 
+ 967  fell                    verb          fælde                                
+ 968  phase                   noun          fase                                 
+ 969  considerable            adjective     betydelig                            væsentlig
+ 970  sir                     noun          herre (en)                           
+ 971  wine                    noun          vin (en)                             
+ 972  comment                 noun          kommentar                            
+ 973  distribution            noun          distribution (en)                    fordeling (en) | forhandling (en) | spredning (en)
+ 974  duty                    noun          pligt (en)                           tjeneste (en) | told (en)
+ 975  suit                    noun          jakkesæt (et)                        rustning (en) | harnisk (et) | kulør (en)
+ 976  declare                 verb          erklære                              
+ 977  encourage               verb          opfordre                             
+ 978  affect                  verb          påvirke                              præge | ramme
+ 979  liberal                 adjective     liberal                              frisindet
+ 980  proper                  adjective     forsvarlig                           rigtig
+ 981  successful              adjective     succesfuld                           succesrig
+ 982  conclusion              noun          konklusion                           slutning
+ 983  king                    noun          konge                                
+ 984  editor                  noun          redaktør (en)                        editor (en)
+ 985  kitchen                 noun          køkken                               
+ 986  bottle                  noun          flaske (en)                          
+ 987  communication           noun          kommunikation (en)                   forbindelse (en)
+ 988  sex                     noun          køn                                  sex
+ 989  worth                   noun          værd                                 værdi
+ 990  contract                noun          kontrakt                             
+ 991  mission                 noun          mission (en)                         opgave (en)
+ 992  garden                  noun          have                                 
+ 993  tear                    verb          flænge                               rift | tåre
+ 994  everyone                pronoun       hver                                 
+ 995  contact                 verb          kontakte                             henvendelse | kontakt
+ 996  reality                 noun          virkelighed                          
+ 997  expression              noun          udtryk                               
+ 998  someone                 pronoun       nogen                                en eller anden
+ 999  failure                 adjective     konkurs                              
+1000  management              noun          bestyrelse                           behandling | styre
+1001  annual                  adjective     årlig                                
+1002  application             noun          ansøgning                            
+1003  youth                   noun          yngling                              
+1004  variety                 noun          forskellighed (en)                   varietet (en)
+1005  struggle                noun          kamp (en)                            kæmpe
+1006  leadership              noun          ledelse                              
+1007  count                   noun          tælle                                
+1008  assure                  verb          sikre                                
+1009  escape                  verb          flygte                               undslippe
+1010  beginning               noun          begyndelse                           åbning
+1011  device                  noun          indretning (en)                      apparat (et) | anordning (en) | påfund (et)
+1012  obvious                 adjective     oplagt                               
+1013  refuse                  adjective     affald                               afslå
+1014  lock                    noun          spærre                               
+1015  collection              noun          samling (en)                         indsamling
+1016  index                   noun          indeks (et)                          indholdsfortegnelse (en) | indeksere
+1017  stick                   verb          stikke                               
+1018  imagine                 verb          forestille                           
+1019  governor                noun          guvernør (en)                        
+1020  locate                  verb          lokalisere                           
+1021  cook                    verb          lave                                 
+1022  admit                   verb          indrømme                             indlægge
+1023  avoid                   verb          undgå                                
+1024  entirely                adverb        udelukkende                          
+1025  civil                   adjective     civil                                høflig | civiliseret
+1026  frequently              adverb        tit                                  
+1027  training                noun          træning                              
+1028  slow                    adjective     langsom                              bagefter | sen
+1029  swing                   verb          gynge                                
+1030  warm                    adjective     varm                                 
+1031  switch                  noun          afbryder (en)                        kontakt (en) | sporskifte (et) | skiftespor (et)
+1032  memory                  noun          minde                                
+1033  symbol                  noun          symbol (et)                          tegn (et)
+1034  please                  verb          vær så venlig                        tak | gerne
+1035  shot                    noun          skud                                 
+1036  solid                   adjective     fast                                 
+1037  employee                noun          medarbejder                          
+1038  library                 noun          bibliotek                            
+1039  capital                 adjective     stor                                 
+1040  quickly                 adverb        hurtig                               hurtigt
+1041  fast                    adjective     fast                                 hurtig | dyb | farvefast
+1042  display                 verb          vise                                 fremvise
+1043  regular                 adjective     regelmæssig                          fast | almindelig | normal
+1044  task                    noun          opgave                               job
+1045  famous                  adjective     kendt                                
+1046  chapter                 noun          kapitel (et)                         
+1047  mount                   verb          stige op                             montere
+1048  chair                   noun          stol                                 
+1049  clothes                 noun          tøj (et)                             klæder | beklædning (en)
+1050  representative          noun          repræsentant                         
+1051  moreover                adverb        dertil                               
+1052  capacity                noun          kapacitet                            evne
+1053  review                  noun          anmeldelse                           anmelde
+1054  vehicle                 noun          køretøj                              
+1055  philosophy              noun          filosofi (en)                        
+1056  forest                  noun          skov                                 
+1057  wheel                   noun          hjul (et)                            
+1058  solution                noun          løsning                              sol
+1059  bird                    noun          fugl                                 
+1060  belong                  verb          plads                                passe | tilhøre | hjemme
+1061  winter                  noun          vinter                               
+1062  musical                 adjective     musik                                musical | musikal
+1063  poetry                  noun          poesi (en)                           digtekunst (en) | lyrik (en) | digtning (en)
+1064  measurement             noun          måling                               mål
+1065  assistance              noun          hjælp (en)                           
+1066  provision               noun          forråd                               proviant | hensættelse (en)
+1067  lip                     noun          læbe (en)                            
+1068  replace                 verb          udskifte                             
+1069  strange                 adjective     underlig                             ejendommelig | besynderlig | mærkelig
+1070  belief                  noun          tro                                  
+1071  ability                 noun          evne                                 
+1072  rifle                   noun          riffel (en)                          
+1073  carefully               adverb        nøje                                 
+1074  shift                   noun          skifte (et)                          
+1075  previous                adjective     forrige                              
+1076  daughter                noun          datter                               
+1077  economy                 noun          økonomi                              
+1078  insist                  verb          insistere                            
+1079  captain                 noun          kaptajn (en)                         kommandør (en)
+1080  formula                 noun          formel (en)                          
+1081  danger                  noun          fare                                 
+1082  financial               adjective     finansiel                            
+1083  judgment                noun          dømmekraft (en)                      
+1084  rain                    verb          regne                                regn
+1085  box                     noun          kasse                                
+1086  scientific              adjective     videnskabelig                        
+1087  otherwise               adverb        ellers                               
+1088  rich                    adjective     rig                                  
+1089  gray                    adjective     grå                                  gråne
+1090  significant             adjective     markant                              
+1091  schedule                noun          tidsplan (en)                        skema (et) | timeplan (en) | køreplan (en)
+1092  relatively              adjective     relativt                             
+1093  perform                 verb          udføre                               
+1094  stretch                 verb          strække                              stramme | spænde | overdrive
+1095  narrow                  adjective     snæver                               tæt | smal | snævres
+1096  occasion                noun          anledning                            lejlighed
+1097  flower                  noun          blomst (en)                          blomstre
+1098  exchange                verb          skifte                               
+1099  impossible              adjective     umulig                               
+1100  connection              noun          sammenhæng                           forbindelse
+1101  understanding           noun          forståelse                           
+1102  atmosphere              noun          atmosfære (en)                       
+1103  achievement             noun          udførelse (en)                       præstation (en) | resultat (et) | bedrift (en)
+1104  assign                  verb          tildele                              
+1106  neck                    noun          hals                                 
+1107  ring                    noun          ring (en)                            ringe
+1108  village                 noun          landsby (en)                         by (en)
+1109  aware                   adjective     bevidst                              
+1110  republican              adjective     republikansk                         republikaner
+1111  request                 noun          opfordring                           
+1112  quiet                   noun          stille                               
+1113  credit                  verb          kredit                               
+1114  yesterday               noun          i går                                
+1115  essential               adjective     væsentlig                            egentlig
+1116  reference               noun          henvisning                           
+1117  fashion                 noun          mode (en)                            
+1118  agent                   noun          agent (en)                           
+1119  seed                    noun          sæd (en)                             frø (et)
+1120  knife                   noun          kniv                                 
+1121  fair                    adjective     billig                               lys | marked
+1122  loan                    noun          lån                                  
+1123  load                    noun          last (en)                            laste | lade | indlæse
+1124  speech                  noun          tale                                 mål
+1125  divide                  verb          dele                                 fordele
+1126  taste                   noun          smag (en)                            smagsprøve (en) | smage
+1127  guess                   verb          gætte                                gisne
+1128  interesting             adjective     interessant                          
+1129  fresh                   adjective     frisk                                ny
+1130  award                   verb          tildele                              
+1131  recall                  verb          huske                                trække tilbage
+1132  aim                     verb          rette                                sigte
+1133  fat                     noun          fedt                                 
+1134  shout                   noun          råb (et)                             skrig (et) | råbe | skrige
+1135  appropriate             verb          tilegne sig                          tilpasse | passende
+1136  recommend               verb          anbefale                             
+1137  career                  noun          karriere                             
+1138  maximum                 noun          maksimum                             
+1139  immediate               adjective     direkte                              
+1140  truck                   noun          lastbil                              
+1141  fellow                  noun          fyr                                  kammerat
+1142  resource                noun          ressource                            
+1143  transfer                verb          overføre                             forflytte | overdrage | stige om
+1144  identify                verb          identificere                         genkende
+1145  novel                   adjective     roman                                
+1146  guard                   noun          vagt                                 livvagt | skærm | afskærmning
+1147  pound                   noun          pund (et)                            internat (et) | dyrehjem
+1148  evil                    adjective     slet                                 
+1149  define                  verb          definere                             
+1150  location                noun          lokalisering (en)                    
+1151  employ                  verb          ansætte                              
+1152  site                    verb          placere                              
+1153  message                 noun          budskab                              besked | bud | melding
+1154  double                  adjective     dobbelt                              
+1155  error                   noun          fejl (en)                            fejltagelse (en) | forseelse (en) | afvigelse (en)
+1156  reader                  noun          læser (en)                           læserinde (en)
+1157  decade                  noun          årti                                 
+1158  constant                adjective     stadig                               
+1159  blow                    verb          blæse                                puste | trutte | sprænge
+1160  player                  noun          spiller                              
+1161  while                   conjunction   mens                                 
+1162  assignment              noun          opgave (en)                          tildeling (en)
+1163  component               noun          bestanddel (en)                      komponent (en)
+1164  missile                 noun          missil                               
+1165  wood                    noun          brænde                               træ
+1166  consideration           noun          overvejelse                          hensyn
+1168  brief                   noun          knap                                 kort
+1169  near                    adjective     nær                                  
+1170  skill                   noun          færdighed (en)                       evne (en) | kundskab (en)
+1171  organize                verb          organisere                           
+1172  panel                   noun          panel (et)                           
+1173  nice                    adjective     rar                                  
+1174  faculty                 noun          fakultet (et)                        
+1175  tool                    noun          redskab                              tøj
+1176  traditional             adjective     traditionel                          
+1177  argue                   verb          argumentere                          
+1178  league                  noun          division                             
+1179  tension                 noun          spænding (en)                        spænde | stramme
+1180  neighbor                noun          nabo                                 
+1181  collect                 verb          samle                                
+1182  interior                noun          indre                                
+1183  argument                noun          diskussion                           argument
+1184  content                 noun          indhold                              
+1185  coffee                  noun          kaffe                                
+1186  valley                  noun          dal (en)                             
+1187  generation              noun          udvikling                            
+1188  intellectual            noun          intellektuel                         
+1189  presence                noun          tilstedeværelse (en)                 nærværelse (en) | nærvær (et)
+1190  literary                adjective     litterær                             
+1191  glance                  verb          kigge                                
+1192  publication             noun          udgivelse                            publikation
+1193  empty                   adjective     tom                                  
+1194  platform                noun          platform (en)                        perron (en)
+1195  print                   adjective     udskrive                             printe
+1196  tie                     noun          bånd (et)                            remis (en) | bindebue (en) | binde
+1197  vocational              adjective     erhvers-                             
+1198  minister                noun          minister                             
+1199  tire                    verb          blive trætt                          trætte
+1200  atom                    noun          atom (et)                            
+1201  emotion                 noun          følelse                              emotion (en)
+1202  ideal                   noun          ideal                                
+1203  revolution              noun          revolution (en)                      
+1204  chairman                noun          formand                              præsident
+1205  introduce               verb          indføre                              
+1206  willing                 adjective     villig                               parat
+1207  devote                  verb          vie                                  hellige | tilegne
+1208  sheet                   noun          ark (et)                             blad (et) | skøde (et)
+1209  beach                   noun          strand                               
+1210  sharp                   adjective     skarp                                spids
+1211  beauty                  noun          skønhed (en)                         
+1212  brush                   noun          børste (en)                          
+1213  dust                    noun          støv (et)                            
+1214  combination             noun          kombination                          forening
+1215  soil                    noun          jord (en)                            muldjord (en) | grund (en) | tilsøle
+1216  sin                     noun          synd                                 
+1217  mountain                noun          bjerg (et)                           
+1218  preserve                verb          bevare                               
+1219  arise                   verb          opstå                                
+1220  guide                   noun          guide (en)                           vejledning (en)
+1221  bomb                    noun          bombe (en)                           
+1222  motion                  noun          bevægelse (en)                       
+1223  sport                   noun          sport                                idræt
+1224  sweet                   adjective     sødt                                 let | konfekt | bolsje
+1225  membership              noun          medlemskab (et)                      
+1226  lift                    verb          løfte                                hæve | ophæve | stjæle
+1227  curve                   adjective     kurve                                kurver
+1228  combine                 verb          kombinere                            forene
+1229  personnel               noun          personale                            
+1230  urge                    verb          opfordre                             tilskynde
+1231  automobile              noun          bil (en)                             automobil (en)
+1232  attorney                noun          advokat (en)                         
+1233  inform                  verb          meddele                              melde
+1234  lean                    verb          læne sig                             
+1235  railroad                noun          jernbane                             
+1236  finance                 noun          finanser                             finansiere
+1237  positive                noun          positiv                              
+1238  neighborhood            noun          naboskab (et)                        kvarter (et) | nabolag (et) | omegn (en)
+1239  twice                   adverb        [[to]] [[gange]]                     
+1240  quick                   adjective     hurtig                               rask
+1241  nobody                  pronoun       nul                                  
+1242  baby                    noun          unge (en)                            pattebarn | benjamin (en) | yngstemand (en)
+1243  mail                    noun          post (en)                            postvæsenet | posten | mail
+1244  fourth                  adjective     fjerde                               kvart
+1245  muscle                  noun          muskel (en)                          
+1246  background              noun          baggrund                             miljø
+1247  culture                 noun          kultur                               
+1248  slave                   noun          slave (en)                           slavinde (en) | træl (en) | trælkone (en)
+1249  investigation           noun          efterforskning                       
+1250  nevertheless            adverb        alligevel                            ikke desto mindre
+1251  portion                 noun          del (en)                             
+1252  professor               noun          professor                            
+1253  release                 noun          frislippende (et)                    version | udgave | slippe
+1254  demonstrate             verb          demonstrere                          
+1255  driver                  noun          chauffør (en)                        
+1256  reserve                 noun          reserve                              forbeholde | lægge til side | bestille
+1257  knee                    noun          knæ                                  
+1258  snake                   noun          slange (en)                          sno
+1259  instrument              noun          instrument (et)                      musikinstrument (et) | måleudstyr (et) | måleapparat (et)
+1260  thick                   adjective     tyk                                  tykt
+1261  protect                 verb          beskytte                             
+1262  candidate               noun          kandidat (en)                        
+1263  ordinary                adjective     almindelig                           normal
+1264  unity                   noun          enhed (en)                           
+1265  legal                   adjective     lovlig                               
+1266  initial                 adjective     første                               indledende
+1267  weather                 noun          vejr                                 
+1268  trust                   noun          love                                 tillid | tro
+1269  stream                  noun          å (en)                               strøm (en) | bæk (en)
+1270  cloud                   noun          sky                                  
+1271  everybody               pronoun       enhver                               
+1272  arrangement             noun          aftale                               
+1273  wagon                   noun          vogn                                 
+1274  stone                   noun          sten                                 
+1275  snow                    noun          sne (en)                             
+1276  impact                  noun          indvirkning (en)                     
+1277  reading                 verb          læsning                              aflæsning | forelæsning | fortolkning
+1278  familiar                adjective     bekendt                              fortrolig
+1279  upper                   adjective     øvre                                 
+1280  depth                   noun          dybde (en)                           
+1281  disease                 noun          sygdom (en)                          
+1282  birth                   noun          fødsel (en)                          
+1283  oppose                  verb          modstå                               modsætte sig
+1284  adopt                   verb          adoptere                             
+1285  independent             adjective     selvstændig                          
+1286  responsible             adjective     ansvarlig                            ansvarsbevidst | ansvarsfuld | pålidelig
+1287  commercial              noun          reklame (en)                         reklamefilmen (en) | handels- | erhvervs-
+1288  flat                    adjective     flad                                 død | jævnt | helt
+1289  accomplish              verb          fuldende                             
+1290  arrange                 verb          arrangere                            ordne
+1291  appearance              noun          udseende                             
+1292  guy                     noun          fyr (en)                             
+1293  forth                   adverb        frem                                 fremad
+1294  potential               noun          potentiel                            
+1295  approximately           adjective     nærmest                              
+1296  distinguish             verb          skelne                               udmærke
+1297  historical              adjective     historisk                            
+1298  nod                     verb          nikke                                
+1299  extreme                 adjective     yderlig                              
+1300  universe                noun          univers (et)                         
+1301  mold                    noun          mug (et)                             
+1302  earlier                 adjective     tidligere                            
+1303  resolution              noun          beslutning                           
+1304  budget                  noun          budget                               
+1305  proposal                noun          forslag                              
+1306  coast                   noun          bred (en)                            kyst (en) | strand (en)
+1307  educational             adjective     lærerig                              
+1308  deliver                 verb          befri                                udfri | forløse | tage imod
+1309  sum                     noun          sum                                  beløb
+1310  impression              noun          indtryk                              
+1311  manufacturer            noun          fabrikant (en)                       producent (en)
+1312  pair                    noun          par                                  
+1313  naturally               adverb        naturligvis                          
+1314  conviction              noun          dom                                  
+1315  sky                     noun          himmel                               
+1316  shore                   noun          bred                                 strand
+1317  communism               noun          kommunisme (en)                      
+1318  contemporary            adjective     samtidig                             
+1319  ancient                 adjective     urgammel                             
+1320  aircraft                noun          fly (et)                             flyvemaskine (en) | luftfartøj (et)
+1321  independence            noun          uafhængighed (en)                    selvstændighed (en)
+1322  foam                    noun          skum (et)                            skumgummi (en)
+1323  passage                 noun          afgang                               sted
+1324  conflict                noun          konflikt                             
+1325  politics                noun          politik                              
+1326  examine                 verb          undersøge                            
+1327  traffic                 noun          trafik                               
+1328  interview               noun          interview                            samtale
+1329  hero                    noun          helt                                 
+1330  branch                  noun          gren (en)                            filial (en) | område | branche (en)
+1331  troop                   noun          troppe                               soldat
+1332  detective               noun          detektiv (en)                        privatdetektiv (en)
+1333  hide                    verb          skind                                hud
+1334  desk                    noun          skrivebord (et)                      rubrik | stationær redaktion
+1335  mistake                 adjective     fejl                                 
+1336  author                  noun          forfatter                            
+1337  soul                    noun          sjæl (en)                            gejst (en) | soul (en) | soulmusik (en)
+1338  preparation             noun          forberedelse (en)                    præparation (en) | tilberedning (en) | præparat (et)
+1339  jury                    noun          jury (en)                            nævninge
+1340  relative                adjective     relativ                              pårørende | beslægtet | frænde
+1341  witness                 noun          vidne                                
+1342  emerge                  verb          opstå                                
+1343  ally                    verb          allieret                             forbundsfælle
+1344  victory                 noun          sejr                                 
+1345  expert                  noun          ekspert                              
+1346  owner                   noun          ejer                                 
+1347  manage                  verb          lede                                 
+1348  metal                   noun          metal (et)                           
+1349  jump                    verb          springe                              hoppe | spjætte | fare sammen
+1350  excellent               adjective     fremragende                          fortræffelig | fortrinlig | udmærket
+1351  talent                  noun          talent (et)                          begavelse
+1352  practical               adjective     praktisk                             
+1353  electric                adjective     elektrisk                            elbil
+1354  electronic              adjective     elektronisk                          
+1355  slight                  noun          let                                  
+1356  pleasure                noun          glæde                                
+1357  protection              noun          beskyttelse (en)                     
+1358  minimum                 noun          minimum                              
+1359  emotional               adjective     følelsesmæssig                       emotionel
+1360  eliminate               verb          eliminere                            udelukke
+1361  intend                  verb          tænke                                
+1362  aside                   adverb        til side                             sidereplik
+1363  smell                   noun          lugt (en)                            lugtesans (en) | lugte | dufte
+1364  customer                noun          kunde                                
+1365  trend                   noun          bølge                                tendens | vind
+1366  female                  adjective     kvindelig                            
+1367  target                  noun          mål (et)                             skydeskive (en)
+1368  threaten                verb          true                                 
+1369  nose                    noun          liste                                snuse
+1370  soft                    adjective     sagte                                
+1371  ear                     noun          aks (et)                             
+1372  observation             noun          iagttagelse (en)                     observation (en) | bemærkning (en)
+1373  rid                     verb          befri                                kvitte sig med
+1374  band                    noun          band                                 
+1375  climb                   verb          klatre                               stige
+1376  engine                  noun          motor (en)                           
+1377  safe                    adjective     tryg                                 sikker
+1378  root                    noun          rod (en)                             rode
+1379  exception               noun          undtagelse                           
+1380  phone                   noun          ringe                                sproglyd (en)
+1381  lawyer                  noun          advokat                              
+1382  acquire                 verb          anskaffe                             erhverve | opkøbe | skaffe
+1383  significance            noun          betydning                            
+1384  contribution            noun          bidrag (et)                          
+1385  scale                   noun          skala (en)                           størrelsesforhold (et) | målestok (en) | skæl
+1386  european                adjective     europæisk                            
+1387  survey                  noun          spørgeundersøgelse (en)              
+1388  stem                    noun          stamme                               
+1389  gross                   adjective     brutto                               bruttopris
+1390  engage                  verb          angribe                              imødegå
+1391  encounter               noun          møde                                 
+1392  marine                  adjective     marin                                maritim | marinesoldat | mariner
+1393  strip                   verb          afmontere                            strippe
+1394  perfect                 adjective     perfekt                              
+1395  graduate                noun          akademiker                           
+1396  gather                  verb          samle                                
+1397  substantial             adjective     betydelig                            væsentlig
+1398  wire                    noun          tråd (en)                            
+1399  relief                  noun          lettelse (en)                        relief (en)
+1400  operator                noun          operatør                             telefonist | telefonistinde | operator
+1401  fish                    noun          fisk                                 
+1402  capable                 adjective     i stand til                          dygtig | kompetent
+1403  adequate                adjective     tilstrækkelig                        
+1404  imagination             noun          fantasi (en)                         forestillingsevne (en) | indbildning
+1405  slip                    verb          glide                                
+1406  interpretation          noun          tolkning (en)                        
+1407  spiritual               adjective     åndelig                              
+1408  sponsor                 noun          sponsor                              
+1409  headquarters            noun          central                              
+1410  rapidly                 adjective     hurtigt                              
+1411  welcome                 interjection  velkommen                            
+1412  pace                    noun          tempo                                skridt
+1413  roof                    noun          tag                                  
+1414  illustrate              verb          illustrere                           
+1415  typical                 adjective     typisk                               
+1416  uniform                 adjective     ensformet                            uniform | uforanderlig | konsistent
+1417  derive                  verb          udlede                               opstå
+1418  congregation            noun          forsamling (en)                      menighed (en)
+1419  entitle                 verb          berettige                            give ret til
+1420  identity                noun          identitet (en)                       
+1421  consequence             noun          følge                                
+1422  dominant                adjective     dominerende                          fremherskende
+1423  executive               noun          direktør                             leder
+1424  reasonable              adjective     fornuftig                            
+1425  pocket                  noun          lomme (en)                           
+1426  institute               noun          institut                             
+1427  text                    noun          tekst                                skrift (et)
+1428  completion              noun          afslutning                           fuldførelse
+1429  expand                  verb          udvide                               
+1430  maintenance             noun          pleje                                
+1431  risk                    noun          risiko                               risikere | fare
+1432  description             noun          beskrivelse (en)                     
+1433  magazine                noun          tidsskrift (et)                      magasin (et)
+1434  orchestra               noun          orkester (et)                        orchestra (en) | orkestergrav (en)
+1435  concert                 noun          koncert                              
+1436  chemical                adjective     kemisk                               kemikalie
+1437  assumption              noun          forudsætning                         
+1438  musician                noun          musiker (en)                         
+1439  primarily               adjective     primært                              
+1440  speaker                 noun          taler                                
+1441  friendly                adjective     venlig                               venligsindet | venskabelig | venligt
+1442  tomorrow                adverb        i morgen                             morgendag
+1443  sufficient              adjective     tilstrækkelig                        
+9999                                                                             inder
+9999                                                                             
+9999                                                                             hensyn | anse

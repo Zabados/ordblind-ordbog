@@ -1,0 +1,1444 @@
+rank	headword	pos	primary	secondaries	flags	file
+1	say	verb	sige	udtale		en-say-001.md
+2	make	verb	lave	gøre		en-make-001.md
+3	time	noun	tidspunkt	tide;tid;klokke		en-time-001.md
+4	new	noun	ny			en-new-001.md
+5	year	noun	år			en-year-001.md
+6	take	verb	tage			en-take-001.md
+7	come	verb	komme			en-come-001.md
+8	state	noun	tilstand	erklære		en-state-001.md
+9	get	noun	få	komme		en-get-001.md
+10	know	verb	vide	kende		en-know-001.md
+11	use	verb	bruge	brug;benytte		en-use-001.md
+12	first	adjective	første	først		en-first-001.md
+13	give	verb	give			en-give-001.md
+14	work	noun	værk	arbejde;virke		en-work-001.md
+15	see	verb	se	øje;lide		en-see-001.md
+16	good	adjective	god			en-good-001.md
+17	day	noun	dag			en-day-001.md
+18	find	noun	fund	finde;befinde		en-find-001.md
+19	way	noun	vej			en-way-001.md
+20	look	verb	kigge	se;synes		en-look-001.md
+21	back	adverb	tilbage	ryg		en-back-001.md
+22	many	adjective	mange	masse		en-many-001.md
+23	think	verb	tænke	synes;finde;mene		en-think-001.md
+24	well	adverb	vel	godt		en-well-001.md
+25	great	adjective	flot	stor		en-great-001.md
+26	much	adjective	meget			en-much-001.md
+27	people	noun	folk			en-people-001.md
+28	long	adjective	lang	længe		en-long-001.md
+29	little	adverb	lidt			en-little-001.md
+30	seem	verb	synes			en-seem-001.md
+31	place	noun	sted	plads;placere		en-place-001.md
+32	world	noun	verden			en-world-001.md
+33	old	adjective	gammel			en-old-001.md
+34	life	noun	liv			en-life-001.md
+35	hand	noun	hånd			en-hand-001.md
+36	become	verb	blive			en-become-001.md
+37	tell	verb	fortælle	sige		en-tell-001.md
+38	show	noun	vise			en-show-001.md
+39	house	noun	hus			en-house-001.md
+40	need	verb	trænge	savn;behov;behøve		en-need-001.md
+41	high	adjective	høj			en-high-001.md
+42	call	verb	ringe	kalde;telefon		en-call-001.md
+43	last	adjective	sidste	sidst;forrige;holde		en-last-001.md
+44	thing	noun	ting	sag		en-thing-001.md
+45	school	noun	skole			en-school-001.md
+46	right	adjective	rigtig	ret;højre		en-right-001.md
+47	one	noun	man	en;én;ettal		en-one-001.md
+48	turn	verb	vende	tur;omgang;dreje		en-turn-001.md
+49	leave	verb	forlade	lade		en-leave-001.md
+50	want	verb	mangle	savn;savne		en-want-001.md
+51	point	verb	pege	ende		en-point-001.md
+52	small	adjective	lille			en-small-001.md
+53	mean	verb	mene	sige		en-mean-001.md
+54	part	noun	vedkommende	del;afsnit;afdeling		en-part-001.md
+55	number	noun	tal	nummer;antal;mængde		en-number-001.md
+56	ask	verb	spørge	bede;byde		en-ask-001.md
+57	home	noun	hjem	bolig		en-home-001.md
+58	form	verb	udgøre			en-form-001.md
+59	begin	verb	begynde			en-begin-001.md
+60	child	noun	barn			en-child-001.md
+61	end	verb	slutte	slutning;ende;afslutning		en-end-001.md
+62	far	adjective	vidt			en-far-001.md
+63	problem	noun	problem			en-problem-001.md
+64	area	noun	område	areal		en-area-001.md
+65	write	verb	skrive			en-write-001.md
+66	word	noun	ord			en-word-001.md
+67	however	adverb	imidlertid	dog;derimod		en-however-001.md
+68	program	noun	program	udsendelse;programme		en-program-001.md
+69	system	noun	system			en-system-001.md
+70	head	noun	hoved	lede		en-head-001.md
+71	follow	verb	følge			en-follow-001.md
+72	large	adjective	stor			en-large-001.md
+73	hold	verb	holde	afholde;tag		en-hold-001.md
+74	eye	noun	øje			en-eye-001.md
+75	fact	noun	kendsgerning	faktum;virkelighed		en-fact-001.md
+76	face	noun	ansigt			en-face-001.md
+77	keep	verb	beholde	holde		en-keep-001.md
+78	course	noun	kurs	forløb		en-course-001.md
+79	stand	verb	stå	ligge		en-stand-001.md
+80	group	noun	gruppe			en-group-001.md
+81	run	verb	løbe	løb;drive		en-run-001.md
+82	open	verb	åbne	åben		en-open-001.md
+83	interest	noun	interesse			en-interest-001.md
+84	line	noun	linje			en-line-001.md
+85	put	verb	sætte	lægge;stikke		en-put-001.md
+86	case	noun	tilfælde	fald		en-case-001.md
+87	change	verb	skifte	ændring;ændre		en-change-001.md
+88	general	adjective	generel			en-general-001.md
+89	set	noun	sæt	indstille;dække		en-set-001.md
+90	order	noun	orden	byde;bestille;besked		en-order-001.md
+91	present	verb	præsentere	fremlægge		en-present-001.md
+92	city	noun	by			en-city-001.md
+93	water	noun	vand			en-water-001.md
+94	unite	verb	forene	sammenslutte		en-unite-001.md
+95	force	verb	tvinge	drive;kraft;magt		en-force-001.md
+96	live	verb	leve	levende		en-live-001.md
+97	move	verb	flytte	bevæge;træk		en-move-001.md
+98	war	noun	krig			en-war-001.md
+99	bring	noun	bringe			en-bring-001.md
+100	increase	verb	øget	øge;stigning		en-increase-001.md
+101	provide	verb	levere			en-provide-001.md
+102	side	noun	side			en-side-001.md
+103	government	noun	styre	regering		en-government-001.md
+104	plan	verb	planlægge	plan		en-plan-001.md
+105	try	verb	forsøge			en-try-001.md
+106	country	noun	land			en-country-001.md
+107	result	noun	resultat			en-result-001.md
+108	name	noun	navn			en-name-001.md
+109	study	verb	dyrke	studie		en-study-001.md
+110	early	adjective	tidlig			en-early-001.md
+111	member	noun	medlem			en-member-001.md
+112	less	adverb	mindre	færre		en-less-001.md
+113	service	noun	drift			en-service-001.md
+114	play	verb	spille	leg		en-play-001.md
+115	light	noun	lys	let;fyre		en-light-001.md
+116	help	verb	hjælpe	hjælp		en-help-001.md
+117	something	pronoun	noget	et eller andet		en-something-001.md
+118	start	verb	starte	start;begynde;sæt		en-start-001.md
+119	question	noun	spørgsmål			en-question-001.md
+120	night	noun	nat	aften		en-night-001.md
+121	church	noun	kirke			en-church-001.md
+122	room	noun	rum	lokale		en-room-001.md
+123	young	adjective	ung			en-young-001.md
+124	public	adjective	offentlig	publikum		en-public-001.md
+125	almost	adjective	nærmest	næsten		en-almost-001.md
+126	enough	adverb	nok	tilstrækkeligt		en-enough-001.md
+127	hear	verb	høre			en-hear-001.md
+128	let	noun	lade	lej		en-let-001.md
+129	big	adjective	stor			en-big-001.md
+130	once	adverb	engang			en-once-001.md
+131	power	noun	magt	effekt;evne;kraft		en-power-001.md
+132	week	noun	uge			en-week-001.md
+133	business	noun	forretning			en-business-001.md
+134	nothing	pronoun	intet	ingenting		en-nothing-001.md
+135	cost	verb	koste	pris		en-cost-001.md
+136	value	noun	værdi			en-value-001.md
+137	second	adjective	anden	sekund		en-second-001.md
+138	family	noun	familie			en-family-001.md
+139	act	verb	handle			en-act-001.md
+140	president	noun	præsident			en-president-001.md
+141	close	adjective	tæt	afslutte;nær;slutte		en-close-001.md
+142	report	noun	rapport	anmelde;melding;oplyse		en-report-001.md
+143	experience	noun	oplevelse	opleve;erfaring		en-experience-001.md
+144	law	noun	lov	ret		en-law-001.md
+145	car	noun	personbil	bil		en-car-001.md
+146	mind	noun	hoved	indre		en-mind-001.md
+147	white	noun	hvid			en-white-001.md
+148	social	adjective	social	udadvendt;selskabelig		en-social-001.md
+149	national	adjective	national			en-national-001.md
+150	matter	noun	sag	mål;stof		en-matter-001.md
+151	company	noun	virksomhed	selskab;firma		en-company-001.md
+152	several	adjective	flere			en-several-001.md
+153	development	noun	udvikling			en-development-001.md
+154	possible	adjective	mulig			en-possible-001.md
+155	important	adjective	vigtig	væsentlig		en-important-001.md
+156	return	noun	gengæld			en-return-001.md
+157	lead	noun	føre	lede		en-lead-001.md
+158	pay	verb	betale	afholde		en-pay-001.md
+159	action	noun	handling	aktion		en-action-001.md
+160	felt	noun	filt	filthat;filte		en-felt-001.md
+161	saw	noun	sav	save		en-saw-001.md
+162	foot	noun	fod			en-foot-001.md
+163	best	adjective	bedst	bedste		en-best-001.md
+164	next	noun	næste			en-next-001.md
+165	appear	verb	fremgå	komme		en-appear-001.md
+166	reason	noun	grund			en-reason-001.md
+167	kind	noun	slags	rar		en-kind-001.md
+168	field	noun	felt			en-field-001.md
+169	door	noun	dør			en-door-001.md
+170	meet	verb	træffe			en-meet-001.md
+171	figure	noun	person	tal		en-figure-001.md
+172	example	noun	eksempel			en-example-001.md
+173	student	noun	studerende	elev		en-student-001.md
+174	least	adjective	mindst			en-least-001.md
+175	continue	verb	fortsætte			en-continue-001.md
+176	later	adjective	senere			en-later-001.md
+177	reach	verb	opnå			en-reach-001.md
+178	require	verb	kræve			en-require-001.md
+179	body	noun	krop			en-body-001.md
+180	idea	noun	idé	tanke		en-idea-001.md
+181	effect	noun	effekt			en-effect-001.md
+182	sense	noun	sans	fornemmelse		en-sense-001.md
+183	expect	verb	forvente	vente		en-expect-001.md
+184	believe	verb	tænke			en-believe-001.md
+185	miss	verb	savne			en-miss-001.md
+186	talk	verb	tale	snakke;fortælle;snak		en-talk-001.md
+187	like	noun	lige			en-like-001.md
+188	god	noun	gud			en-god-001.md
+189	walk	verb	gå	tur		en-walk-001.md
+190	type	noun	indtaste	taste		en-type-001.md
+191	develop	verb	udvikle			en-develop-001.md
+192	love	noun	kærlighed	elske		en-love-001.md
+193	hour	noun	time	hel		en-hour-001.md
+194	month	noun	måned			en-month-001.md
+195	consider	verb	overveje			en-consider-001.md
+196	control	noun	kontrol	styr		en-control-001.md
+197	sit	verb	sidde			en-sit-001.md
+198	nation	noun	nation	stat		en-nation-001.md
+199	remain	verb	blive			en-remain-001.md
+200	certain	adjective	vis	vist;visse		en-certain-001.md
+201	individual	noun	individ	individuel		en-individual-001.md
+202	different	adjective	forskellig	anderledes		en-different-001.md
+203	period	noun	periode			en-period-001.md
+204	whole	adjective	hel	ganske;fylde		en-whole-001.md
+205	thus	adverb	således	dermed		en-thus-001.md
+206	speak	noun	tale			en-speak-001.md
+207	pass	verb	vedtage	bestå		en-pass-001.md
+208	human	noun	menneske			en-human-001.md
+209	perhaps	adverb	måske			en-perhaps-001.md
+210	rate	noun	sats	rate;hastighed		en-rate-001.md
+211	college	noun	college	højskole		en-college-001.md
+212	level	noun	niveau			en-level-001.md
+213	carry	verb	bære			en-carry-001.md
+214	street	noun	gade			en-street-001.md
+215	job	noun	arbejdsplads			en-job-001.md
+216	feel	verb	føle	kende		en-feel-001.md
+217	office	noun	kontor	lokale		en-office-001.md
+218	serve	verb	tjene			en-serve-001.md
+219	book	noun	bog			en-book-001.md
+220	sound	noun	lyde			en-sound-001.md
+221	step	verb	træde	skridt		en-step-001.md
+222	age	noun	alder			en-age-001.md
+223	grow	verb	vokse			en-grow-001.md
+224	history	noun	historie			en-history-001.md
+225	low	adjective	lav			en-low-001.md
+226	position	noun	stilling	stand;position;plads		en-position-001.md
+227	moment	noun	stund			en-moment-001.md
+228	board	noun	styrelse	nævn		en-board-001.md
+229	person	noun	person	hoved;menneske		en-person-001.md
+230	cause	noun	anledning	årsag;sag		en-cause-001.md
+231	condition	noun	betingelse	forudsætning;tilstand		en-condition-001.md
+232	class	noun	klasse	hold;stand		en-class-001.md
+233	center	noun	centrum	midte		en-center-001.md
+234	friend	noun	ven			en-friend-001.md
+235	receive	verb	modtage			en-receive-001.md
+236	add	verb	tilføje			en-add-001.md
+237	note	noun	brev	kommentar;sol		en-note-001.md
+238	policy	noun	politik			en-policy-001.md
+239	local	adjective	lokal			en-local-001.md
+240	record	noun	rekord	registrere		en-record-001.md
+241	process	noun	proces	gennemføre		en-process-001.md
+242	death	adverb	ihjel	dødsfald;død		en-death-001.md
+243	method	noun	måde			en-method-001.md
+244	today	adverb	i dag	idag		en-today-001.md
+245	court	noun	gård			en-court-001.md
+246	free	verb	fri			en-free-001.md
+247	cut	verb	udelukke	snyde;skære;beskære		en-cut-001.md
+248	anything	pronoun	noget	hvad som helst		en-anything-001.md
+249	society	noun	samfund			en-society-001.md
+250	happen	verb	foregå	ske		en-happen-001.md
+251	answer	verb	svare	svar;løsning		en-answer-001.md
+252	support	noun	støtte			en-support-001.md
+253	read	verb	læse			en-read-001.md
+254	concern	noun	bekymring			en-concern-001.md
+255	party	noun	fest	parti		en-party-001.md
+256	arm	noun	våben	våbenmærke;våbenskjold;bevæbne		en-arm-001.md
+257	lose	verb	tabe	miste		en-lose-001.md
+258	art	noun	kunst	kunstværk		en-art-001.md
+259	wait	verb	vente			en-wait-001.md
+260	determine	verb	bestemme	fastslå		en-determine-001.md
+261	issue	noun	emne	sag;udgave		en-issue-001.md
+262	effort	noun	indsats	anstrengelse		en-effort-001.md
+263	community	noun	fællesskab			en-community-001.md
+264	view	noun	udsigt	sigt		en-view-001.md
+265	fire	noun	ild	brand;fyre		en-fire-001.md
+266	stop	verb	stoppe	standse		en-stop-001.md
+267	land	noun	score			en-land-001.md
+268	material	noun	materiale			en-material-001.md
+269	information	noun	oplysning			en-information-001.md
+270	late	adjective	sen			en-late-001.md
+271	voice	noun	stemme			en-voice-001.md
+272	complete	adjective	fuldstændig	fuld		en-complete-001.md
+273	tax	noun	skat			en-tax-001.md
+274	clear	adjective	tydelig	klar		en-clear-001.md
+275	money	noun	penge			en-money-001.md
+276	together	adverb	sammen			en-together-001.md
+277	subject	adjective	grundled	subjekt;emne;tema		en-subject-001.md
+278	sure	adjective	sikker	vis		en-sure-001.md
+279	letter	noun	brev			en-letter-001.md
+280	air	noun	luft			en-air-001.md
+281	town	noun	by			en-town-001.md
+282	drive	verb	køre	driv;drift		en-drive-001.md
+283	short	noun	kort	lav		en-short-001.md
+284	probably	adjective	sikkert		pos_should_be_adverb	en-probably-001.md
+285	real	adjective	virkelig	reel;egentlig		en-real-001.md
+286	include	verb	omfatte	involvere		en-include-001.md
+287	strong	adjective	stærk	kraftig		en-strong-001.md
+288	term	noun	vilkår			en-term-001.md
+289	political	adjective	politisk			en-political-001.md
+290	cannot	verb	[[kan]] [[ikke]]			en-cannot-001.md
+291	design	verb	indrette	tegne		en-design-001.md
+292	section	noun	afdeling	afsnit		en-section-001.md
+293	road	noun	vej			en-road-001.md
+294	learn	verb	høre	lære		en-learn-001.md
+295	cover	noun	dække	lukke		en-cover-001.md
+296	rise	verb	hæve	stige;stigning		en-rise-001.md
+297	send	verb	sende			en-send-001.md
+298	century	noun	århundrede	århundred;centurie		en-century-001.md
+299	major	adjective	fuldmyndig	major;voksen		en-major-001.md
+300	minute	noun	minut			en-minute-001.md
+301	break	verb	bryde	brud		en-break-001.md
+302	department	noun	division			en-department-001.md
+303	special	adjective	speciel	særlig		en-special-001.md
+304	build	verb	bygge			en-build-001.md
+305	remember	verb	huske	husk		en-remember-001.md
+306	wife	noun	kone			en-wife-001.md
+307	involve	verb	involvere	omfatte		en-involve-001.md
+308	rather	adverb	hellere			en-rather-001.md
+309	federal	adjective	føderal			en-federal-001.md
+310	situation	noun	situation			en-situation-001.md
+311	university	noun	universitet			en-university-001.md
+312	ago	adverb	siden			en-ago-001.md
+313	available	adjective	tilgængelig			en-available-001.md
+314	fall	verb	falde	fald;sænke		en-fall-001.md
+315	indicate	verb	anvise			en-indicate-001.md
+316	economic	adjective	økonomisk			en-economic-001.md
+317	table	noun	bord			en-table-001.md
+318	mother	noun	mor			en-mother-001.md
+319	south	noun	syd			en-south-001.md
+320	purpose	noun	formål			en-purpose-001.md
+321	full	adjective	fuld			en-full-001.md
+322	understand	verb	forstå			en-understand-001.md
+323	watch	verb	se			en-watch-001.md
+324	base	noun	base	hovedkvarter;basis;skjoldfod		en-base-001.md
+325	hard	adjective	hård			en-hard-001.md
+326	picture	noun	billede			en-picture-001.md
+327	measure	verb	måle	måde;skridt		en-measure-001.md
+328	west	noun	vest			en-west-001.md
+329	true	adjective	ret			en-true-001.md
+330	ground	verb	grunde			en-ground-001.md
+331	total	noun	total			en-total-001.md
+332	spirit	noun	ånd	liv;mod;kraft		en-spirit-001.md
+333	charge	verb	tage			en-charge-001.md
+334	front	noun	front			en-front-001.md
+335	lay	verb	lægge			en-lay-001.md
+336	activity	noun	aktivitet			en-activity-001.md
+337	wall	noun	væg	mur;vejrandøje		en-wall-001.md
+338	offer	verb	tilbyde	tilbud;byde		en-offer-001.md
+339	draw	verb	tegne	hæve;tiltrække;trække		en-draw-001.md
+340	common	adjective	fælles	almindelig		en-common-001.md
+341	surface	noun	overflade			en-surface-001.md
+342	test	verb	teste	undersøge		en-test-001.md
+343	future	adjective	fremtidig	fremtid		en-future-001.md
+344	color	noun	farve			en-color-001.md
+345	difference	noun	forskel			en-difference-001.md
+346	bad	adjective	slet	slem;skidt;dårlig		en-bad-001.md
+347	stage	noun	scene	etape;opføre		en-stage-001.md
+348	market	noun	marked			en-market-001.md
+349	produce	verb	fremstille	udføre		en-produce-001.md
+350	deal	noun	aftale			en-deal-001.md
+351	claim	verb	påstå	kræve;påstand		en-claim-001.md
+352	pressure	noun	pres			en-pressure-001.md
+353	necessary	adjective	nødvendig			en-necessary-001.md
+354	evidence	noun	vidne	godtgøre;bevise		en-evidence-001.md
+355	property	noun	ejendom	besiddelse		en-property-001.md
+356	amount	noun	mængde			en-amount-001.md
+357	top	adjective	aktiv			en-top-001.md
+358	mile	noun	mil			en-mile-001.md
+359	sometimes	adverb	sommetider			en-sometimes-001.md
+360	past	verb	havde	fortid;aflyste		en-past-001.md
+361	bear	noun	bjørn	bære;tåle		en-bear-001.md
+362	approach	verb	nærme	tilgang		en-approach-001.md
+363	morning	noun	morgen			en-morning-001.md
+364	piece	noun	stykke			en-piece-001.md
+365	able	adjective	i stand til	have mulighed for;habil;kompetent		en-able-001.md
+366	train	verb	træne	tog		en-train-001.md
+367	rest	noun	hvile	ro;rest		en-rest-001.md
+368	music	noun	musik			en-music-001.md
+369	education	noun	undervisning	uddannelse		en-education-001.md
+370	range	noun	værdimængde			en-range-001.md
+371	demand	verb	kræve	efterspørgsel;forvente;krav		en-demand-001.md
+372	list	noun	liste			en-list-001.md
+373	enter	verb	gå ind	gå ind i;indgå i		en-enter-001.md
+374	fight	verb	bekæmpe			en-fight-001.md
+375	military	adjective	militær			en-military-001.md
+376	story	noun	historie			en-story-001.md
+377	union	noun	forening			en-union-001.md
+378	stay	noun	ophold			en-stay-001.md
+379	apply	verb	gælde			en-apply-001.md
+380	black	noun	sort			en-black-001.md
+381	direct	adjective	direkte			en-direct-001.md
+382	statement	noun	udmelding			en-statement-001.md
+383	allow	verb	tillade			en-allow-001.md
+384	hope	verb	håbe	håb		en-hope-001.md
+385	paper	noun	papir			en-paper-001.md
+386	north	noun	nord			en-north-001.md
+387	industry	noun	industri			en-industry-001.md
+388	limit	verb	begrænse	grænse		en-limit-001.md
+389	usually	adverb	som regel	sædvanligvis		en-usually-001.md
+390	mark	noun	mærke	karakter		en-mark-001.md
+391	decide	verb	beslutte	afgøre		en-decide-001.md
+392	share	noun	andel	del;dele		en-share-001.md
+393	space	noun	rum			en-space-001.md
+394	therefore	adverb	derfor			en-therefore-001.md
+395	sign	noun	tegn			en-sign-001.md
+396	red	adjective	rød			en-red-001.md
+397	father	noun	far			en-father-001.md
+398	visit	verb	gæste	besøge;besøg		en-visit-001.md
+399	rule	noun	regel	styre		en-rule-001.md
+400	exist	verb	findes	eksistere		en-exist-001.md
+401	various	adjective	diverse			en-various-001.md
+402	modern	adjective	moderne			en-modern-001.md
+403	suggest	verb	foreslå			en-suggest-001.md
+404	secretary	noun	sekretær	minister;sekretærfugl		en-secretary-001.md
+405	describe	verb	beskrive			en-describe-001.md
+406	soon	adverb	snart			en-soon-001.md
+407	food	noun	spise	mad;føde		en-food-001.md
+408	plant	verb	sætte	vækst		en-plant-001.md
+409	peace	noun	fred			en-peace-001.md
+410	supply	noun	udbud	levere		en-supply-001.md
+411	operation	noun	drift			en-operation-001.md
+412	island	noun	ø			en-island-001.md
+413	personal	adjective	personlig			en-personal-001.md
+414	care	noun	pleje	hensyn		en-care-001.md
+415	heart	noun	hjerte			en-heart-001.md
+416	raise	verb	hæve			en-raise-001.md
+417	establish	verb	etablere	oprette		en-establish-001.md
+418	alone	adjective	ene	alene		en-alone-001.md
+419	nature	noun	natur			en-nature-001.md
+420	station	noun	station	tv-station		en-station-001.md
+421	product	noun	produkt			en-product-001.md
+422	drop	verb	falde	kaste		en-drop-001.md
+423	third	adjective	tredje			en-third-001.md
+424	spend	verb	give ud	spendere;bruge		en-spend-001.md
+425	wish	noun	ønske			en-wish-001.md
+426	accept	verb	acceptere			en-accept-001.md
+427	fear	verb	frygte	frygt;angst		en-fear-001.md
+428	son	noun	søn	dreng		en-son-001.md
+429	feeling	noun	følelse			en-feeling-001.md
+430	finally	adjective	endelig			en-finally-001.md
+431	private	adjective	privat	egen		en-private-001.md
+432	die	verb	dø			en-die-001.md
+433	county	noun	grevskab	amt		en-county-001.md
+434	unit	noun	enhed			en-unit-001.md
+435	trouble	noun	problem	besvær		en-trouble-001.md
+436	press	noun	presse	trænge		en-press-001.md
+437	organization	noun	organisation			en-organization-001.md
+438	attempt	noun	forsøg	forsøge		en-attempt-001.md
+439	simple	adjective	enkel			en-simple-001.md
+440	dark	adjective	mørk	tung		en-dark-001.md
+441	contain	verb	rumme	indeholde		en-contain-001.md
+442	committee	noun	udvalg			en-committee-001.md
+443	everything	pronoun	alt			en-everything-001.md
+444	horse	noun	kavaleri			en-horse-001.md
+445	trade	verb	forhandle	handel;handle		en-trade-001.md
+446	officer	noun	officer			en-officer-001.md
+447	basis	noun	grundlag	forudsætning		en-basis-001.md
+448	single	adjective	enkelt	enkel;ledig		en-single-001.md
+449	particular	adjective	bestemt	særlig		en-particular-001.md
+450	standard	adjective	standard	standart;estandart;fane		en-standard-001.md
+451	fill	verb	fylde	udfylde		en-fill-001.md
+452	east	noun	øst			en-east-001.md
+453	source	noun	kilde			en-source-001.md
+454	event	noun	arrangement			en-event-001.md
+455	building	noun	bygning	hus		en-building-001.md
+456	cold	adjective	kold			en-cold-001.md
+457	river	noun	flod	å		en-river-001.md
+458	cent	noun	cent			en-cent-001.md
+459	detail	noun	detalje			en-detail-001.md
+460	fine	adjective	fin	bøde;smuk		en-fine-001.md
+461	project	noun	projekt			en-project-001.md
+462	leader	noun	leder			en-leader-001.md
+463	sort	noun	sortering	løse		en-sort-001.md
+464	attention	noun	opmærksomhed			en-attention-001.md
+465	principle	noun	princip			en-principle-001.md
+466	recent	adjective	nylig	ny		en-recent-001.md
+467	reduce	verb	reducere	mindske		en-reduce-001.md
+468	aid	verb	hjælpe			en-aid-001.md
+469	volume	noun	fylde			en-volume-001.md
+470	defense	noun	forsvar			en-defense-001.md
+471	price	noun	pris	kurs		en-price-001.md
+472	seek	verb	søge			en-seek-001.md
+473	game	noun	kamp	parti		en-game-001.md
+474	operate	verb	betjene	operere;drive		en-operate-001.md
+475	sale	noun	salg			en-sale-001.md
+476	choose	verb	vælge			en-choose-001.md
+477	explain	verb	forklare			en-explain-001.md
+478	factor	noun	agent	faktor;faktorisere		en-factor-001.md
+479	create	verb	skabe	oprette		en-create-001.md
+480	brown	noun	brun	brune		en-brown-001.md
+481	easy	adjective	nem	let;tryg		en-easy-001.md
+482	wear	verb	have på			en-wear-001.md
+483	smile	noun	smil			en-smile-001.md
+484	movement	noun	bevægelse	retning		en-movement-001.md
+485	park	noun	park			en-park-001.md
+486	dead	noun	død			en-dead-001.md
+487	research	noun	forskning			en-research-001.md
+488	district	noun	distrikt			en-district-001.md
+489	instead	adverb	i stedet	i stedet for		en-instead-001.md
+490	trial	noun	prøve			en-trial-001.md
+491	decision	noun	beslutning	afgørelse		en-decision-001.md
+492	data	noun	data			en-data-001.md
+493	basic	adjective	grundlæggende			en-basic-001.md
+494	opportunity	noun	lejlighed	mulighed		en-opportunity-001.md
+495	window	noun	vindue			en-window-001.md
+496	spring	noun	kilde	forår		en-spring-001.md
+497	because	conjunction	fordi	eftersom;nemlig		en-because-001.md
+498	club	noun	klub			en-club-001.md
+499	simply	adverb	simpelthen	bare;udelukkende		en-simply-001.md
+500	permit	verb	tillade	tilladelse;lov		en-permit-001.md
+501	firm	adjective	fast	forretning		en-firm-001.md
+502	floor	noun	gulv			en-floor-001.md
+503	practice	noun	praksis	dyrke		en-practice-001.md
+504	function	verb	fungere			en-function-001.md
+505	account	noun	konto	redegørelse;forklaring;regning		en-account-001.md
+506	lot	noun	parti			en-lot-001.md
+507	lack	verb	mangle	mangel		en-lack-001.md
+508	equipment	noun	udstyr			en-equipment-001.md
+509	obtain	verb	erholde	opnå		en-obtain-001.md
+510	stock	noun	levkøj			en-stock-001.md
+511	final	adjective	endelig			en-final-001.md
+512	science	noun	videnskab	viden		en-science-001.md
+513	actually	adjective	faktisk		pos_should_be_adverb	en-actually-001.md
+514	reaction	noun	reaktion			en-reaction-001.md
+515	drink	noun	drik			en-drink-001.md
+516	pattern	noun	mønster			en-pattern-001.md
+517	blue	adjective	blå			en-blue-001.md
+518	relation	noun	forhold			en-relation-001.md
+519	central	noun	central			en-central-001.md
+520	religious	adjective	religiøs			en-religious-001.md
+521	influence	noun	indflydelse			en-influence-001.md
+522	represent	verb	tegne			en-represent-001.md
+523	direction	noun	retning			en-direction-001.md
+524	prepare	verb	udarbejde	forberede		en-prepare-001.md
+525	suppose	verb	formode	antage		en-suppose-001.md
+526	win	noun	sejr	vinde		en-win-001.md
+527	association	noun	forbund			en-association-001.md
+528	medical	adjective	medicinsk			en-medical-001.md
+529	recognize	verb	acceptere	erkende		en-recognize-001.md
+530	especially	adverb	især			en-especially-001.md
+531	administration	noun	ledelse			en-administration-001.md
+532	gun	noun	pistol	håndvåben;revolver;gevær		en-gun-001.md
+533	difficult	noun	svær			en-difficult-001.md
+534	respect	noun	respekt			en-respect-001.md
+535	average	noun	gennemsnit			en-average-001.md
+536	square	noun	kvadrat	torv;firkant;kvadratisk		en-square-001.md
+537	buy	verb	købe			en-buy-001.md
+538	temperature	noun	temperatur			en-temperature-001.md
+539	attack	noun	angreb			en-attack-001.md
+540	assume	verb	antage	formode		en-assume-001.md
+541	tree	noun	træ			en-tree-001.md
+542	hair	noun	hår			en-hair-001.md
+543	element	noun	element	grundstof;elementer;es		en-element-001.md
+544	technique	noun	teknik			en-technique-001.md
+545	indeed	adverb	sandelig	sandhed;søreme		en-indeed-001.md
+546	quality	noun	kvalitet			en-quality-001.md
+547	fund	noun	fond	finansiere		en-fund-001.md
+548	police	noun	politi			en-police-001.md
+549	foreign	adjective	udenlandsk			en-foreign-001.md
+550	chance	noun	chance	mulighed		en-chance-001.md
+551	pull	verb	trække	træk		en-pull-001.md
+552	desire	verb	ønske	begære;attrå;begær		en-desire-001.md
+553	occur	verb	forekomme			en-occur-001.md
+554	similar	adjective	lignende	magen til		en-similar-001.md
+555	kill	verb	dræbe			en-kill-001.md
+556	machine	noun	maskine			en-machine-001.md
+557	thought	noun	tanke			en-thought-001.md
+558	date	noun	dato			en-date-001.md
+559	couple	noun	par			en-couple-001.md
+560	natural	adjective	selvfølgelig	naturlig		en-natural-001.md
+561	prove	noun	vise			en-prove-001.md
+562	growth	noun	vækst	tilgang;trivsel		en-growth-001.md
+563	labor	noun	arbejde	arbejdskraft		en-labor-001.md
+564	image	noun	billede			en-image-001.md
+565	hall	noun	lokale			en-hall-001.md
+567	international	adjective	international	internationale		en-international-001.md
+568	performance	noun	præstation	optræden;forestilling		en-performance-001.md
+569	touch	verb	berøre	træk		en-touch-001.md
+570	production	noun	produktion			en-production-001.md
+571	attitude	noun	holdning	positur;attitude;indstilling		en-attitude-001.md
+572	stress	noun	stress	stresse;fremhæve		en-stress-001.md
+573	character	noun	karakter	person;tegn		en-character-001.md
+574	size	noun	størrelse			en-size-001.md
+575	realize	verb	realisere	gennemføre;virkeliggøre		en-realize-001.md
+576	farm	noun	gård	brug		en-farm-001.md
+577	meeting	noun	møde			en-meeting-001.md
+578	congress	noun	kongres			en-congress-001.md
+579	teach	verb	lære			en-teach-001.md
+580	throw	verb	smide	kaste		en-throw-001.md
+581	hit	noun	slag	ramme;træffe		en-hit-001.md
+582	suddenly	adjective	pludselig		pos_should_be_adverb	en-suddenly-001.md
+583	dance	noun	dans	danse		en-dance-001.md
+584	wonder	verb	undre			en-wonder-001.md
+585	maintain	verb	vedligeholde			en-maintain-001.md
+586	likely	adverb	sandsynligvis			en-likely-001.md
+587	addition	noun	addition			en-addition-001.md
+588	summer	noun	sommer			en-summer-001.md
+589	deep	adjective	dyb	bred;dybsindig;dybttænkende		en-deep-001.md
+590	agree	verb	stemme overens	overensstemme;rette sig efter		en-agree-001.md
+591	pick	noun	plukke			en-pick-001.md
+592	express	noun	udtale			en-express-001.md
+593	catch	verb	fange	tage		en-catch-001.md
+594	earth	noun	jord			en-earth-001.md
+595	race	noun	løb			en-race-001.md
+596	teacher	noun	lærer			en-teacher-001.md
+597	store	noun	butik			en-store-001.md
+598	language	noun	sprog	mål		en-language-001.md
+599	entire	adjective	hel	fuldstændig		en-entire-001.md
+600	lie	verb	ligge			en-lie-001.md
+601	moral	adjective	moralsk	sømmelig;moralisk;moral		en-moral-001.md
+602	theory	noun	teori			en-theory-001.md
+603	degree	noun	grad			en-degree-001.md
+604	evening	noun	aften			en-evening-001.md
+605	army	noun	hær	forsvar		en-army-001.md
+606	ship	noun	skib			en-ship-001.md
+607	file	noun	linje			en-file-001.md
+608	gain	noun	gavn	vinde		en-gain-001.md
+609	remove	verb	fjerne	aftage		en-remove-001.md
+610	hotel	noun	hotel			en-hotel-001.md
+611	writer	noun	forfatter			en-writer-001.md
+612	cell	noun	celle			en-cell-001.md
+613	vote	noun	stemme			en-vote-001.md
+614	knowledge	noun	viden	kendskab		en-knowledge-001.md
+615	wide	adjective	vidt			en-wide-001.md
+616	dog	noun	hund			en-dog-001.md
+617	husband	noun	mand			en-husband-001.md
+618	ready	adjective	klar	parat		en-ready-001.md
+619	population	noun	befolkning			en-population-001.md
+620	yes	interjection	ja	jo		en-yes-001.md
+621	object	noun	objekt	ting;genstand;genstandsled		en-object-001.md
+622	star	noun	stjerne			en-star-001.md
+623	mention	verb	omtale	nævne		en-mention-001.md
+624	dollar	noun	dollar			en-dollar-001.md
+625	responsibility	noun	ansvar			en-responsibility-001.md
+626	industrial	adjective	industriel			en-industrial-001.md
+627	doubt	noun	tvivl			en-doubt-001.md
+628	fail	verb	dumpe	fejle;mislykkes;slå fejl		en-fail-001.md
+629	left	adjective	venstre	tilbage		en-left-001.md
+630	due	adjective	skyldig			en-due-001.md
+631	experiment	noun	forsøg			en-experiment-001.md
+632	hot	adjective	stærk			en-hot-001.md
+633	soviet	noun	sovjet			en-soviet-001.md
+634	nearly	adverb	næsten	nær		en-nearly-001.md
+635	progress	noun	fremgang			en-progress-001.md
+636	strength	noun	styrke	kraft		en-strength-001.md
+637	procedure	noun	procedure			en-procedure-001.md
+638	opinion	noun	mening	holdning		en-opinion-001.md
+639	check	noun	skak	kontrollere;tjekke;tern		en-check-001.md
+640	anyone	pronoun	nogen	hvemsomhelst		en-anyone-001.md
+641	bed	noun	seng			en-bed-001.md
+642	plane	adjective	plan	høvl;høvle;flyver		en-plane-001.md
+643	boat	noun	båd			en-boat-001.md
+644	manner	noun	vis	stil		en-manner-001.md
+645	length	noun	længde			en-length-001.md
+646	strike	verb	overstrege	gennemstrege;strike;strejke		en-strike-001.md
+647	institution	noun	institution			en-institution-001.md
+648	join	verb	slutte sig til	tilslutte;forbinde		en-join-001.md
+649	role	noun	rolle			en-role-001.md
+650	treatment	noun	behandling			en-treatment-001.md
+651	shape	noun	form	danne		en-shape-001.md
+652	physical	adjective	fysisk			en-physical-001.md
+653	official	adjective	officiel	embedsmand		en-official-001.md
+654	normal	adjective	normal	almindelig;rask		en-normal-001.md
+655	meaning	noun	betydning			en-meaning-001.md
+656	southern	adjective	sydlig			en-southern-001.md
+657	western	adjective	vestlig			en-western-001.md
+658	relate	verb	relatere	fortælle		en-relate-001.md
+659	structure	noun	struktur	strukturere		en-structure-001.md
+660	religion	noun	religion			en-religion-001.md
+661	communist	adjective	kommunistisk	kommunist		en-communist-001.md
+662	wrong	adjective	forkert	fejl;gal		en-wrong-001.md
+663	finish	verb	afslutte			en-finish-001.md
+664	feed	verb	fodre	foder;gilde		en-feed-001.md
+665	corner	noun	hjørne			en-corner-001.md
+666	scene	noun	scene			en-scene-001.md
+667	doctor	noun	læge			en-doctor-001.md
+668	literature	noun	litteratur			en-literature-001.md
+669	achieve	verb	opnå			en-achieve-001.md
+670	bar	noun	spærre	udelukke		en-bar-001.md
+671	maybe	adverb	måske			en-maybe-001.md
+672	authority	noun	myndighed			en-authority-001.md
+673	estimate	verb	ansætte	regne		en-estimate-001.md
+674	separate	verb	adskille	afsondre		en-separate-001.md
+675	advance	verb	trænge	udvikling		en-advance-001.md
+676	loss	noun	tab			en-loss-001.md
+677	film	noun	film	filme		en-film-001.md
+678	audience	noun	publikum			en-audience-001.md
+679	former	adjective	første			en-former-001.md
+680	freedom	noun	frihed			en-freedom-001.md
+681	sleep	verb	sove	søvn		en-sleep-001.md
+682	poet	noun	digter	digterinde		en-poet-001.md
+683	grant	verb	bevilge	tilstå		en-grant-001.md
+684	hospital	noun	sygehus	hospital		en-hospital-001.md
+685	series	noun	række			en-series-001.md
+686	prevent	verb	forhindre	forebygge;afholde		en-prevent-001.md
+687	truth	noun	sandhed			en-truth-001.md
+688	heat	noun	runde			en-heat-001.md
+689	dress	verb	afrette	afpudse;behandle;ordne		en-dress-001.md
+690	objective	adjective	mål			en-objective-001.md
+691	poem	noun	digt			en-poem-001.md
+692	effective	adjective	effektiv			en-effective-001.md
+693	marry	verb	gifte			en-marry-001.md
+694	feature	noun	feature	træk;ansigtstræk		en-feature-001.md
+695	radio	noun	bilradio			en-radio-001.md
+696	possibility	noun	mulighed			en-possibility-001.md
+697	sell	verb	sælge			en-sell-001.md
+698	pool	noun	pool	pøl		en-pool-001.md
+699	ball	noun	bold			en-ball-001.md
+700	song	noun	vise	sang		en-song-001.md
+701	hang	verb	hænge			en-hang-001.md
+702	election	noun	valg			en-election-001.md
+703	clearly	adverb	tydelig	evident;indlysende;klart		en-clearly-001.md
+704	model	noun	model			en-model-001.md
+705	enjoy	verb	nyde			en-enjoy-001.md
+706	glass	noun	glas			en-glass-001.md
+707	burn	noun	brandsår	forbrænding;afbrænding;brænde		en-burn-001.md
+708	conduct	noun	føre			en-conduct-001.md
+709	item	noun	vare			en-item-001.md
+710	extend	verb	udvide	forlænge;strække		en-extend-001.md
+711	choice	noun	valg	fin		en-choice-001.md
+712	surprise	verb	undre	overraskelse		en-surprise-001.md
+713	somewhat	adjective	nogenlunde			en-somewhat-001.md
+714	distance	noun	afstand	hold		en-distance-001.md
+715	season	noun	årstid	sæson		en-season-001.md
+716	beautiful	adjective	smuk	dejlig		en-beautiful-001.md
+717	outside	adverb	udenfor	ude		en-outside-001.md
+718	vary	verb	variere	skifte		en-vary-001.md
+719	bank	noun	bank	bred		en-bank-001.md
+720	address	noun	adresse	bopæl		en-address-001.md
+721	discussion	noun	diskussion			en-discussion-001.md
+722	treat	verb	behandle			en-treat-001.md
+723	heavy	adjective	tung			en-heavy-001.md
+724	edge	noun	rand	kant		en-edge-001.md
+725	animal	noun	dyr			en-animal-001.md
+726	relationship	noun	relation	forhold		en-relationship-001.md
+727	inch	noun	tomme			en-inch-001.md
+728	apparently	adverb	åbenbart			en-apparently-001.md
+729	cool	adjective	kold	kølig;cool;koldblodig		en-cool-001.md
+730	chief	noun	chef	leder		en-chief-001.md
+731	staff	noun	stav	stang		en-staff-001.md
+732	green	adjective	grøn			en-green-001.md
+733	key	noun	nøgle	signaturforklaring;tast;tangent		en-key-001.md
+734	wave	noun	bølge			en-wave-001.md
+735	leg	noun	ben			en-leg-001.md
+736	dry	adjective	tør	tørre		en-dry-001.md
+737	dream	verb	drømme	drøm		en-dream-001.md
+738	bridge	noun	bro			en-bridge-001.md
+739	sing	verb	synge			en-sing-001.md
+740	notice	noun	opslag			en-notice-001.md
+741	immediately	adjective	umiddelbart		pos_should_be_adverb	en-immediately-001.md
+742	discover	verb	opdage			en-discover-001.md
+743	recently	adjective	nylig		pos_should_be_adverb	en-recently-001.md
+744	blood	noun	blod			en-blood-001.md
+745	hill	noun	bakke			en-hill-001.md
+746	patient	adjective	tålmodig	patient		en-patient-001.md
+747	difficulty	noun	sværhed	vanskelighed;besvær		en-difficulty-001.md
+748	daily	adjective	daglig			en-daily-001.md
+749	listen	verb	lytte			en-listen-001.md
+750	division	noun	afdeling			en-division-001.md
+751	mass	noun	masse			en-mass-001.md
+752	brother	noun	bror	broder		en-brother-001.md
+753	marriage	noun	ægteskab	giftermål;forbindelse;forening		en-marriage-001.md
+754	judge	noun	dommer	dømme		en-judge-001.md
+755	improve	verb	forbedre			en-improve-001.md
+756	save	verb	spare	redde		en-save-001.md
+757	analysis	noun	analyse			en-analysis-001.md
+758	conference	noun	konference			en-conference-001.md
+759	agreement	noun	enighed	aftale;kontrakt		en-agreement-001.md
+760	style	noun	stil			en-style-001.md
+761	eat	noun	spise			en-eat-001.md
+762	fit	adjective	frisk	oplagt;passe;sidde		en-fit-001.md
+763	additional	adjective	yderligere			en-additional-001.md
+764	director	noun	direktør			en-director-001.md
+765	technical	adjective	teknisk			en-technical-001.md
+766	fiscal	adjective	fiskal	skattemæssig		en-fiscal-001.md
+767	main	adjective	generel	hovedsagelig;hovedledning		en-main-001.md
+768	observe	verb	bemærke			en-observe-001.md
+769	characteristic	adjective	karakteristisk	kendetegnende;karakteristik		en-characteristic-001.md
+770	attend	verb	deltage	overværre		en-attend-001.md
+771	afternoon	noun	eftermiddag			en-afternoon-001.md
+772	further	adjective	videre			en-further-001.md
+773	poor	adjective	fattige	fattigfolk		en-poor-001.md
+774	frame	noun	ramme			en-frame-001.md
+775	forward	adverb	frem			en-forward-001.md
+776	middle	noun	midte			en-middle-001.md
+777	paint	verb	male			en-paint-001.md
+778	agency	noun	agentbureau	bureau;myndighedskontor		en-agency-001.md
+779	remark	noun	påpegning	observation;bemærkning;kommentar		en-remark-001.md
+780	block	noun	blok			en-block-001.md
+781	select	verb	vælge			en-select-001.md
+782	justice	noun	dommer			en-justice-001.md
+783	affair	noun	historie			en-affair-001.md
+784	forget	verb	glemme			en-forget-001.md
+785	citizen	noun	borger			en-citizen-001.md
+786	announce	verb	melde	anmelde;meddele		en-announce-001.md
+787	commission	noun	opgave	kommission;undersøgelseskommission;provision		en-commission-001.md
+788	serious	adjective	alvorlig			en-serious-001.md
+789	worker	noun	arbejder			en-worker-001.md
+790	specific	adjective	bestemt			en-specific-001.md
+791	shoulder	noun	skulder			en-shoulder-001.md
+792	region	noun	region			en-region-001.md
+793	travel	verb	rejse			en-travel-001.md
+794	shoot	verb	skyde	skud		en-shoot-001.md
+795	corporation	noun	aktieselskab			en-corporation-001.md
+796	balance	noun	ligevægt	afvejning;balance;saldo		en-balance-001.md
+797	nuclear	adjective	kerne			en-nuclear-001.md
+798	enemy	noun	fjende	fjendtlig		en-enemy-001.md
+799	cross	noun	kryds			en-cross-001.md
+800	worry	verb	bekymre			en-worry-001.md
+801	professional	adjective	professionel	faglig;erhverv		en-professional-001.md
+802	fly	verb	flyve			en-fly-001.md
+803	pretty	adjective	godt		pos_should_be_adverb	en-pretty-001.md
+804	sun	noun	sol			en-sun-001.md
+805	success	noun	succes			en-success-001.md
+806	tradition	noun	tradition			en-tradition-001.md
+807	slowly	adverb	langsomt			en-slowly-001.md
+808	post	noun	stilling			en-post-001.md
+809	promise	noun	løfte	love		en-promise-001.md
+810	trip	noun	fart	rejse		en-trip-001.md
+811	mouth	noun	udmunding			en-mouth-001.md
+812	latter	pronoun	denne	sidste		en-latter-001.md
+813	compare	verb	sammenligne			en-compare-001.md
+814	faith	noun	tro			en-faith-001.md
+815	straight	noun	lige	ret		en-straight-001.md
+816	obviously	adverb	naturligvis			en-obviously-001.md
+817	current	noun	strøm	nuværende;aktuel		en-current-001.md
+818	honor	noun	ære	ærbødighed;agtelse		en-honor-001.md
+819	speed	noun	fart			en-speed-001.md
+820	discuss	verb	drøfte	diskutere;vende		en-discuss-001.md
+821	rock	noun	blok			en-rock-001.md
+822	oil	noun	olie	madolie;vegetabilsk olie;planteolie		en-oil-001.md
+823	instance	noun	eksempel			en-instance-001.md
+824	manager	noun	bestyrer	leder;chef;direktør		en-manager-001.md
+825	clean	noun	ren			en-clean-001.md
+826	artist	noun	kunstner			en-artist-001.md
+827	camp	noun	lejr			en-camp-001.md
+828	happy	adjective	glad			en-happy-001.md
+829	command	noun	bud			en-command-001.md
+830	roll	verb	vælte			en-roll-001.md
+831	concept	noun	begreb	koncept		en-concept-001.md
+832	aspect	noun	aspekt			en-aspect-001.md
+833	facility	noun	mulighed	færdighed		en-facility-001.md
+834	energy	noun	energi	strøm		en-energy-001.md
+835	russian	adjective	russisk			en-russian-001.md
+836	wash	noun	vask			en-wash-001.md
+837	laugh	noun	latter	le;grine;smile		en-laugh-001.md
+838	propose	verb	fri	foreslå		en-propose-001.md
+839	requirement	noun	krav			en-requirement-001.md
+840	reply	noun	svar			en-reply-001.md
+841	fix	verb	sætte			en-fix-001.md
+842	completely	adjective	fuldstændig		pos_should_be_adverb	en-completely-001.md
+843	favor	noun	tjeneste	god vilje;gunst		en-favor-001.md
+844	income	noun	indtægt			en-income-001.md
+845	suffer	verb	lide			en-suffer-001.md
+846	finger	noun	udpege	pege;fingerere;famle		en-finger-001.md
+847	shake	verb	ryste	chokere;ryste af sig;rokke		en-shake-001.md
+848	extent	noun	omfang			en-extent-001.md
+849	council	noun	råd			en-council-001.md
+850	democratic	adjective	demokratisk			en-democratic-001.md
+851	deny	verb	afvise			en-deny-001.md
+852	gas	noun	gas			en-gas-001.md
+853	push	verb	skyde			en-push-001.md
+854	ahead	adverb	foran			en-ahead-001.md
+855	consist	verb	bestå			en-consist-001.md
+856	none	pronoun	ingen			en-none-001.md
+857	team	noun	hold			en-team-001.md
+858	hop	noun	hop	hoppe;humle		en-hop-001.md
+859	refer	verb	henvise			en-refer-001.md
+860	publish	verb	udgive	bringe		en-publish-001.md
+861	contribute	verb	bidrage	levere		en-contribute-001.md
+862	arrive	verb	ankomme			en-arrive-001.md
+863	spread	verb	sprede	brede;fordele		en-spread-001.md
+864	lady	noun	dame			en-lady-001.md
+865	importance	noun	betydning			en-importance-001.md
+866	fee	noun	gebyr			en-fee-001.md
+867	wind	noun	blæst	vejr;vind		en-wind-001.md
+868	spot	noun	sted			en-spot-001.md
+869	motor	noun	motor			en-motor-001.md
+870	easily	adverb	sagtens			en-easily-001.md
+871	sight	noun	sigt			en-sight-001.md
+872	column	noun	søjle	kolonne;klumme;avisklumme		en-column-001.md
+873	existence	noun	eksistens	tilværelse		en-existence-001.md
+874	engineer	noun	ingeniør			en-engineer-001.md
+875	reflect	verb	reflektere	spejle;tænke over		en-reflect-001.md
+876	title	noun	titel			en-title-001.md
+877	session	noun	session	møde		en-session-001.md
+878	junior	adjective	junior	yngre		en-junior-001.md
+879	depend	verb	afhænge			en-depend-001.md
+880	parent	noun	forælder			en-parent-001.md
+881	hardly	noun	knap	næppe		en-hardly-001.md
+882	original	adjective	oprindelig			en-original-001.md
+883	weight	noun	vægt			en-weight-001.md
+884	health	noun	sundhed	helbred		en-health-001.md
+885	response	noun	svar			en-response-001.md
+886	campaign	noun	kampagne			en-campaign-001.md
+887	bit	adverb	lidt			en-bit-001.md
+888	settle	verb	slå sig ned	afgøre;ordne		en-settle-001.md
+889	sea	noun	hav	vand		en-sea-001.md
+890	sample	noun	prøve	eksempel		en-sample-001.md
+891	destroy	verb	ødelægge			en-destroy-001.md
+892	tend	verb	have tendens til	passe		en-tend-001.md
+893	broad	noun	bred			en-broad-001.md
+894	exercise	noun	øvelse	motionere		en-exercise-001.md
+895	handle	noun	klinke			en-handle-001.md
+896	newspaper	noun	avis			en-newspaper-001.md
+897	round	adjective	rundt	runde;omgang		en-round-001.md
+898	pain	adjective	ondt			en-pain-001.md
+899	exactly	adjective	præcis		pos_should_be_adverb	en-exactly-001.md
+900	hat	noun	hat	kasket		en-hat-001.md
+901	circle	noun	ring			en-circle-001.md
+902	weapon	noun	våben			en-weapon-001.md
+903	crowd	noun	mængde			en-crowd-001.md
+904	master	noun	kandidat			en-master-001.md
+905	crisis	noun	krise			en-crisis-001.md
+906	payment	noun	betaling			en-payment-001.md
+907	news	noun	budskab			en-news-001.md
+908	match	noun	kamp	tændstik		en-match-001.md
+909	advantage	noun	fordel			en-advantage-001.md
+910	ride	verb	ride	køre;ridt;lift		en-ride-001.md
+911	guest	noun	gæst	gæste		en-guest-001.md
+912	clay	noun	ler	grus		en-clay-001.md
+913	telephone	noun	telefon			en-telephone-001.md
+914	score	noun	score	partitur;ridse		en-score-001.md
+915	goal	noun	mål			en-goal-001.md
+916	contrast	noun	modsætning	kontrast		en-contrast-001.md
+917	search	verb	søge			en-search-001.md
+918	dinner	noun	middag			en-dinner-001.md
+919	thin	adjective	tynd	fortynde		en-thin-001.md
+920	radiation	noun	varmestråling	stråling		en-radiation-001.md
+921	benefit	noun	hjælp			en-benefit-001.md
+922	associate	adjective	med-	tilknyttet;ledsagende;kompagnon		en-associate-001.md
+923	security	noun	sikkerhed			en-security-001.md
+924	equal	noun	lige	samme		en-equal-001.md
+925	circumstance	noun	omstændighed			en-circumstance-001.md
+926	status	noun	anseende	status		en-status-001.md
+927	shop	noun	forretning			en-shop-001.md
+928	yard	noun	gård			en-yard-001.md
+929	kid	noun	barn	unge;en ung;gedekid		en-kid-001.md
+930	shelter	noun	ly			en-shelter-001.md
+931	cry	verb	græde	udbryde;bekendtgøre;råbe		en-cry-001.md
+932	jazz	noun	jazz	spille;jazze		en-jazz-001.md
+933	murder	noun	mord	myrde;smadre;slå ihjel		en-murder-001.md
+934	actual	adjective	faktisk	virkelig		en-actual-001.md
+935	article	noun	vare	artikel		en-article-001.md
+936	primary	adjective	primær			en-primary-001.md
+937	purchase	verb	købe			en-purchase-001.md
+938	construction	noun	byggeri	bygning		en-construction-001.md
+939	repeat	verb	gentage			en-repeat-001.md
+940	wage	noun	føre			en-wage-001.md
+941	appeal	noun	appel	tiltrækningskraft		en-appeal-001.md
+942	popular	adjective	populær			en-popular-001.md
+943	secret	noun	hemmelighed	hemmelig		en-secret-001.md
+944	seat	noun	bag	plads		en-seat-001.md
+945	apartment	noun	lejlighed			en-apartment-001.md
+946	hole	noun	hul			en-hole-001.md
+947	tone	noun	tone	klang;tonefald;farvetone		en-tone-001.md
+948	battle	noun	kamp	slag		en-battle-001.md
+949	expense	noun	udgift			en-expense-001.md
+950	signal	noun	signal	signalere		en-signal-001.md
+951	beat	noun	slå	slag		en-beat-001.md
+952	inside	adverb	indenfor	inde		en-inside-001.md
+953	bright	adjective	klar			en-bright-001.md
+954	page	noun	side	page		en-page-001.md
+955	behavior	noun	opførsel	adfærd		en-behavior-001.md
+956	reveal	noun	afsløre			en-reveal-001.md
+957	complex	adjective	kompleks			en-complex-001.md
+958	cattle	noun	kvæg			en-cattle-001.md
+959	bond	noun	obligation			en-bond-001.md
+960	principal	adjective	hovedstol			en-principal-001.md
+961	usual	noun	vant	almindelig		en-usual-001.md
+962	soldier	noun	soldat			en-soldier-001.md
+963	flow	noun	strøm			en-flow-001.md
+964	active	adjective	aktiv			en-active-001.md
+965	lord	noun	herre	husbond;husherre;godsejer		en-lord-001.md
+966	bottom	noun	bund			en-bottom-001.md
+967	fell	verb	fælde			en-fell-001.md
+968	phase	noun	fase			en-phase-001.md
+969	considerable	adjective	betydelig	væsentlig		en-considerable-001.md
+970	sir	noun	herre			en-sir-001.md
+971	wine	noun	vin			en-wine-001.md
+972	comment	noun	kommentar			en-comment-001.md
+973	distribution	noun	distribution	fordeling;forhandling;spredning		en-distribution-001.md
+974	duty	noun	pligt	tjeneste;told		en-duty-001.md
+975	suit	noun	jakkesæt	rustning;harnisk;kulør		en-suit-001.md
+976	declare	verb	erklære			en-declare-001.md
+977	encourage	verb	opfordre			en-encourage-001.md
+978	affect	verb	påvirke	præge;ramme		en-affect-001.md
+979	liberal	adjective	liberal	frisindet		en-liberal-001.md
+980	proper	adjective	forsvarlig	rigtig		en-proper-001.md
+981	successful	adjective	succesfuld	succesrig		en-successful-001.md
+982	conclusion	noun	konklusion	slutning		en-conclusion-001.md
+983	king	noun	konge			en-king-001.md
+984	editor	noun	redaktør	editor		en-editor-001.md
+985	kitchen	noun	køkken			en-kitchen-001.md
+986	bottle	noun	flaske			en-bottle-001.md
+987	communication	noun	kommunikation	forbindelse		en-communication-001.md
+988	sex	noun	køn	sex		en-sex-001.md
+989	worth	noun	værd	værdi		en-worth-001.md
+990	contract	noun	kontrakt			en-contract-001.md
+991	mission	noun	mission	opgave		en-mission-001.md
+992	garden	noun	have			en-garden-001.md
+993	tear	verb	flænge	rift;tåre		en-tear-001.md
+994	everyone	pronoun	hver			en-everyone-001.md
+995	contact	verb	kontakte	henvendelse;kontakt		en-contact-001.md
+996	reality	noun	virkelighed			en-reality-001.md
+997	expression	noun	udtryk			en-expression-001.md
+998	someone	pronoun	nogen	en eller anden		en-someone-001.md
+999	failure	adjective	konkurs			en-failure-001.md
+1000	management	noun	bestyrelse	behandling;styre		en-management-001.md
+1001	annual	adjective	årlig			en-annual-001.md
+1002	application	noun	ansøgning			en-application-001.md
+1003	youth	noun	yngling			en-youth-001.md
+1004	variety	noun	forskellighed	varietet		en-variety-001.md
+1005	struggle	noun	kamp	kæmpe		en-struggle-001.md
+1006	leadership	noun	ledelse			en-leadership-001.md
+1007	count	noun	tælle			en-count-001.md
+1008	assure	verb	sikre			en-assure-001.md
+1009	escape	verb	flygte	undslippe		en-escape-001.md
+1010	beginning	noun	begyndelse	åbning		en-beginning-001.md
+1011	device	noun	indretning	apparat;anordning;påfund		en-device-001.md
+1012	obvious	adjective	oplagt			en-obvious-001.md
+1013	refuse	adjective	affald	afslå		en-refuse-001.md
+1014	lock	noun	spærre			en-lock-001.md
+1015	collection	noun	samling	indsamling		en-collection-001.md
+1016	index	noun	indeks	indholdsfortegnelse;indeksere		en-index-001.md
+1017	stick	verb	stikke			en-stick-001.md
+1018	imagine	verb	forestille			en-imagine-001.md
+1019	governor	noun	guvernør			en-governor-001.md
+1020	locate	verb	lokalisere			en-locate-001.md
+1021	cook	verb	lave			en-cook-001.md
+1022	admit	verb	indrømme	indlægge		en-admit-001.md
+1023	avoid	verb	undgå			en-avoid-001.md
+1024	entirely	adverb	udelukkende			en-entirely-001.md
+1025	civil	adjective	civil	høflig;civiliseret		en-civil-001.md
+1026	frequently	adverb	tit			en-frequently-001.md
+1027	training	noun	træning			en-training-001.md
+1028	slow	adjective	langsom	bagefter;sen		en-slow-001.md
+1029	swing	verb	gynge			en-swing-001.md
+1030	warm	adjective	varm			en-warm-001.md
+1031	switch	noun	afbryder	kontakt;sporskifte;skiftespor		en-switch-001.md
+1032	memory	noun	minde			en-memory-001.md
+1033	symbol	noun	symbol	tegn		en-symbol-001.md
+1034	please	verb	vær så venlig	tak;gerne		en-please-001.md
+1035	shot	noun	skud			en-shot-001.md
+1036	solid	adjective	fast			en-solid-001.md
+1037	employee	noun	medarbejder			en-employee-001.md
+1038	library	noun	bibliotek			en-library-001.md
+1039	capital	adjective	stor			en-capital-001.md
+1040	quickly	adverb	hurtig	hurtigt		en-quickly-001.md
+1041	fast	adjective	fast	hurtig;dyb;farvefast		en-fast-001.md
+1042	display	verb	vise	fremvise		en-display-001.md
+1043	regular	adjective	regelmæssig	fast;almindelig;normal		en-regular-001.md
+1044	task	noun	opgave	job		en-task-001.md
+1045	famous	adjective	kendt			en-famous-001.md
+1046	chapter	noun	kapitel			en-chapter-001.md
+1047	mount	verb	stige op	montere		en-mount-001.md
+1048	chair	noun	stol			en-chair-001.md
+1049	clothes	noun	tøj	klæder;beklædning		en-clothes-001.md
+1050	representative	noun	repræsentant			en-representative-001.md
+1051	moreover	adverb	dertil			en-moreover-001.md
+1052	capacity	noun	kapacitet	evne		en-capacity-001.md
+1053	review	noun	anmeldelse	anmelde		en-review-001.md
+1054	vehicle	noun	køretøj			en-vehicle-001.md
+1055	philosophy	noun	filosofi			en-philosophy-001.md
+1056	forest	noun	skov			en-forest-001.md
+1057	wheel	noun	hjul			en-wheel-001.md
+1058	solution	noun	løsning	sol		en-solution-001.md
+1059	bird	noun	fugl			en-bird-001.md
+1060	belong	verb	plads	passe;tilhøre;hjemme		en-belong-001.md
+1061	winter	noun	vinter			en-winter-001.md
+1062	musical	adjective	musik	musical;musikal		en-musical-001.md
+1063	poetry	noun	poesi	digtekunst;lyrik;digtning		en-poetry-001.md
+1064	measurement	noun	måling	mål		en-measurement-001.md
+1065	assistance	noun	hjælp			en-assistance-001.md
+1066	provision	noun	forråd	proviant;hensættelse		en-provision-001.md
+1067	lip	noun	læbe			en-lip-001.md
+1068	replace	verb	udskifte			en-replace-001.md
+1069	strange	adjective	underlig	ejendommelig;besynderlig;mærkelig		en-strange-001.md
+1070	belief	noun	tro			en-belief-001.md
+1071	ability	noun	evne			en-ability-001.md
+1072	rifle	noun	riffel			en-rifle-001.md
+1073	carefully	adverb	nøje			en-carefully-001.md
+1074	shift	noun	skifte			en-shift-001.md
+1075	previous	adjective	forrige			en-previous-001.md
+1076	daughter	noun	datter			en-daughter-001.md
+1077	economy	noun	økonomi			en-economy-001.md
+1078	insist	verb	insistere			en-insist-001.md
+1079	captain	noun	kaptajn	kommandør		en-captain-001.md
+1080	formula	noun	formel			en-formula-001.md
+1081	danger	noun	fare			en-danger-001.md
+1082	financial	adjective	finansiel			en-financial-001.md
+1083	judgment	noun	dømmekraft			en-judgment-001.md
+1084	rain	verb	regne	regn		en-rain-001.md
+1085	box	noun	kasse			en-box-001.md
+1086	scientific	adjective	videnskabelig			en-scientific-001.md
+1087	otherwise	adverb	ellers			en-otherwise-001.md
+1088	rich	adjective	rig			en-rich-001.md
+1089	gray	adjective	grå	gråne		en-gray-001.md
+1090	significant	adjective	markant			en-significant-001.md
+1091	schedule	noun	tidsplan	skema;timeplan;køreplan		en-schedule-001.md
+1092	relatively	adjective	relativt			en-relatively-001.md
+1093	perform	verb	udføre			en-perform-001.md
+1094	stretch	verb	strække	stramme;spænde;overdrive		en-stretch-001.md
+1095	narrow	adjective	snæver	tæt;smal;snævres		en-narrow-001.md
+1096	occasion	noun	anledning	lejlighed		en-occasion-001.md
+1097	flower	noun	blomst	blomstre		en-flower-001.md
+1098	exchange	verb	skifte			en-exchange-001.md
+1099	impossible	adjective	umulig			en-impossible-001.md
+1100	connection	noun	sammenhæng	forbindelse		en-connection-001.md
+1101	understanding	noun	forståelse			en-understanding-001.md
+1102	atmosphere	noun	atmosfære			en-atmosphere-001.md
+1103	achievement	noun	udførelse	præstation;resultat;bedrift		en-achievement-001.md
+1104	assign	verb	tildele			en-assign-001.md
+1106	neck	noun	hals			en-neck-001.md
+1107	ring	noun	ring	ringe		en-ring-001.md
+1108	village	noun	landsby	by		en-village-001.md
+1109	aware	adjective	bevidst			en-aware-001.md
+1110	republican	adjective	republikansk	republikaner		en-republican-001.md
+1111	request	noun	opfordring			en-request-001.md
+1112	quiet	noun	stille			en-quiet-001.md
+1113	credit	verb	kredit			en-credit-001.md
+1114	yesterday	noun	i går			en-yesterday-001.md
+1115	essential	adjective	væsentlig	egentlig		en-essential-001.md
+1116	reference	noun	henvisning			en-reference-001.md
+1117	fashion	noun	mode			en-fashion-001.md
+1118	agent	noun	agent			en-agent-001.md
+1119	seed	noun	sæd	frø		en-seed-001.md
+1120	knife	noun	kniv			en-knife-001.md
+1121	fair	adjective	billig	lys;marked		en-fair-001.md
+1122	loan	noun	lån			en-loan-001.md
+1123	load	noun	last	laste;lade;indlæse		en-load-001.md
+1124	speech	noun	tale	mål		en-speech-001.md
+1125	divide	verb	dele	fordele		en-divide-001.md
+1126	taste	noun	smag	smagsprøve;smage		en-taste-001.md
+1127	guess	verb	gætte	gisne		en-guess-001.md
+1128	interesting	adjective	interessant			en-interesting-001.md
+1129	fresh	adjective	frisk	ny		en-fresh-001.md
+1130	award	verb	tildele			en-award-001.md
+1131	recall	verb	huske	trække tilbage		en-recall-001.md
+1132	aim	verb	rette	sigte		en-aim-001.md
+1133	fat	noun	fedt			en-fat-001.md
+1134	shout	noun	råb	skrig;råbe;skrige		en-shout-001.md
+1135	appropriate	verb	tilegne sig	tilpasse;passende		en-appropriate-001.md
+1136	recommend	verb	anbefale			en-recommend-001.md
+1137	career	noun	karriere			en-career-001.md
+1138	maximum	noun	maksimum			en-maximum-001.md
+1139	immediate	adjective	direkte			en-immediate-001.md
+1140	truck	noun	lastbil			en-truck-001.md
+1141	fellow	noun	fyr	kammerat		en-fellow-001.md
+1142	resource	noun	ressource			en-resource-001.md
+1143	transfer	verb	overføre	forflytte;overdrage;stige om		en-transfer-001.md
+1144	identify	verb	identificere	genkende		en-identify-001.md
+1145	novel	adjective	roman			en-novel-001.md
+1146	guard	noun	vagt	livvagt;skærm;afskærmning		en-guard-001.md
+1147	pound	noun	pund	internat;dyrehjem		en-pound-001.md
+1148	evil	adjective	slet			en-evil-001.md
+1149	define	verb	definere			en-define-001.md
+1150	location	noun	lokalisering			en-location-001.md
+1151	employ	verb	ansætte			en-employ-001.md
+1152	site	verb	placere			en-site-001.md
+1153	message	noun	budskab	besked;bud;melding		en-message-001.md
+1154	double	adjective	dobbelt			en-double-001.md
+1155	error	noun	fejl	fejltagelse;forseelse;afvigelse		en-error-001.md
+1156	reader	noun	læser	læserinde		en-reader-001.md
+1157	decade	noun	årti			en-decade-001.md
+1158	constant	adjective	stadig			en-constant-001.md
+1159	blow	verb	blæse	puste;trutte;sprænge		en-blow-001.md
+1160	player	noun	spiller			en-player-001.md
+1161	while	conjunction	mens			en-while-001.md
+1162	assignment	noun	opgave	tildeling		en-assignment-001.md
+1163	component	noun	bestanddel	komponent		en-component-001.md
+1164	missile	noun	missil			en-missile-001.md
+1165	wood	noun	brænde	træ		en-wood-001.md
+1166	consideration	noun	overvejelse	hensyn		en-consideration-001.md
+1168	brief	noun	knap	kort		en-brief-001.md
+1169	near	adjective	nær			en-near-001.md
+1170	skill	noun	færdighed	evne;kundskab		en-skill-001.md
+1171	organize	verb	organisere			en-organize-001.md
+1172	panel	noun	panel			en-panel-001.md
+1173	nice	adjective	rar			en-nice-001.md
+1174	faculty	noun	fakultet			en-faculty-001.md
+1175	tool	noun	redskab	tøj		en-tool-001.md
+1176	traditional	adjective	traditionel			en-traditional-001.md
+1177	argue	verb	argumentere			en-argue-001.md
+1178	league	noun	division			en-league-001.md
+1179	tension	noun	spænding	spænde;stramme		en-tension-001.md
+1180	neighbor	noun	nabo			en-neighbor-001.md
+1181	collect	verb	samle			en-collect-001.md
+1182	interior	noun	indre			en-interior-001.md
+1183	argument	noun	diskussion	argument		en-argument-001.md
+1184	content	noun	indhold			en-content-001.md
+1185	coffee	noun	kaffe			en-coffee-001.md
+1186	valley	noun	dal			en-valley-001.md
+1187	generation	noun	udvikling			en-generation-001.md
+1188	intellectual	noun	intellektuel			en-intellectual-001.md
+1189	presence	noun	tilstedeværelse	nærværelse;nærvær		en-presence-001.md
+1190	literary	adjective	litterær			en-literary-001.md
+1191	glance	verb	kigge			en-glance-001.md
+1192	publication	noun	udgivelse	publikation		en-publication-001.md
+1193	empty	adjective	tom			en-empty-001.md
+1194	platform	noun	platform	perron		en-platform-001.md
+1195	print	adjective	udskrive	printe		en-print-001.md
+1196	tie	noun	bånd	remis;bindebue;binde		en-tie-001.md
+1197	vocational	adjective	erhvers-			en-vocational-001.md
+1198	minister	noun	minister			en-minister-001.md
+1199	tire	verb	blive trætt	trætte		en-tire-001.md
+1200	atom	noun	atom			en-atom-001.md
+1201	emotion	noun	følelse	emotion		en-emotion-001.md
+1202	ideal	noun	ideal			en-ideal-001.md
+1203	revolution	noun	revolution			en-revolution-001.md
+1204	chairman	noun	formand	præsident		en-chairman-001.md
+1205	introduce	verb	indføre			en-introduce-001.md
+1206	willing	adjective	villig	parat		en-willing-001.md
+1207	devote	verb	vie	hellige;tilegne		en-devote-001.md
+1208	sheet	noun	ark	blad;skøde		en-sheet-001.md
+1209	beach	noun	strand			en-beach-001.md
+1210	sharp	adjective	skarp	spids		en-sharp-001.md
+1211	beauty	noun	skønhed			en-beauty-001.md
+1212	brush	noun	børste			en-brush-001.md
+1213	dust	noun	støv			en-dust-001.md
+1214	combination	noun	kombination	forening		en-combination-001.md
+1215	soil	noun	jord	muldjord;grund;tilsøle		en-soil-001.md
+1216	sin	noun	synd			en-sin-001.md
+1217	mountain	noun	bjerg			en-mountain-001.md
+1218	preserve	verb	bevare			en-preserve-001.md
+1219	arise	verb	opstå			en-arise-001.md
+1220	guide	noun	guide	vejledning		en-guide-001.md
+1221	bomb	noun	bombe			en-bomb-001.md
+1222	motion	noun	bevægelse			en-motion-001.md
+1223	sport	noun	sport	idræt		en-sport-001.md
+1224	sweet	adjective	sødt	let;konfekt;bolsje		en-sweet-001.md
+1225	membership	noun	medlemskab			en-membership-001.md
+1226	lift	verb	løfte	hæve;ophæve;stjæle		en-lift-001.md
+1227	curve	adjective	kurve	kurver		en-curve-001.md
+1228	combine	verb	kombinere	forene		en-combine-001.md
+1229	personnel	noun	personale			en-personnel-001.md
+1230	urge	verb	opfordre	tilskynde		en-urge-001.md
+1231	automobile	noun	bil	automobil		en-automobile-001.md
+1232	attorney	noun	advokat			en-attorney-001.md
+1233	inform	verb	meddele	melde		en-inform-001.md
+1234	lean	verb	læne sig			en-lean-001.md
+1235	railroad	noun	jernbane			en-railroad-001.md
+1236	finance	noun	finanser	finansiere		en-finance-001.md
+1237	positive	noun	positiv			en-positive-001.md
+1238	neighborhood	noun	naboskab	kvarter;nabolag;omegn		en-neighborhood-001.md
+1239	twice	adverb	[[to]] [[gange]]			en-twice-001.md
+1240	quick	adjective	hurtig	rask		en-quick-001.md
+1241	nobody	pronoun	nul			en-nobody-001.md
+1242	baby	noun	unge	pattebarn;benjamin;yngstemand		en-baby-001.md
+1243	mail	noun	post	postvæsenet;posten;mail		en-mail-001.md
+1244	fourth	adjective	fjerde	kvart		en-fourth-001.md
+1245	muscle	noun	muskel			en-muscle-001.md
+1246	background	noun	baggrund	miljø		en-background-001.md
+1247	culture	noun	kultur			en-culture-001.md
+1248	slave	noun	slave	slavinde;træl;trælkone		en-slave-001.md
+1249	investigation	noun	efterforskning			en-investigation-001.md
+1250	nevertheless	adverb	alligevel	ikke desto mindre		en-nevertheless-001.md
+1251	portion	noun	del			en-portion-001.md
+1252	professor	noun	professor			en-professor-001.md
+1253	release	noun	frislippende	version;udgave;slippe		en-release-001.md
+1254	demonstrate	verb	demonstrere			en-demonstrate-001.md
+1255	driver	noun	chauffør			en-driver-001.md
+1256	reserve	noun	reserve	forbeholde;lægge til side;bestille		en-reserve-001.md
+1257	knee	noun	knæ			en-knee-001.md
+1258	snake	noun	slange	sno		en-snake-001.md
+1259	instrument	noun	instrument	musikinstrument;måleudstyr;måleapparat		en-instrument-001.md
+1260	thick	adjective	tyk	tykt		en-thick-001.md
+1261	protect	verb	beskytte			en-protect-001.md
+1262	candidate	noun	kandidat			en-candidate-001.md
+1263	ordinary	adjective	almindelig	normal		en-ordinary-001.md
+1264	unity	noun	enhed			en-unity-001.md
+1265	legal	adjective	lovlig			en-legal-001.md
+1266	initial	adjective	første	indledende		en-initial-001.md
+1267	weather	noun	vejr			en-weather-001.md
+1268	trust	noun	love	tillid;tro		en-trust-001.md
+1269	stream	noun	å	strøm;bæk		en-stream-001.md
+1270	cloud	noun	sky			en-cloud-001.md
+1271	everybody	pronoun	enhver			en-everybody-001.md
+1272	arrangement	noun	aftale			en-arrangement-001.md
+1273	wagon	noun	vogn			en-wagon-001.md
+1274	stone	noun	sten			en-stone-001.md
+1275	snow	noun	sne			en-snow-001.md
+1276	impact	noun	indvirkning			en-impact-001.md
+1277	reading	verb	læsning	aflæsning;forelæsning;fortolkning		en-reading-001.md
+1278	familiar	adjective	bekendt	fortrolig		en-familiar-001.md
+1279	upper	adjective	øvre			en-upper-001.md
+1280	depth	noun	dybde			en-depth-001.md
+1281	disease	noun	sygdom			en-disease-001.md
+1282	birth	noun	fødsel			en-birth-001.md
+1283	oppose	verb	modstå	modsætte sig		en-oppose-001.md
+1284	adopt	verb	adoptere			en-adopt-001.md
+1285	independent	adjective	selvstændig			en-independent-001.md
+1286	responsible	adjective	ansvarlig	ansvarsbevidst;ansvarsfuld;pålidelig		en-responsible-001.md
+1287	commercial	noun	reklame	reklamefilmen;handels-;erhvervs-		en-commercial-001.md
+1288	flat	adjective	flad	død;jævnt;helt		en-flat-001.md
+1289	accomplish	verb	fuldende			en-accomplish-001.md
+1290	arrange	verb	arrangere	ordne		en-arrange-001.md
+1291	appearance	noun	udseende			en-appearance-001.md
+1292	guy	noun	fyr			en-guy-001.md
+1293	forth	adverb	frem	fremad		en-forth-001.md
+1294	potential	noun	potentiel			en-potential-001.md
+1295	approximately	adjective	nærmest			en-approximately-001.md
+1296	distinguish	verb	skelne	udmærke		en-distinguish-001.md
+1297	historical	adjective	historisk			en-historical-001.md
+1298	nod	verb	nikke			en-nod-001.md
+1299	extreme	adjective	yderlig			en-extreme-001.md
+1300	universe	noun	univers			en-universe-001.md
+1301	mold	noun	mug			en-mold-001.md
+1302	earlier	adjective	tidligere			en-earlier-001.md
+1303	resolution	noun	beslutning			en-resolution-001.md
+1304	budget	noun	budget			en-budget-001.md
+1305	proposal	noun	forslag			en-proposal-001.md
+1306	coast	noun	bred	kyst;strand		en-coast-001.md
+1307	educational	adjective	lærerig			en-educational-001.md
+1308	deliver	verb	befri	udfri;forløse;tage imod		en-deliver-001.md
+1309	sum	noun	sum	beløb		en-sum-001.md
+1310	impression	noun	indtryk			en-impression-001.md
+1311	manufacturer	noun	fabrikant	producent		en-manufacturer-001.md
+1312	pair	noun	par			en-pair-001.md
+1313	naturally	adverb	naturligvis			en-naturally-001.md
+1314	conviction	noun	dom			en-conviction-001.md
+1315	sky	noun	himmel			en-sky-001.md
+1316	shore	noun	bred	strand		en-shore-001.md
+1317	communism	noun	kommunisme			en-communism-001.md
+1318	contemporary	adjective	samtidig			en-contemporary-001.md
+1319	ancient	adjective	urgammel			en-ancient-001.md
+1320	aircraft	noun	fly	flyvemaskine;luftfartøj		en-aircraft-001.md
+1321	independence	noun	uafhængighed	selvstændighed		en-independence-001.md
+1322	foam	noun	skum	skumgummi		en-foam-001.md
+1323	passage	noun	afgang	sted		en-passage-001.md
+1324	conflict	noun	konflikt			en-conflict-001.md
+1325	politics	noun	politik			en-politics-001.md
+1326	examine	verb	undersøge			en-examine-001.md
+1327	traffic	noun	trafik			en-traffic-001.md
+1328	interview	noun	interview	samtale		en-interview-001.md
+1329	hero	noun	helt			en-hero-001.md
+1330	branch	noun	gren	filial;område;branche		en-branch-001.md
+1331	troop	noun	troppe	soldat		en-troop-001.md
+1332	detective	noun	detektiv	privatdetektiv		en-detective-001.md
+1333	hide	verb	skind	hud		en-hide-001.md
+1334	desk	noun	skrivebord	rubrik;stationær redaktion		en-desk-001.md
+1335	mistake	adjective	fejl			en-mistake-001.md
+1336	author	noun	forfatter			en-author-001.md
+1337	soul	noun	sjæl	gejst;soul;soulmusik		en-soul-001.md
+1338	preparation	noun	forberedelse	præparation;tilberedning;præparat		en-preparation-001.md
+1339	jury	noun	jury	nævninge		en-jury-001.md
+1340	relative	adjective	relativ	pårørende;beslægtet;frænde		en-relative-001.md
+1341	witness	noun	vidne			en-witness-001.md
+1342	emerge	verb	opstå			en-emerge-001.md
+1343	ally	verb	allieret	forbundsfælle		en-ally-001.md
+1344	victory	noun	sejr			en-victory-001.md
+1345	expert	noun	ekspert			en-expert-001.md
+1346	owner	noun	ejer			en-owner-001.md
+1347	manage	verb	lede			en-manage-001.md
+1348	metal	noun	metal			en-metal-001.md
+1349	jump	verb	springe	hoppe;spjætte;fare sammen		en-jump-001.md
+1350	excellent	adjective	fremragende	fortræffelig;fortrinlig;udmærket		en-excellent-001.md
+1351	talent	noun	talent	begavelse		en-talent-001.md
+1352	practical	adjective	praktisk			en-practical-001.md
+1353	electric	adjective	elektrisk	elbil		en-electric-001.md
+1354	electronic	adjective	elektronisk			en-electronic-001.md
+1355	slight	noun	let			en-slight-001.md
+1356	pleasure	noun	glæde			en-pleasure-001.md
+1357	protection	noun	beskyttelse			en-protection-001.md
+1358	minimum	noun	minimum			en-minimum-001.md
+1359	emotional	adjective	følelsesmæssig	emotionel		en-emotional-001.md
+1360	eliminate	verb	eliminere	udelukke		en-eliminate-001.md
+1361	intend	verb	tænke			en-intend-001.md
+1362	aside	adverb	til side	sidereplik		en-aside-001.md
+1363	smell	noun	lugt	lugtesans;lugte;dufte		en-smell-001.md
+1364	customer	noun	kunde			en-customer-001.md
+1365	trend	noun	bølge	tendens;vind		en-trend-001.md
+1366	female	adjective	kvindelig			en-female-001.md
+1367	target	noun	mål	skydeskive		en-target-001.md
+1368	threaten	verb	true			en-threaten-001.md
+1369	nose	noun	liste	snuse		en-nose-001.md
+1370	soft	adjective	sagte			en-soft-001.md
+1371	ear	noun	aks			en-ear-001.md
+1372	observation	noun	iagttagelse	observation;bemærkning		en-observation-001.md
+1373	rid	verb	befri	kvitte sig med		en-rid-001.md
+1374	band	noun	band			en-band-001.md
+1375	climb	verb	klatre	stige		en-climb-001.md
+1376	engine	noun	motor			en-engine-001.md
+1377	safe	adjective	tryg	sikker		en-safe-001.md
+1378	root	noun	rod	rode		en-root-001.md
+1379	exception	noun	undtagelse			en-exception-001.md
+1380	phone	noun	ringe	sproglyd		en-phone-001.md
+1381	lawyer	noun	advokat			en-lawyer-001.md
+1382	acquire	verb	anskaffe	erhverve;opkøbe;skaffe		en-acquire-001.md
+1383	significance	noun	betydning			en-significance-001.md
+1384	contribution	noun	bidrag			en-contribution-001.md
+1385	scale	noun	skala	størrelsesforhold;målestok;skæl		en-scale-001.md
+1386	european	adjective	europæisk			en-european-001.md
+1387	survey	noun	spørgeundersøgelse			en-survey-001.md
+1388	stem	noun	stamme			en-stem-001.md
+1389	gross	adjective	brutto	bruttopris		en-gross-001.md
+1390	engage	verb	angribe	imødegå		en-engage-001.md
+1391	encounter	noun	møde			en-encounter-001.md
+1392	marine	adjective	marin	maritim;marinesoldat;mariner		en-marine-001.md
+1393	strip	verb	afmontere	strippe		en-strip-001.md
+1394	perfect	adjective	perfekt			en-perfect-001.md
+1395	graduate	noun	akademiker			en-graduate-001.md
+1396	gather	verb	samle			en-gather-001.md
+1397	substantial	adjective	betydelig	væsentlig		en-substantial-001.md
+1398	wire	noun	tråd			en-wire-001.md
+1399	relief	noun	lettelse	relief		en-relief-001.md
+1400	operator	noun	operatør	telefonist;telefonistinde;operator		en-operator-001.md
+1401	fish	noun	fisk			en-fish-001.md
+1402	capable	adjective	i stand til	dygtig;kompetent		en-capable-001.md
+1403	adequate	adjective	tilstrækkelig			en-adequate-001.md
+1404	imagination	noun	fantasi	forestillingsevne;indbildning		en-imagination-001.md
+1405	slip	verb	glide			en-slip-001.md
+1406	interpretation	noun	tolkning			en-interpretation-001.md
+1407	spiritual	adjective	åndelig			en-spiritual-001.md
+1408	sponsor	noun	sponsor			en-sponsor-001.md
+1409	headquarters	noun	central			en-headquarters-001.md
+1410	rapidly	adjective	hurtigt			en-rapidly-001.md
+1411	welcome	interjection	velkommen			en-welcome-001.md
+1412	pace	noun	tempo	skridt		en-pace-001.md
+1413	roof	noun	tag			en-roof-001.md
+1414	illustrate	verb	illustrere			en-illustrate-001.md
+1415	typical	adjective	typisk			en-typical-001.md
+1416	uniform	adjective	ensformet	uniform;uforanderlig;konsistent		en-uniform-001.md
+1417	derive	verb	udlede	opstå		en-derive-001.md
+1418	congregation	noun	forsamling	menighed		en-congregation-001.md
+1419	entitle	verb	berettige	give ret til		en-entitle-001.md
+1420	identity	noun	identitet			en-identity-001.md
+1421	consequence	noun	følge			en-consequence-001.md
+1422	dominant	adjective	dominerende	fremherskende		en-dominant-001.md
+1423	executive	noun	direktør	leder		en-executive-001.md
+1424	reasonable	adjective	fornuftig			en-reasonable-001.md
+1425	pocket	noun	lomme			en-pocket-001.md
+1426	institute	noun	institut			en-institute-001.md
+1427	text	noun	tekst	skrift		en-text-001.md
+1428	completion	noun	afslutning	fuldførelse		en-completion-001.md
+1429	expand	verb	udvide			en-expand-001.md
+1430	maintenance	noun	pleje			en-maintenance-001.md
+1431	risk	noun	risiko	risikere;fare		en-risk-001.md
+1432	description	noun	beskrivelse			en-description-001.md
+1433	magazine	noun	tidsskrift	magasin		en-magazine-001.md
+1434	orchestra	noun	orkester	orchestra;orkestergrav		en-orchestra-001.md
+1435	concert	noun	koncert			en-concert-001.md
+1436	chemical	adjective	kemisk	kemikalie		en-chemical-001.md
+1437	assumption	noun	forudsætning			en-assumption-001.md
+1438	musician	noun	musiker			en-musician-001.md
+1439	primarily	adjective	primært			en-primarily-001.md
+1440	speaker	noun	taler			en-speaker-001.md
+1441	friendly	adjective	venlig	venligsindet;venskabelig;venligt		en-friendly-001.md
+1442	tomorrow	adverb	i morgen	morgendag		en-tomorrow-001.md
+1443	sufficient	adjective	tilstrækkelig			en-sufficient-001.md
+9999				inder		en-indian-001.md
+9999						en-jew-001.md
+9999				hensyn;anse		en-regard-001.md
